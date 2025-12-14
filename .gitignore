@@ -1,0 +1,4 @@
+node_modules/
+.next/
+# Ignore the local environment variable file
+.env
