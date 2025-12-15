@@ -38,8 +38,8 @@ operator: operator.plus
 ```
 
 ## GitHub Actions workflow CI monitor
-✔ JSON validation against schema
-✔ ID duplication check
-✔ ID convention check (regex)
-✔ check that bindings point to existing IDs
-✔ build must not crash
+- ✔ JSON validation against schema
+- ✔ ID duplication check
+- ✔ ID convention check (regex)
+- ✔ check that bindings point to existing IDs
+- ✔ build must not crash
