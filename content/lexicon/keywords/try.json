@@ -1,7 +1,12 @@
 {
-  "id": "try",
+  "id": "keyword.try",
   "name": "try",
-  "description": "Block for exception handling",
+  "token": "try",
+  "languages": ["JavaScript", "Python", "C#"],
+  "description": {
+    "en": "Block for exception handling",
+    "cs": "Blok pro zpracování výjimek"
+  },
   "relatedConcepts": [],
   "relatedFeatures": []
 }

@@ -1,7 +1,12 @@
 {
-  "id": "if",
+  "id": "keyword.if",
   "name": "if",
-  "description": "Conditional statement",
+  "token": "if",
+  "languages": ["JavaScript", "Python", "C#"],
+  "description": {
+    "en": "Conditional statement",
+    "cs": "Podmíněný příkaz"
+  },
   "relatedConcepts": [],
   "relatedFeatures": []
 }

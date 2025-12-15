@@ -1,7 +1,12 @@
 {
-  "id": "for",
+  "id": "keyword.for",
   "name": "for",
-  "description": "Loop statement for iteration",
+  "token": "for",
+  "languages": ["JavaScript", "Python", "C#"],
+  "description": {
+    "en": "Loop statement for iteration",
+    "cs": "Příkaz smyčky pro iteraci"
+  },
   "relatedConcepts": [],
   "relatedFeatures": []
 }

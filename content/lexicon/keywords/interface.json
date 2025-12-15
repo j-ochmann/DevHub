@@ -1,7 +1,12 @@
 {
   "id": "interface",
   "name": "interface",
-  "description": "Defines a contract for classes to implement",
+  "token": "interface",
+  "languages": ["JavaScript", "Python", "C#"],
+  "description": {
+    "en": "Defines a contract for classes to implement",
+    "cs": "Definuje kontrakt pro třídy, které mají být implementovány"
+  },
   "relatedConcepts": [],
   "relatedFeatures": []
 }

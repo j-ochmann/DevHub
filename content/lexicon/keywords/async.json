@@ -1,7 +1,12 @@
 {
-  "id": "async",
+  "id": "keyword.async",
   "name": "async",
-  "description": "Marks a function as asynchronous",
+  "token": "async",
+  "languages": ["JavaScript", "Python", "C#"],
+  "description": {
+    "en": "Marks a function as asynchronous",
+    "cs": "Označuje funkci jako asynchronní"
+  },
   "relatedConcepts": [],
   "relatedFeatures": []
 }
