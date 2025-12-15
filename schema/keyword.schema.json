@@ -1,18 +1,22 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": ["id", "title", "description"],
+  "required": ["id", "token", "languages", "description"],
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z0-9]+\\.[a-z0-9_.]+$"
+      "pattern": "^keyword\\.[a-z0-9_.]+$"
     },
-    "title": {
-      "type": "object",
-      "properties": {
-        "en": { "type": "string" },
-        "cs": { "type": "string" }
-      }
+    "token": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["keyword"]
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" }
     },
     "description": {
       "type": "object",
@@ -21,7 +25,13 @@
         "cs": { "type": "string" }
       }
     },
-    "relatedKeywords": {
+    "languages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "boolean"
+      }
+    },
+    "relatedConcepts": {
       "type": "array",
       "items": { "type": "string" }
     },

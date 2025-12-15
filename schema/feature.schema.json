@@ -1,15 +1,100 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Universal Programming Reference",
   "type": "object",
+  "required": [
+    "id",
+    "title",
+    "description",
+    "languages"
+  ],
   "properties": {
-    "meta": { "$ref": "#/$defs/meta" },
-    "languages": { "$ref": "#/$defs/languages" },
-    "categories": { "$ref": "#/$defs/categories" },
-    "concepts": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+\\.[a-z0-9_.]+$",
+      "description": "Stable feature identifier (e.g. oop.class.destructor)"
+    },
+
+    "title": {
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string" },
+        "cs": { "type": "string" }
+      }
+    },
+
+    "description": {
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string" },
+        "cs": { "type": "string" }
+      }
+    },
+
+    "category": {
+      "type": "string",
+      "description": "High-level domain (oop, memory, types, concurrency...)"
+    },
+
+    "languages": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["supported"],
+        "properties": {
+          "supported": {
+            "type": "boolean"
+          },
+          "notes": {
+            "type": "object",
+            "properties": {
+              "en": { "type": "string" },
+              "cs": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "relatedConcepts": {
       "type": "array",
-      "items": { "$ref": "#/$defs/concept" }
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "relatedKeywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+
+    "examples": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "description": "Language-specific example code"
+      }
+    },
+
+    "since": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "description": "Version when the feature was introduced"
+      }
+    },
+
+    "notes": {
+      "type": "object",
+      "properties": {
+        "en": { "type": "string" },
+        "cs": { "type": "string" }
+      }
     }
   },
-  "required": ["meta", "languages", "categories", "concepts"]
+  "additionalProperties": false
 }

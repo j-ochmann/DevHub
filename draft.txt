@@ -30,7 +30,7 @@ repo-root/
 │   │   └── memory/
 │   │       └── garbage-collection.json
 │   ├── lexicon/
-│   │   └── keywords/
+│   │   ├── keywords/
 │   │   │   ├── class.json
 │   │   │   ├── interface.json
 │   │   │   ├── if.json

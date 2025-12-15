@@ -1,0 +1,5 @@
+{
+  "class": ["keyword.class", "oop.class"],
+  "destructor": ["oop.class.destructor"],
+  "loop": ["control.loop.for"]
+}
