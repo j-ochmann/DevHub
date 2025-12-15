@@ -1,13 +1,27 @@
+// src/validate.js
 import fs from "fs";
 import path from "path";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
 
+// Inicializace Ajv
 const ajv = new Ajv({ strict: true, allErrors: true, allowUnionTypes: true });
 addFormats(ajv);
 
+// --- utility funkce ---
 function loadJson(file) {
-  return JSON.parse(fs.readFileSync(file, "utf-8"));
+  const content = fs.readFileSync(file, "utf-8").trim();
+  if (!content) {
+    console.error(`❌ Empty JSON file: ${file}`);
+    process.exit(1);
+  }
+  try {
+    return JSON.parse(content);
+  } catch (err) {
+    console.error(`❌ Invalid JSON in file: ${file}`);
+    console.error(err.message);
+    process.exit(1);
+  }
 }
 
 function loadSchema(name) {
@@ -27,6 +41,7 @@ function collectJsonFiles(dir) {
   return files;
 }
 
+// --- validace ---
 function validateAgainstSchema(files, schema) {
   const validate = ajv.compile(schema);
   for (const file of files) {
@@ -45,7 +60,7 @@ function collectIds(files) {
     const { id } = loadJson(file);
     if (!id) continue;
     if (ids.has(id)) {
-      console.error(`❌ Duplicate ID: ${id}`);
+      console.error(`❌ Duplicate ID: ${id} in ${file} and ${ids.get(id)}`);
       process.exit(1);
     }
     ids.set(id, file);
@@ -68,6 +83,7 @@ function validateReferences(files, allIds) {
   }
 }
 
+// --- spuštění validace ---
 console.log("🔍 Collecting files...");
 const allFiles = collectJsonFiles("content");
 
@@ -96,3 +112,4 @@ console.log("🔗 Checking references...");
 validateReferences(allFiles, ids);
 
 console.log("✅ Validation passed");
+
