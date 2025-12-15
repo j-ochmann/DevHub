@@ -1,0 +1,14 @@
+{
+  "id": "keyword.extends",
+  "token": "extends",
+  "description": {
+    "en": "Specifies inheritance.",
+    "cs": "Určuje dědičnost."
+  },
+  "languages": {
+    "java": true,
+    "csharp": false,
+    "cpp": false
+  },
+  "relatedConcepts": ["oop.inheritance"]
+}

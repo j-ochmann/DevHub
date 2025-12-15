@@ -1,0 +1,12 @@
+{
+  "id": "oop.polymorphism",
+  "title": {
+    "en": "Polymorphism",
+    "cs": "Polymorfismus"
+  },
+  "description": {
+    "en": "Ability to treat objects of different types uniformly.",
+    "cs": "Schopnost pracovat s různými typy objektů jednotně."
+  },
+  "relatedKeywords": ["keyword.virtual"]
+}

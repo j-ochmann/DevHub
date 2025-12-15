@@ -1,0 +1,16 @@
+{
+  "id": "oop.inheritance",
+  "title": {
+    "en": "Inheritance",
+    "cs": "Dědičnost"
+  },
+  "description": {
+    "en": "Mechanism for deriving a class from another class.",
+    "cs": "Mechanismus odvození třídy z jiné třídy."
+  },
+  "relatedKeywords": ["keyword.extends"],
+  "relatedFeatures": [
+    "oop.inheritance.single",
+    "oop.inheritance.multiple"
+  ]
+}

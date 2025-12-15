@@ -1,0 +1,13 @@
+{
+  "id": "oop.interface",
+  "title": {
+    "en": "Interface",
+    "cs": "Rozhraní"
+  },
+  "description": {
+    "en": "A contract that defines method signatures.",
+    "cs": "Kontrakt definující signatury metod."
+  },
+  "relatedKeywords": ["keyword.interface"],
+  "relatedFeatures": ["oop.interface.implementation"]
+}

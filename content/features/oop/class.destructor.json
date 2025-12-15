@@ -1,0 +1,24 @@
+{
+  "id": "oop.class.destructor",
+  "title": {
+    "en": "Destructor",
+    "cs": "Destruktor"
+  },
+  "description": {
+    "en": "Method invoked when an object is destroyed.",
+    "cs": "Metoda volaná při zániku objektu."
+  },
+  "category": "oop",
+  "languages": {
+    "cpp": { "supported": true },
+    "csharp": {
+      "supported": true,
+      "notes": {
+        "en": "Finalizer, non-deterministic.",
+        "cs": "Finalizér, nedeterministický."
+      }
+    },
+    "java": { "supported": false }
+  },
+  "relatedConcepts": ["oop.class"]
+}

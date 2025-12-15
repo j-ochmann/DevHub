@@ -1,0 +1,19 @@
+{
+  "id": "oop.class.constructor",
+  "title": {
+    "en": "Constructor",
+    "cs": "Konstruktor"
+  },
+  "description": {
+    "en": "Special method used to initialize an object.",
+    "cs": "Speciální metoda pro inicializaci objektu."
+  },
+  "category": "oop",
+  "languages": {
+    "csharp": { "supported": true },
+    "java": { "supported": true },
+    "cpp": { "supported": true }
+  },
+  "relatedConcepts": ["oop.class"],
+  "relatedKeywords": ["keyword.class"]
+}

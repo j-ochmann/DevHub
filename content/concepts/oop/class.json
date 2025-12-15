@@ -1,0 +1,16 @@
+{
+  "id": "oop.class",
+  "title": {
+    "en": "Class",
+    "cs": "Třída"
+  },
+  "description": {
+    "en": "A blueprint for creating objects.",
+    "cs": "Šablona pro vytváření objektů."
+  },
+  "relatedKeywords": ["keyword.class"],
+  "relatedFeatures": [
+    "oop.class.constructor",
+    "oop.class.destructor"
+  ]
+}

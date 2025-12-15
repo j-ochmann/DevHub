@@ -1,0 +1,19 @@
+{
+  "id": "oop.interface.implementation",
+  "title": {
+    "en": "Interface implementation",
+    "cs": "Implementace rozhraní"
+  },
+  "description": {
+    "en": "Ability of a class to implement an interface.",
+    "cs": "Schopnost třídy implementovat rozhraní."
+  },
+  "category": "oop",
+  "languages": {
+    "csharp": { "supported": true },
+    "java": { "supported": true },
+    "cpp": { "supported": false }
+  },
+  "relatedConcepts": ["oop.interface"],
+  "relatedKeywords": ["keyword.implements"]
+}

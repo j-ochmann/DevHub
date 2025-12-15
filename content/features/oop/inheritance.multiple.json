@@ -1,0 +1,18 @@
+{
+  "id": "oop.inheritance.multiple",
+  "title": {
+    "en": "Multiple inheritance",
+    "cs": "Vícenásobná dědičnost"
+  },
+  "description": {
+    "en": "A class inherits from multiple base classes.",
+    "cs": "Třída dědí z více tříd."
+  },
+  "category": "oop",
+  "languages": {
+    "cpp": { "supported": true },
+    "csharp": { "supported": false },
+    "java": { "supported": false }
+  },
+  "relatedConcepts": ["oop.inheritance"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "oop.inheritance.single",
+  "title": {
+    "en": "Single inheritance",
+    "cs": "Jednoduchá dědičnost"
+  },
+  "description": {
+    "en": "A class inherits from one base class.",
+    "cs": "Třída dědí z jedné základní třídy."
+  },
+  "category": "oop",
+  "languages": {
+    "cpp": { "supported": true },
+    "csharp": { "supported": true },
+    "java": { "supported": true }
+  },
+  "relatedConcepts": ["oop.inheritance"]
+}

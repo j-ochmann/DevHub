@@ -18,9 +18,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: |
-          npm init -y
-          npm install ajv ajv-formats
+        run: npm install
 
       - name: Run validation
-        run: node src/validate.js
+        run: npm run validate

@@ -5,7 +5,7 @@
   "categories": ["oop"],
   "description": {
     "en": "Declares a class definition.",
-    "cs": "Definuje třídu."
+    "cs": "Deklaruje definici třídy."
   },
   "languages": {
     "cpp": true,
