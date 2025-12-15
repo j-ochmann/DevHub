@@ -13,6 +13,6 @@
     "en": "Indicates that a method or property can be overridden in derived classes",
     "cs": "Indikuje, že metoda nebo vlastnost může být přepsána v odvozených třídách"
   },
-  "relatedConcepts": ["concept.oop.polymorphism"],
+  "relatedConcepts": ["oop.polymorphism"],
   "relatedFeatures": []
 }
