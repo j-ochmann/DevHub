@@ -54,4 +54,8 @@ repo-root/
 │   └── build.(js|py)
 ├── public/                  # static
 │   └── index.html
-└── dist/                    # output for GitHub Pages
+├── dist/                    # output for GitHub Pages
+│
+└──.github/
+    └── workflows/
+        └── validate.yml
