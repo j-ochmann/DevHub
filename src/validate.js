@@ -2,9 +2,7 @@ import fs from "fs";
 import path from "path";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
-import meta2020 from "ajv/dist/2020.js";
 
-// Inicializace Ajv
 const ajv = new Ajv({
   strict: true,
   allErrors: true,
@@ -13,9 +11,6 @@ const ajv = new Ajv({
 });
 addFormats(ajv);
 
-ajv.addMetaSchema(meta2020);
-
-// --- utility a validation (stejně jako předtím) ---
 function loadJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf-8"));
 }
@@ -78,7 +73,6 @@ function validateReferences(files, allIds) {
   }
 }
 
-// --- Run validation ---
 console.log("🔍 Collecting files...");
 const allFiles = collectJsonFiles("content");
 
