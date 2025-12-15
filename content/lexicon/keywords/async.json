@@ -1,0 +1,7 @@
+{
+  "id": "async",
+  "name": "async",
+  "description": "Marks a function as asynchronous",
+  "relatedConcepts": [],
+  "relatedFeatures": []
+}
