@@ -1,7 +1,9 @@
+// src/validate.js
 import fs from "fs";
 import path from "path";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
+import meta2020 from "ajv/dist/2020.json" assert { type: "json" };
 
 // -------------------------------
 // Initialize Ajv for draft-2020-12
@@ -12,11 +14,9 @@ const ajv = new Ajv({
   allowUnionTypes: true,
   schemaId: "auto"
 });
-
 addFormats(ajv);
 
-// Load draft-2020 meta-schema included in Ajv
-ajv.addMetaSchema(require("ajv/dist/2020"));
+ajv.addMetaSchema(meta2020);
 
 // -------------------------------
 // Utility functions
