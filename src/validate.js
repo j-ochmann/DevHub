@@ -1,18 +1,32 @@
 import fs from "fs";
 import path from "path";
 import Ajv from "ajv";
+import addFormats from "ajv-formats";
 
-const ajv = new Ajv({ allErrors: true });
+// -------------------------------
+// Initialize Ajv for draft-2020-12
+// -------------------------------
+const ajv = new Ajv({
+  strict: true,
+  allErrors: true,
+  allowUnionTypes: true,
+  schemaId: "auto"
+});
 
-const SCHEMA_DIR = "./schema";
-const CONTENT_DIR = "./content";
+addFormats(ajv);
 
+// Load draft-2020 meta-schema included in Ajv
+ajv.addMetaSchema(require("ajv/dist/2020"));
+
+// -------------------------------
+// Utility functions
+// -------------------------------
 function loadJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf-8"));
 }
 
 function loadSchema(name) {
-  return loadJson(path.join(SCHEMA_DIR, name));
+  return loadJson(path.join("schema", name));
 }
 
 function collectJsonFiles(dir) {
@@ -28,6 +42,9 @@ function collectJsonFiles(dir) {
   return files;
 }
 
+// -------------------------------
+// Validation functions
+// -------------------------------
 function validateAgainstSchema(files, schema) {
   const validate = ajv.compile(schema);
   for (const file of files) {
@@ -69,8 +86,11 @@ function validateReferences(files, allIds) {
   }
 }
 
+// -------------------------------
+// Run validation
+// -------------------------------
 console.log("🔍 Collecting files...");
-const allFiles = collectJsonFiles(CONTENT_DIR);
+const allFiles = collectJsonFiles("content");
 
 console.log("📘 Validating concepts...");
 validateAgainstSchema(
