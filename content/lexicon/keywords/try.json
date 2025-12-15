@@ -2,7 +2,13 @@
   "id": "keyword.try",
   "name": "try",
   "token": "try",
-  "languages": ["JavaScript", "Python", "C#"],
+  "languages": {
+    "cpp": true,
+    "csharp": true,
+    "java": true,
+    "go": true,
+    "python": true
+  },
   "description": {
     "en": "Block for exception handling",
     "cs": "Blok pro zpracování výjimek"

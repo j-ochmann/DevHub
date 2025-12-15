@@ -2,7 +2,13 @@
   "id": "keyword.async",
   "name": "async",
   "token": "async",
-  "languages": ["JavaScript", "Python", "C#"],
+  "languages": {
+    "cpp": false,
+    "csharp": false,
+    "java": true,
+    "go": false,
+    "python": false
+  },
   "description": {
     "en": "Marks a function as asynchronous",
     "cs": "Označuje funkci jako asynchronní"

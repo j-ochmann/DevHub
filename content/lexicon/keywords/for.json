@@ -2,7 +2,13 @@
   "id": "keyword.for",
   "name": "for",
   "token": "for",
-  "languages": ["JavaScript", "Python", "C#"],
+  "languages": {
+    "cpp": true,
+    "csharp": true,
+    "java": true,
+    "go": true,
+    "python": true
+  },
   "description": {
     "en": "Loop statement for iteration",
     "cs": "Příkaz smyčky pro iteraci"

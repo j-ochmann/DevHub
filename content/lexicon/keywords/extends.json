@@ -6,9 +6,11 @@
     "cs": "Určuje dědičnost."
   },
   "languages": {
-    "java": true,
+    "cpp": false,
     "csharp": false,
-    "cpp": false
+    "java": true,
+    "go": false,
+    "python": false
   },
   "relatedConcepts": ["oop.inheritance"]
 }
