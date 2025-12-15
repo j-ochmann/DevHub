@@ -1,0 +1,25 @@
+{
+  "id": "keyword.class",
+  "token": "class",
+  "type": "keyword",
+  "categories": ["oop"],
+  "description": {
+    "en": "Declares a class definition.",
+    "cs": "Definuje třídu."
+  },
+  "languages": {
+    "cpp": true,
+    "csharp": true,
+    "java": true,
+    "go": false,
+    "python": false
+  },
+  "relatedConcepts": [
+    "oop.class"
+  ],
+  "relatedFeatures": [
+    "oop.class.constructor",
+    "oop.class.destructor"
+  ]
+}
+

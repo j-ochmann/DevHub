@@ -1,0 +1,57 @@
+repo-root/
+├── README.md
+├── package.json        # or pyproject.toml – only for build
+├── schema/
+│   ├── concept.schema.json
+│   └── feature.schema.json
+├── content/
+│   ├── meta.json
+│   ├── languages.json
+│   ├── categories.json
+│   ├── concepts/
+│   │   ├── oop/
+│   │   │   ├── class.json
+│   │   │   ├── interface.json
+│   │   │   ├── inheritance.json
+│   │   │   └── polymorphism.json
+│   │   ├── types/
+│   │   │   ├── primitive.json
+│   │   │   └── generics.json
+│   │   └── control-flow/
+│   │       ├── if.json
+│   │       └── for.json
+│   ├── features/
+│   │   ├── oop/
+│   │   │   ├── class.keyword.json
+│   │   │   ├── class.constructor.json
+│   │   │   ├── class.destructor.json
+│   │   │   ├── inheritance.multiple.json
+│   │   │   └── interface.support.json
+│   │   └── memory/
+│   │       └── garbage-collection.json
+│   ├── lexicon/
+│   │   └── keywords/
+│   │   │   ├── class.json
+│   │   │   ├── interface.json
+│   │   │   ├── if.json
+│   │   │   ├── for.json
+│   │   │   ├── async.json
+│   │   │   ├── try.json
+│   │   │   └── ...
+│   │   │
+│   │   ├── keywords/
+│   │   ├── operators/
+│   │   │   ├── plus.json
+│   │   │   ├── arrow.json
+│   │   ├── literals/
+│   │   │   ├── null.json
+│   │   │   └── true.json
+│   │   └── annotations/
+│   │
+│   └── ...
+│
+├── src/                     # build / generator (Node or Python)
+│   └── build.(js|py)
+├── public/                  # static
+│   └── index.html
+└── dist/                    # output for GitHub Pages

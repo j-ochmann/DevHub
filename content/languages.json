@@ -1,0 +1,22 @@
+{
+  "c":      { "name": "C" },
+  "cpp":    { "name": "C++" },
+  "csharp": { "name": "C#" },
+  "rust":   { "name": "Rust" },
+  "java":   { "name": "Java" },
+  "js":     { "name": "JavaScript" },
+  "ts":     { "name": "TypeScript" },
+  "php":    { "name": "PHP" },
+  "python": { "name": "Python" },
+  "go":     { "name": "Go" },
+  "dart":   { "name": "Dart" },
+  "kotlin": { "name": "Kotlin" },
+  "swift":  { "name": "Swift" },
+  "vb":     { "name": "Visual Basic" },
+  "vba":    { "name": "VBA" },
+  "bash":   { "name": "Bash/Shell" },
+  "sql":    { "name": "SQL" },
+  "html":   { "name": "HTML" },
+  "css":    { "name": "CSS" },
+  "git":    { "name": "Git" }
+}
