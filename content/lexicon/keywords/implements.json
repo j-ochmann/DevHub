@@ -1,0 +1,18 @@
+{
+  "id": "keyword.implements",
+  "name": "implements",
+  "token": "implements",
+  "languages": {
+    "cpp": false,
+    "csharp": true,
+    "java": true,
+    "go": false,
+    "python": false
+  },
+  "description": {
+    "en": "Indicates that a class implements an interface",
+    "cs": "Indikuje, že třída implementuje rozhraní"
+  },
+  "relatedConcepts": ["concept.oop.interfaces"],
+  "relatedFeatures": []
+}
