@@ -3,12 +3,7 @@ import path from "path";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
 
-const ajv = new Ajv({
-  strict: true,
-  allErrors: true,
-  allowUnionTypes: true,
-  schemaId: "auto"
-});
+const ajv = new Ajv({ strict: true, allErrors: true, allowUnionTypes: true });
 addFormats(ajv);
 
 function loadJson(file) {
