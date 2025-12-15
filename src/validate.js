@@ -1,13 +1,10 @@
-// src/validate.js
 import fs from "fs";
 import path from "path";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
-import meta2020 from "ajv/dist/2020.json" assert { type: "json" };
+import meta2020 from "ajv/dist/2020.js";
 
-// -------------------------------
-// Initialize Ajv for draft-2020-12
-// -------------------------------
+// Inicializace Ajv
 const ajv = new Ajv({
   strict: true,
   allErrors: true,
@@ -18,9 +15,7 @@ addFormats(ajv);
 
 ajv.addMetaSchema(meta2020);
 
-// -------------------------------
-// Utility functions
-// -------------------------------
+// --- utility a validation (stejně jako předtím) ---
 function loadJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf-8"));
 }
@@ -42,9 +37,6 @@ function collectJsonFiles(dir) {
   return files;
 }
 
-// -------------------------------
-// Validation functions
-// -------------------------------
 function validateAgainstSchema(files, schema) {
   const validate = ajv.compile(schema);
   for (const file of files) {
@@ -86,9 +78,7 @@ function validateReferences(files, allIds) {
   }
 }
 
-// -------------------------------
-// Run validation
-// -------------------------------
+// --- Run validation ---
 console.log("🔍 Collecting files...");
 const allFiles = collectJsonFiles("content");
 
