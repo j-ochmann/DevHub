@@ -1,8 +1,8 @@
-# Předpoklady
-Nainstalovaný docker a docker-compose (nebo docker compose CLI plugin).
-## Postup krok za krokem
-### Krok 1: Vytvořte adresář projektu
-Vytvořte novou složku, kam uložíte konfigurační soubor: compose.yaml
+# Prerequisites
+Docker and docker-compose (or docker compose CLI plugin) installed.
+## Step by step process
+### Step 1: Create a project directory
+Create folder where you will store the configuration file: compose.yaml
 ```yaml
 services:
   db:
@@ -23,13 +23,10 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: ${DEFAULT_EMAIL}
       PGADMIN_DEFAULT_PASSWORD: ${DB_PASSWORD}
-      PGADMIN_CONFIG_ENHANCED_COOKIE_PROTECTION: "False"
       PGADMIN_CONFIG_SESSION_COOKIE_SECURE: "True"
-      PGADMIN_CONFIG_SESSION_COOKIE_SAMESITE: "None"
       PGADMIN_CONFIG_WTF_CSRF_SSL_STRICT: "False"
-      PGADMIN_CONFIG_PREFERRED_URL_SCHEME: "https"
     ports:
-      - "5050:80" # http://localhost:8080
+      - "5050:80" # http://localhost:5050
     depends_on:
       - db
     volumes:
@@ -38,30 +35,29 @@ volumes:
   pg_data:
   pgadmin_data:
 ```
-### Vytvořte lokální soubor .env (s heslem)
-Vytvořte ve stejném adresáři soubor s názvem .env, který bude obsahovat heslo.
+### Create a local .env file (with password)
+Create a file named .env in the same directory that will contain the password.
 ```yaml
 DB_USER=my_user
 DB_PASSWORD=my_password
 DB_NAME=my_name
 DEFAULT_EMAIL=admin@example.com
 ```
-### Důležité:
- - DB_PASSWORD: Změňte my_password na silné heslo.
- - DB_NAME: Změňte my_name na název databáze, kterou chcete vytvořit.
- - volumes: pg_data:/var/lib/postgresql/data je klíčový řádek, který vytváří trvalé (perzistentní) úložiště dat na vašem hostitelském systému.
-Uložte soubor a ukončete editor.
-### Krok 2: Spusťte databázi
-V adresáři, kde máte compose.yaml, spusťte kontejner:
+### Important:
+- DB_PASSWORD: Change my_password to a strong password.
+- DB_NAME: Change my_name to the name of the database you want to create.
+- volumes: pg_data:/var/lib/postgresql/data is the key line that creates a permanent (persistent) data store on your host system.
+Save the file and exit the editor.
+### Step 2: Start the database
+In the directory where you have compose.yaml, start the container:
 ```bash
 docker compose up -d
 ```
- - Příkaz up vytvoří a spustí služby definované v souboru.
- - Příznak -d (detached) znamená, že se kontejner spustí na pozadí a vy můžete dál používat terminál.
-Docker stáhne obraz PostgreSQL (pokud ho ještě nemáte) a spustí databázový server.
-### Krok 3: Ověřte, že databáze běží
-Zkontrolujte stav spuštěných kontejnerů:
+- The up command creates and starts the services defined in the file.
+- The -d (detached) flag means that the container will run in the background and you can continue to use the terminal.
+Docker will download the PostgreSQL image (if you don't already have it) and start the database server.
+### Step 3: Verify that the database is running
+Check the status of the running containers:
 ```bash
 docker ps
 ```
-
