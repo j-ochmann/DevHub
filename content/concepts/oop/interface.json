@@ -5,9 +5,10 @@
     "cs": "Rozhraní"
   },
   "description": {
-    "en": "A contract that defines method signatures.",
-    "cs": "Kontrakt definující signatury metod."
+    "en": "Specifies methods a class must implement.",
+    "cs": "Určuje metody, které musí třída implementovat."
   },
-  "relatedKeywords": ["keyword.interface"],
-  "relatedFeatures": ["oop.interface.implementation"]
+  "relatedConcepts": ["oop.abstraction"],
+  "relatedFeatures": ["oop.interface.implementation"],
+  "relatedKeywords": ["keyword.interface", "keyword.implements"]
 }

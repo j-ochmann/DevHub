@@ -1,0 +1,18 @@
+{
+  "id": "keyword.override",
+  "name": "override",
+  "token": "override",
+  "languages": {
+    "cpp": true,
+    "csharp": true,
+    "java": false,
+    "go": false,
+    "python": false
+  },
+  "description": {
+    "en": "?",
+    "cs": "?"
+  },
+  "relatedConcepts": ["oop.polymorphism"],
+  "relatedFeatures": []
+}

@@ -1,5 +1,10 @@
 # DevHub
-
+```bash
+npm run validate
+git add .
+git commit -m "description"
+git push
+```
 ## Summary (keep this in mind)
 - Keyword = separate entity
 - 1 file = 1 concept

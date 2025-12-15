@@ -8,5 +8,13 @@
     "en": "Ability to treat objects of different types uniformly.",
     "cs": "Schopnost pracovat s různými typy objektů jednotně."
   },
-  "relatedKeywords": ["keyword.virtual"]
+  "relatedConcepts": [
+    "oop.inheritance",
+    "oop.interface"
+  ],
+  "relatedFeatures": [],
+  "relatedKeywords": [
+    "keyword.virtual",
+    "keyword.override"
+  ]
 }

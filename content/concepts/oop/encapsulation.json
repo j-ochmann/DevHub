@@ -1,0 +1,14 @@
+{
+  "id": "oop.encapsulation",
+  "title": {
+    "en": "Encapsulation",
+    "cs": "Zapouzdření"
+  },
+  "description": {
+    "en": "Bundling data with methods that operate on that data and restricting direct access.",
+    "cs": "Spojení dat s metodami, které s nimi pracují, a omezení přímého přístupu."
+  },
+  "relatedConcepts": [],
+  "relatedFeatures": [],
+  "relatedKeywords": []
+}

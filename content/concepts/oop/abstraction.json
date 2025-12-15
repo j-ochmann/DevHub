@@ -1,0 +1,14 @@
+{
+  "id": "oop.abstraction",
+  "title": {
+    "en": "Abstraction",
+    "cs": "Abstrakce"
+  },
+  "description": {
+    "en": "Exposing only essential features while hiding implementation details",
+    "cs": "Zpřístupnění pouze podstatných vlastností při skrytí implementace"
+  },
+  "relatedConcepts": ["oop.interface"],
+  "relatedFeatures": [],
+  "relatedKeywords": []
+}
