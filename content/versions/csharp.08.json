@@ -5,6 +5,8 @@
   "released": 2019,
   "add": [
     "feature.oop.interface.default-methods",
+    "feature.switch_expressions",
+    "keyword.await",
     "keyword.switch",
     "keyword.nullable",
     "paradigm.functional"

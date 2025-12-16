@@ -1,0 +1,13 @@
+{
+  "id": "feature.nullable_reference",
+  "title": {
+    "en": "Nullable Reference Types",
+    "cs": "Nullable referenční typy"
+  },
+  "description": {
+    "en": "Distinguishes nullable and non-nullable reference types at compile time.",
+    "cs": "Rozlišuje nullable a nenullable referenční typy již při překladu."
+  },
+  "since": "proglang.csharp.08",
+  "category": "type-system"
+}

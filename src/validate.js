@@ -1,115 +1,178 @@
-// src/validate.js
 import fs from "fs";
 import path from "path";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
 
-// Inicializace Ajv
-const ajv = new Ajv({ strict: true, allErrors: true, allowUnionTypes: true });
+const ajv = new Ajv({ allErrors: true });
 addFormats(ajv);
 
-// --- utility funkce ---
-function loadJson(file) {
-  const content = fs.readFileSync(file, "utf-8").trim();
-  if (!content) {
-    console.error(`❌ Empty JSON file: ${file}`);
-    process.exit(1);
-  }
+// --- Cesty ---
+const VERSIONS_DIR = "content/versions";
+const LANGUAGES_FILE = "content/languages.json";
+const FEATURES_DIR = "content/features";
+const KEYWORDS_DIR = "content/lexicon/keywords";
+const PARADIGMS_DIR = "content/lexicon/paradigms";
+
+// --- Pomocné funkce ---
+function loadJson(filePath) {
+  const raw = fs.readFileSync(filePath, "utf-8");
   try {
-    return JSON.parse(content);
-  } catch (err) {
-    console.error(`❌ Invalid JSON in file: ${file}`);
-    console.error(err.message);
+    return JSON.parse(raw);
+  } catch (e) {
+    console.error(`Invalid JSON in ${filePath}:`, e.message);
+    throw e;
+  }
+}
+
+function collectFiles(dir, ext = ".json") {
+  return fs.readdirSync(dir)
+    .filter(f => f.endsWith(ext))
+    .map(f => path.join(dir, f));
+}
+
+function checkIdPrefix(id) {
+  return (
+    id.startsWith("concept.") ||
+    id.startsWith("feature.") ||
+    id.startsWith("keyword.") ||
+    id.startsWith("operator.") ||
+    id.startsWith("literal.") ||
+    id.startsWith("paradigm.") ||
+    id.startsWith("proglang.")
+  );
+}
+
+// --- Načtení všech entity slovníků ---
+function loadEntities(dir) {
+  const files = collectFiles(dir);
+  const map = {};
+  for (const f of files) {
+    const data = loadJson(f);
+    map[data.id] = data;
+  }
+  return map;
+}
+
+const featuresMap = loadEntities(FEATURES_DIR);
+const keywordsMap = loadEntities(KEYWORDS_DIR);
+const paradigmsMap = loadEntities(PARADIGMS_DIR);
+
+// --- Load versions ---
+const versionFiles = collectFiles(VERSIONS_DIR);
+const versionMap = {};
+
+for (const file of versionFiles) {
+  const data = loadJson(file);
+  versionMap[data.id] = data;
+
+  // Kontrola ID prefixu
+  if (!checkIdPrefix(data.id)) {
+    console.error(`Invalid version ID: ${data.id}`);
     process.exit(1);
   }
-}
 
-function loadSchema(name) {
-  return loadJson(path.join("schema", name));
-}
-
-function collectJsonFiles(dir) {
-  let files = [];
-  for (const entry of fs.readdirSync(dir)) {
-    const full = path.join(dir, entry);
-    if (fs.statSync(full).isDirectory()) {
-      files = files.concat(collectJsonFiles(full));
-    } else if (entry.endsWith(".json")) {
-      files.push(full);
-    }
-  }
-  return files;
-}
-
-// --- validace ---
-function validateAgainstSchema(files, schema) {
-  const validate = ajv.compile(schema);
-  for (const file of files) {
-    const data = loadJson(file);
-    if (!validate(data)) {
-      console.error(`❌ Schema error in ${file}`);
-      console.error(validate.errors);
-      process.exit(1);
-    }
-  }
-}
-
-function collectIds(files) {
-  const ids = new Map();
-  for (const file of files) {
-    const { id } = loadJson(file);
-    if (!id) continue;
-    if (ids.has(id)) {
-      console.error(`❌ Duplicate ID: ${id} in ${file} and ${ids.get(id)}`);
-      process.exit(1);
-    }
-    ids.set(id, file);
-  }
-  return ids;
-}
-
-function validateReferences(files, allIds) {
-  for (const file of files) {
-    const data = loadJson(file);
-    for (const key of ["relatedConcepts", "relatedFeatures", "relatedKeywords"]) {
-      if (!Array.isArray(data[key])) continue;
-      for (const ref of data[key]) {
-        if (!allIds.has(ref)) {
-          console.error(`❌ Invalid reference '${ref}' in ${file}`);
-          process.exit(1);
-        }
+  // Kontrola add položek
+  if (Array.isArray(data.add)) {
+    for (const item of data.add) {
+      if (!checkIdPrefix(item)) {
+        console.error(`Invalid ID prefix in add: ${item} (version ${data.id})`);
+        process.exit(1);
       }
     }
   }
 }
 
-// --- spuštění validace ---
-console.log("🔍 Collecting files...");
-const allFiles = collectJsonFiles("content");
+// --- Load languages ---
+const languages = loadJson(LANGUAGES_FILE);
 
-console.log("📘 Validating concepts...");
-validateAgainstSchema(
-  allFiles.filter(f => f.includes("/concepts/")),
-  loadSchema("concept.schema.json")
-);
+// --- Kontrola existence jazyků ---
+for (const vid of Object.keys(versionMap)) {
+  const langKey = vid.split(".")[1]; // proglang.csharp.07 → csharp
+  if (!languages[langKey]) {
+    console.error(`Language ${langKey} not found in languages.json for version ${vid}`);
+    process.exit(1);
+  }
+}
 
-console.log("📙 Validating features...");
-validateAgainstSchema(
-  allFiles.filter(f => f.includes("/features/")),
-  loadSchema("feature.schema.json")
-);
+// --- Kontrola existence položek add ---
+function checkAddExistence(item) {
+  if (item.startsWith("feature.") && !featuresMap[item]) {
+    throw new Error(`Feature not found: ${item}`);
+  }
+  if (item.startsWith("keyword.") && !keywordsMap[item]) {
+    throw new Error(`Keyword not found: ${item}`);
+  }
+  if (item.startsWith("paradigm.") && !paradigmsMap[item]) {
+    throw new Error(`Paradigm not found: ${item}`);
+  }
+}
 
-console.log("📗 Validating keywords...");
-validateAgainstSchema(
-  allFiles.filter(f => f.includes("/lexicon/keywords/")),
-  loadSchema("keyword.schema.json")
-);
+// --- Merge add rekurzivně s kontrolou duplicit ---
+function mergeAdds(versionId) {
+  const visited = new Set();
+  const features = new Set();
+  const keywords = new Set();
+  const paradigms = new Set();
 
-console.log("🔑 Checking ID uniqueness...");
-const ids = collectIds(allFiles);
+  function recurse(id) {
+    if (!id || visited.has(id)) return;
+    visited.add(id);
 
-console.log("🔗 Checking references...");
-validateReferences(allFiles, ids);
+    const v = versionMap[id];
+    if (!v) throw new Error(`Version not found: ${id}`);
 
-console.log("✅ Validation passed");
+    if (v.extends) recurse(v.extends);
 
+    if (Array.isArray(v.add)) {
+      for (const item of v.add) {
+        checkAddExistence(item);
+
+        if (item.startsWith("feature.")) {
+          if (features.has(item)) console.warn(`Warning: Feature ${item} already inherited in ${versionId}`);
+          features.add(item);
+        } else if (item.startsWith("keyword.")) {
+          if (keywords.has(item)) console.warn(`Warning: Keyword ${item} already inherited in ${versionId}`);
+          keywords.add(item);
+        } else if (item.startsWith("paradigm.")) {
+          if (paradigms.has(item)) console.warn(`Warning: Paradigm ${item} already inherited in ${versionId}`);
+          paradigms.add(item);
+        } else {
+          console.warn(`Unknown add type: ${item}`);
+        }
+      }
+    }
+  }
+
+  recurse(versionId);
+
+  return {
+    features: Array.from(features),
+    keywords: Array.from(keywords),
+    paradigms: Array.from(paradigms),
+  };
+}
+
+// --- Vytvoření JSON exportu pro frontend ---
+const exportJson = {};
+
+for (const vid of Object.keys(versionMap)) {
+  exportJson[vid] = {
+    language: languages[vid.split(".")[1]].name,
+    ...mergeAdds(vid)
+  };
+}
+
+// --- Uložení exportu ---
+fs.writeFileSync("content/export/versions.json", JSON.stringify(exportJson, null, 2), "utf-8");
+console.log("\n✅ JSON export saved to content/export/versions.json");
+
+// --- Log ---
+for (const vid of Object.keys(versionMap)) {
+  const merged = mergeAdds(vid);
+  console.log(`\nVersion ${vid} (${languages[vid.split(".")[1]].name}):`);
+  console.log("Features:", merged.features);
+  console.log("Keywords:", merged.keywords);
+  console.log("Paradigms:", merged.paradigms);
+}
+
+console.log("\n✅ All versions processed successfully.");

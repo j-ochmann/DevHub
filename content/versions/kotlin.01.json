@@ -4,9 +4,12 @@
   "official_name": "Kotlin 1.0",
   "released": 2016,
   "add": [
+    "feature.data_classes",
     "feature.functional.lambdas",
     "keyword.data",
     "keyword.inline",
-    "paradigm.functional"
+    "keyword.val",
+    "paradigm.functional",
+    "paradigm.oop"
   ]
 }

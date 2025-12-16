@@ -3,6 +3,7 @@
   "official_name": "C# 7.0",
   "released": 2017,
   "add": [
+    "feature.nullable_reference",
     "feature.oop.abstract.class",
     "feature.oop.method.overriding",
     "keyword.async",
