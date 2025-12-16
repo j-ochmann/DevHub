@@ -1,0 +1,12 @@
+{
+  "id": "proglang.kotlin.01",
+  "extends": "proglang.java.17",
+  "official_name": "Kotlin 1.0",
+  "released": 2016,
+  "add": [
+    "feature.functional.lambdas",
+    "keyword.data",
+    "keyword.inline",
+    "paradigm.functional"
+  ]
+}

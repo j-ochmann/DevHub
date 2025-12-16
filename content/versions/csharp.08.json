@@ -1,0 +1,12 @@
+{
+  "id": "proglang.csharp.08",
+  "extends": "proglang.csharp.07",
+  "official_name": "C# 8.0",
+  "released": 2019,
+  "add": [
+    "feature.oop.interface.default-methods",
+    "keyword.switch",
+    "keyword.nullable",
+    "paradigm.functional"
+  ]
+}

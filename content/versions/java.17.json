@@ -1,0 +1,15 @@
+{
+  "id": "proglang.java.17",
+  "official_name": "Java 17",
+  "released": 2021,
+  "add": [
+    "feature.oop.interface.default-methods",
+    "feature.oop.abstract.class",
+    "feature.oop.method.overriding",
+    "keyword.var",
+    "keyword.record",
+    "keyword.sealed",
+    "paradigm.oop",
+    "paradigm.object-based"
+  ]
+}
