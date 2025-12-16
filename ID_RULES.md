@@ -46,13 +46,14 @@ keyword.async_await
 
 ## 2. Namespace Overview
 
-| Entity   | Namespace   |
-| -------- | ----------- |
-| Concept  | (no prefix) |
-| Feature  | (no prefix) |
-| Keyword  | `keyword.`  |
-| Operator | `operator.` |
-| Literal  | `literal.`  |
+| Entita   | Namespace     |
+| -------- | ------------- |
+| Concept  | `concept.`    |
+| Feature  | `feature.`    |
+| Keyword  | `keyword.`    |
+| Literal  | `literal.`    |
+| Operator | `operator.`   |
+| Paradigm | `paradigm.`   |
 
 ---
 
