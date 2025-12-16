@@ -1,5 +1,5 @@
 {
-  "id": "oop.class.abstract",
+  "id": "feature.oop.class.abstract",
   "title": {
     "en": "Abstract classes",
     "cs": "Abstraktní třídy"
@@ -9,7 +9,8 @@
     "cs": "Podpora tříd, které nelze přímo instancovat."
   },
   "relatedConcepts": [
-    "oop.abstraction"
+    "concept.oop.abstraction",
+    "concept.oop.inheritance"
   ],
   "relatedKeywords": [
     "keyword.abstract"

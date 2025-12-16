@@ -4,11 +4,6 @@
   "official_name": "C# 8.0",
   "released": 2019,
   "add": [
-    "feature.oop.interface.default-methods",
-    "feature.switch_expressions",
-    "keyword.await",
-    "keyword.switch",
-    "keyword.nullable",
-    "paradigm.functional"
+    "keyword.await"
   ]
 }

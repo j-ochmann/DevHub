@@ -1,6 +1,12 @@
 # DevHub
 ```bash
 npm run validate
+npm run validate --explain
+npm run validate --explain=proglang.java.17
+npm run validate --stats
+npm run validate --diff
+npm run validate --explain --diff --stats
+
 git add .
 git commit -m "description"
 git push

@@ -1,0 +1,9 @@
+{
+  "id": "keyword.await",
+  "token": "await",
+  "type": "keyword",
+  "description": {
+    "en": "?",
+    "cs": "?"
+  }
+}

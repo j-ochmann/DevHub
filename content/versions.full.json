@@ -1,0 +1,26 @@
+{
+  "csharp.07": {
+    "id": "proglang.csharp.07",
+    "features": [],
+    "keywords": [],
+    "paradigms": []
+  },
+  "csharp.08": {
+    "id": "proglang.csharp.08",
+    "features": [],
+    "keywords": [],
+    "paradigms": []
+  },
+  "java.17": {
+    "id": "proglang.java.17",
+    "features": [],
+    "keywords": [],
+    "paradigms": []
+  },
+  "kotlin.01": {
+    "id": "proglang.kotlin.01",
+    "features": [],
+    "keywords": [],
+    "paradigms": []
+  }
+}
