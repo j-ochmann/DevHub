@@ -1,123 +1,106 @@
 import fs from "fs";
 import path from "path";
 
-const ROOT = path.resolve("./content");
-const CONCEPTS_DIR = path.join(ROOT, "concepts");
-const FEATURES_DIR = path.join(ROOT, "features");
-const LEXICON_DIR = path.join(ROOT, "lexicon");
-const VERSIONS_DIR = path.join(ROOT, "versions");
-const LANGUAGES_FILE = path.join(ROOT, "languages.json");
-const FRONTEND_EXPORT = path.join(ROOT, "versions.full.json");
+// --- CONFIG ---
+const CONTENT_DIR = "./content";
+const FEATURES_DIR = path.join(CONTENT_DIR, "features");
+const KEYWORDS_DIR = path.join(CONTENT_DIR, "lexicon/keywords");
+const PARADIGMS_DIR = path.join(CONTENT_DIR, "lexicon/paradigms");
+const LANGUAGES_FILE = path.join(CONTENT_DIR, "languages.json");
+const VERSIONS_DIR = path.join(CONTENT_DIR, "versions");
+const VERSIONS_FULL_JSON = path.join(CONTENT_DIR, "versions.full.json");
 
-function loadJson(file) {
-  if (!fs.existsSync(file)) throw new Error(`File not found: ${file}`);
-  return JSON.parse(fs.readFileSync(file, "utf-8"));
+// --- HELPERS ---
+function readJson(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
 
-function loadDirRecursive(dir, namespace = "") {
-  if (!fs.existsSync(dir)) return {};
-  let result = {};
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      const ns = namespace ? namespace + "." + entry.name : entry.name;
-      Object.assign(result, loadDirRecursive(fullPath, ns));
-    } else if (entry.isFile() && entry.name.endsWith(".json")) {
-      const idPart = path.basename(entry.name, ".json");
-      const id = namespace ? `${namespace}.${idPart}` : idPart;
-      result[id] = loadJson(fullPath);
+function walkDir(dir, ext = ".json") {
+  let results = [];
+  if (!fs.existsSync(dir)) return results;
+  const files = fs.readdirSync(dir);
+  for (const file of files) {
+    const full = path.join(dir, file);
+    if (fs.statSync(full).isDirectory()) {
+      results = results.concat(walkDir(full, ext));
+    } else if (full.endsWith(ext)) {
+      results.push(full);
     }
   }
+  return results;
+}
+
+function loadData(directoryPath) {
+  const dataMap = {};
+  
+  for (const filePath of walkDir(directoryPath)) {
+    const jsonObject = readJson(filePath);
+    dataMap[jsonObject.id] = jsonObject;
+  }
+  return dataMap;
+}
+
+// --- LOAD DATA ---
+const languages = readJson(LANGUAGES_FILE);
+const features = loadData(FEATURES_DIR);
+const keywords = loadData(KEYWORDS_DIR);
+const paradigms = loadData(PARADIGMS_DIR);
+const versions = loadData(VERSIONS_DIR);
+
+// --- VALIDATION FUNCTIONS ---
+function checkExists(id) {
+  if (id.startsWith("feature.") && !features[id]) throw new Error(`Feature not found: ${id}`);
+  if (id.startsWith("keyword.") && !keywords[id]) throw new Error(`Keyword not found: ${id}`);
+  if (id.startsWith("paradigm.") && !paradigms[id]) throw new Error(`Paradigm not found: ${id}`);
+}
+
+// --- MERGE ADD & INHERIT ---
+function mergeVersion(id, seen = new Set()) {
+  if (!versions[id]) throw new Error(`Version not found: ${id}`);
+  if (seen.has(id)) throw new Error(`Cyclic inheritance detected at: ${id}`);
+  seen.add(id);
+
+  const v = versions[id];
+  let result = { id, features: [], keywords: [], paradigms: [] };
+
+  // inherit first
+  if (v.inherit) {
+    for (const parentId of v.inherit) {
+      const parentMerged = mergeVersion(parentId, seen);
+      result.features.push(...parentMerged.features);
+      result.keywords.push(...parentMerged.keywords);
+      result.paradigms.push(...parentMerged.paradigms);
+    }
+  }
+
+  // add
+  if (v.add) {
+    for (const item of v.add) {
+      checkExists(item);
+      if (item.startsWith("feature.") && !result.features.includes(item)) result.features.push(item);
+      if (item.startsWith("keyword.") && !result.keywords.includes(item)) result.keywords.push(item);
+      if (item.startsWith("paradigm.") && !result.paradigms.includes(item)) result.paradigms.push(item);
+    }
+  }
+
+  // remove
+  if (v.remove) {
+    for (const item of v.remove) {
+      if (item.startsWith("feature.")) result.features = result.features.filter(f => f !== item);
+      if (item.startsWith("keyword.")) result.keywords = result.keywords.filter(f => f !== item);
+      if (item.startsWith("paradigm.")) result.paradigms = result.paradigms.filter(f => f !== item);
+    }
+  }
+
   return result;
 }
 
-// Load all entities
-const concepts = loadDirRecursive(CONCEPTS_DIR, "concept");
-const features = loadDirRecursive(FEATURES_DIR, "feature");
-const keywords = loadDirRecursive(path.join(LEXICON_DIR, "keywords"), "keyword");
-const operators = loadDirRecursive(path.join(LEXICON_DIR, "operators"), "operator");
-const literals = loadDirRecursive(path.join(LEXICON_DIR, "literals"), "literal");
-const languages = loadJson(LANGUAGES_FILE);
-const versions = loadDirRecursive(VERSIONS_DIR);
-
-// Validate existence
-function checkExists(type, id) {
-  switch (type) {
-    case "feature": if (!features[id]) throw new Error(`Feature not found: ${id}`); break;
-    case "keyword": if (!keywords[id]) throw new Error(`Keyword not found: ${id}`); break;
-    case "concept": if (!concepts[id]) throw new Error(`Concept not found: ${id}`); break;
-    case "version": if (!versions[id]) throw new Error(`Version not found: ${id}`); break;
-    default: throw new Error(`Unknown type for checkExists: ${type}`);
-  }
-}
-
-// Merge and deduplicate
-function mergeAdds(base, addList, type) {
-  if (!addList) return;
-  for (const item of addList) {
-    checkExists(type, item);
-    if (!base.includes(item)) base.push(item);
-  }
-}
-
-// Build version inheritance chain
-function resolveVersion(id, visited = new Set()) {
-  if (visited.has(id)) throw new Error(`Circular version inheritance detected: ${id}`);
-  visited.add(id);
-  const v = versions[id];
-  if (!v) throw new Error(`Version not found: ${id}`);
-  let featuresMerged = [];
-  let keywordsMerged = [];
-  let paradigmsMerged = [];
-
-  // Inherit from parent version if exists
-  if (v.inherits) {
-    const parent = resolveVersion(v.inherits, visited);
-    featuresMerged.push(...parent.features);
-    keywordsMerged.push(...parent.keywords);
-    paradigmsMerged.push(...parent.paradigms);
-  }
-
-  mergeAdds(featuresMerged, v.features_add, "feature");
-  mergeAdds(keywordsMerged, v.keywords_add, "keyword");
-  mergeAdds(paradigmsMerged, v.paradigms_add, "concept");
-
-  return {
-    id: `proglang.${id}`,
-    features: featuresMerged,
-    keywords: keywordsMerged,
-    paradigms: paradigmsMerged
-  };
-}
-
-// Generate frontend export
-const frontendExport = {};
+// --- BUILD FULL VERSIONS ---
+const versionsFull = {};
 for (const vid of Object.keys(versions)) {
-  frontendExport[vid] = resolveVersion(vid);
+  versionsFull[vid] = mergeVersion(vid);
 }
 
-// Simple uniqueness checks
-function checkUnique(obj, typeName) {
-  const seen = new Set();
-  for (const id of Object.keys(obj)) {
-    if (seen.has(id)) throw new Error(`Duplicate ${typeName} ID: ${id}`);
-    seen.add(id);
-  }
-}
-
-checkUnique(concepts, "concept");
-checkUnique(features, "feature");
-checkUnique(keywords, "keyword");
-
-// Save frontend export
-fs.writeFileSync(FRONTEND_EXPORT, JSON.stringify(frontendExport, null, 2));
-
-console.log("🔍 Collecting files...");
-console.log("📘 Validating concepts...");
-console.log("📙 Validating features...");
-console.log("📗 Validating keywords...");
-console.log("🔑 Checking ID uniqueness...");
-console.log("🔗 Checking references...");
-console.log("📦 Building frontend export...");
-console.log("✅ Validate completed successfully.");
+// --- EXPORT FRONTEND JSON ---
+fs.writeFileSync(VERSIONS_FULL_JSON, JSON.stringify(versionsFull, null, 2), "utf8");
+console.log(`✅ Versions full export written to ${VERSIONS_FULL_JSON}`);

@@ -1,23 +1,40 @@
 {
-  "csharp.07": {
+  "proglang.csharp.07": {
     "id": "proglang.csharp.07",
-    "features": [],
-    "keywords": [],
-    "paradigms": []
+    "features": [
+      "feature.oop.class.abstract",
+      "feature.oop.method.overriding"
+    ],
+    "keywords": [
+      "keyword.async",
+      "keyword.await"
+    ],
+    "paradigms": [
+      "paradigm.oop",
+      "paradigm.object-based"
+    ]
   },
-  "csharp.08": {
+  "proglang.csharp.08": {
     "id": "proglang.csharp.08",
     "features": [],
-    "keywords": [],
+    "keywords": [
+      "keyword.await"
+    ],
     "paradigms": []
   },
-  "java.17": {
+  "proglang.java.17": {
     "id": "proglang.java.17",
-    "features": [],
+    "features": [
+      "feature.oop.class.abstract",
+      "feature.oop.method.overriding"
+    ],
     "keywords": [],
-    "paradigms": []
+    "paradigms": [
+      "paradigm.oop",
+      "paradigm.object-based"
+    ]
   },
-  "kotlin.01": {
+  "proglang.kotlin.01": {
     "id": "proglang.kotlin.01",
     "features": [],
     "keywords": [],
