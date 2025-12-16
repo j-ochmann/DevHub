@@ -48,11 +48,12 @@ keyword.async_await
 
 | Entita   | Namespace     |
 | -------- | ------------- |
-| Concept  | (bez prefixu) |
-| Feature  | (bez prefixu) |
+| Concept  | `concept.`    |
+| Feature  | `feature.`    |
 | Keyword  | `keyword.`    |
-| Operator | `operator.`   |
 | Literal  | `literal.`    |
+| Operator | `operator.`   |
+| Paradigm | `paradigm.`   |
 
 ---
 
