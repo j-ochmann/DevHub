@@ -1,0 +1,22 @@
+{
+  "id": "oop.class.abstract",
+  "title": {
+    "en": "Abstract classes",
+    "cs": "Abstraktní třídy"
+  },
+  "description": {
+    "en": "Support for classes that cannot be instantiated directly.",
+    "cs": "Podpora tříd, které nelze přímo instancovat."
+  },
+  "relatedConcepts": [
+    "oop.abstraction"
+  ],
+  "relatedKeywords": [
+    "keyword.abstract"
+  ],
+  "languages": {
+    "csharp": { "supported": true },
+    "java": { "supported": true },
+    "cpp": { "supported": true }
+  }
+}

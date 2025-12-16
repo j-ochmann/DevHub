@@ -15,5 +15,5 @@
     "cpp": { "supported": false }
   },
   "relatedConcepts": ["oop.interface"],
-  "relatedKeywords": ["keyword.implements"]
+  "relatedKeywords": ["keyword.interface", "keyword.implements"]
 }

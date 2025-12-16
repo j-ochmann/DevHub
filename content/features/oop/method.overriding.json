@@ -1,0 +1,23 @@
+{
+  "id": "oop.method.overriding",
+  "title": {
+    "en": "Method overriding",
+    "cs": "Přepis metod"
+  },
+  "description": {
+    "en": "Ability to redefine a method in a subclass.",
+    "cs": "Schopnost předefinovat metodu v potomkovi."
+  },
+  "relatedConcepts": [
+    "oop.polymorphism"
+  ],
+  "relatedKeywords": [
+    "keyword.override",
+    "keyword.virtual"
+  ],
+  "languages": {
+    "csharp": { "supported": true },
+    "java": { "supported": true },
+    "cpp": { "supported": true }
+  }
+}

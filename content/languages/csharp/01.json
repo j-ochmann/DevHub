@@ -1,0 +1,17 @@
+{
+  "id": "proglang.csharp.08",
+  "name": "8.0",
+  "released": 2019,
+  "extends": "proglang.csharp.07",
+  "features": {
+    "oop.abstract.class": true,
+    "oop.interface.default.methods": true,
+    "oop.method.overriding": true
+  },
+  "keywords": [
+    "keyword.abstract",
+    "keyword.interface",
+    "keyword.override",
+    "keyword.virtual"
+  ]
+}

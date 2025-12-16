@@ -1,0 +1,29 @@
+{
+  "id": "keyword.abstract",
+  "token": "abstract",
+  "type": "keyword",
+  "description": {
+    "en": "Declares a class or method that cannot be instantiated or must be implemented by subclasses.",
+    "cs": "Deklaruje třídu nebo metodu, kterou nelze instancovat nebo musí být implementována v potomcích."
+  },
+  "languages": {
+    "c": false,
+    "cpp": true,
+    "csharp": true,
+    "java": true,
+    "go": false,
+    "python": false,
+    "javascript": false,
+    "php": true,
+    "rust": false,
+    "kotlin": true,
+    "dart": true,
+    "swift": false,
+    "vba": false
+  },
+  "relatedConcepts": [
+    "oop.abstraction"
+  ],
+  "relatedFeatures": []
+}
+

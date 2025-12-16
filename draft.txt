@@ -47,6 +47,12 @@ repo-root/
 │   │   │   ├── null.json
 │   │   │   └── true.json
 │   │   └── annotations/
+│   ├── paradigms/
+│   │   ├── oop.json
+│   │   ├── functional.json
+│   │   ├── procedural.json
+│   │   ├── logic.json
+│   │   ├── object-based.json
 │   │
 │   └── ...
 │
