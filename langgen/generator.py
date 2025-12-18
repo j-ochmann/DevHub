@@ -1,8 +1,10 @@
 import json
-from emitters.python import PythonEmitter
-from emitters.csharp import CSharpEmitter
+from emitters.abap import ABAPEmitter
+from emitters.cobol85 import Cobol85Emitter
 from emitters.cpp import CppEmitter
+from emitters.csharp import CSharpEmitter
 from emitters.fortran77 import Fortran77Emitter
+from emitters.python import PythonEmitter
 from emitters.markdown import MarkdownEmitter
 
 # ---- NAČTENÍ AST ----
@@ -11,9 +13,11 @@ with open("ast/example.json", "r") as f:
 
 # ---- EMITERY ----
 code_emitters = {
-    "python": PythonEmitter(),
-    "csharp": CSharpEmitter(),
+    "abap": ABAPEmitter(),
+    "cobol85": Cobol85Emitter(),
     "cpp": CppEmitter(),
+    "csharp": CSharpEmitter(),
+    "python": PythonEmitter(),
     "fortran77": Fortran77Emitter(),
 }
 
