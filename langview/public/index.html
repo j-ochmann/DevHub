@@ -20,11 +20,13 @@ input { margin-bottom: 10px; padding: 5px; width: 300px; }
 <table id="tbl">
 <thead>
 <tr>
+    <th>#</th>
     <th>Rok</th>
     <th>Rodina</th>
     <th>Jazyk</th>
     <th>Verze</th>
     <th>Dědí</th>
+    <th>Ovlivněn</th>
     <th>Název</th>
     <th>Název</th>
     <th>Paradigma</th>
@@ -46,15 +48,16 @@ fetch("/api/languages")
 function render(rows) {
     const tbody = document.querySelector("tbody");
     tbody.innerHTML = "";
-    rows.forEach(l => {
+    rows.forEach((l, i) => {
         const tr = document.createElement("tr");
         tr.innerHTML = `
-            <td>${i + 1}</td>
+            <td>${i + 1}</td>        <!-- counter -->
             <td>${l.date?.year || ""}</td>
             <td>${l.id?.family || ""}</td>
             <td>${l.id?.language || ""}</td>
             <td>${l.id?.version || ""}</td>
             <td>${l.id?.parent || ""}</td>
+            <td>${(l.id?.influenced_by || []).join(", ")}</td>
             <td>${l.name?.[0] || ""}</td>
             <td>${l.name?.[1] || ""}</td>
             <td>${(l.paradigms || []).join(", ")}</td>

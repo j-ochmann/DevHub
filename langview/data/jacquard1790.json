@@ -5,7 +5,7 @@
             "language": "jacquard",
             "version": "jacquard1790",
             "parent": null,  
-            "influenced_by_ids": [ null ]
+            "influenced_by": [ "pes", "bobr" ]
         },
         "date": { "year": 1790, "month": null, "day": null },
         "name": [ "Jacquard loom", "Jacquard loom (concept)" ],
