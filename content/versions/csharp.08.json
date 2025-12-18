@@ -4,6 +4,7 @@
   "official_name": "C# 8.0",
   "released": 2019,
   "add": [
-    "keyword.await"
+    "keyword.await",
+    "paradigm.object-based"
   ]
 }

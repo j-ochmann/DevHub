@@ -7,7 +7,6 @@
     "feature.oop.method.overriding",
     "keyword.async",
     "keyword.await",
-    "paradigm.oop",
-    "paradigm.object-based"
+    "paradigm.oop"
   ]
 }

@@ -1,0 +1,3266 @@
+[
+ {
+   "Name": "Jacquard",
+   "Name": "Jacquard",
+   "Year": 1790,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Joseph Marie Jacquard",
+   "Company": ""
+ },
+ {
+   "Name": "BAB L1",
+   "Name": "BAB L1",
+   "Year": 1837,
+   "Predecessor(s)": "Jacquard",
+   "Developer": "Charles Babbage",
+   "Company": ""
+ },
+ {
+   "Name": "Note G",
+   "Name": "Note G",
+   "Year": 1843,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Ada Lovelace",
+   "Company": ""
+ },
+ {
+   "Name": "Begriffsschrift",
+   "Name": "Begriffsschrift",
+   "Year": 1879,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Gottlob Frege",
+   "Company": ""
+ },
+ {
+   "Name": "ENIAC coding system",
+   "Name": "ENIAC coding system",
+   "Year": 1943,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "John von Neumann,  John Mauchly,  J. Presper Eckert, and Herman Goldstine after Alan Turing",
+   "Company": ""
+ },
+ {
+   "Name": "Plankalkül",
+   "Name": "Plankalkül",
+   "Year": 1943,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Konrad Zuse",
+   "Company": ""
+ },
+ {
+   "Name": "ENIAC Short Code",
+   "Name": "ENIAC Short Code",
+   "Year": 1946,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Richard Clippinger and John von Neumann after Alan Turing",
+   "Company": ""
+ },
+ {
+   "Name": "ARC/Birkbeck Assembler",
+   "Name": "ARC/Birkbeck Assembler",
+   "Year": 1947,
+   "Predecessor(s)": "ENIAC Short Code",
+   "Developer": "Kathleen Booth",
+   "Company": ""
+ },
+ {
+   "Name": "Plankalkül",
+   "Name": "Plankalkül",
+   "Year": 1948,
+   "Predecessor(s)": "???",
+   "Developer": "Konrad Zuse",
+   "Company": ""
+ },
+ {
+   "Name": "Brief Code",
+   "Name": "Brief Code",
+   "Year": 1949,
+   "Predecessor(s)": "ENIAC Short Code",
+   "Developer": "John Mauchly, William F. Schmitt",
+   "Company": ""
+ },
+ {
+   "Name": "EDSAC Initial Orders",
+   "Name": "EDSAC Initial Orders",
+   "Year": 1949,
+   "Predecessor(s)": "ENIAC coding system",
+   "Developer": "David Wheeler",
+   "Company": ""
+ },
+ {
+   "Name": "Short Code",
+   "Name": "Short Code",
+   "Year": 1950,
+   "Predecessor(s)": "Brief Code",
+   "Developer": "William F. Schmitt",
+   "Company": ""
+ },
+ {
+   "Name": "ALGAE",
+   "Name": "ALGAE",
+   "Year": 1951,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Edward A. Voorhees, Karl Balke",
+   "Company": ""
+ },
+ {
+   "Name": "Boehm unnamed coding system",
+   "Name": "Boehm unnamed coding system",
+   "Year": 1951,
+   "Predecessor(s)": "CPC Coding scheme",
+   "Developer": "Corrado Böhm",
+   "Company": ""
+ },
+ {
+   "Name": "IPL",
+   "Name": "IPL",
+   "Year": 1951,
+   "Predecessor(s)": "Short Code",
+   "Developer": "Arthur Burks",
+   "Company": ""
+ },
+ {
+   "Name": "Klammerausdrücke",
+   "Name": "Klammerausdrücke",
+   "Year": 1951,
+   "Predecessor(s)": "Plankalkül",
+   "Developer": "Konrad Zuse",
+   "Company": ""
+ },
+ {
+   "Name": "Sort Merge Generator",
+   "Name": "Sort Merge Generator",
+   "Year": 1951,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Betty Holberton",
+   "Company": ""
+ },
+ {
+   "Name": "Stanislaus",
+   "Name": "Stanislaus",
+   "Year": 1951,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Fritz Bauer",
+   "Company": ""
+ },
+ {
+   "Name": "Superplan",
+   "Name": "Superplan",
+   "Year": 1951,
+   "Predecessor(s)": "Plankalkül",
+   "Developer": "Heinz Rutishauser",
+   "Company": ""
+ },
+ {
+   "Name": "A-0 System",
+   "Name": "A-0 System",
+   "Year": 1952,
+   "Predecessor(s)": "Short Code",
+   "Developer": "Grace Hopper",
+   "Company": ""
+ },
+ {
+   "Name": "COMPOOL",
+   "Name": "COMPOOL",
+   "Year": 1952,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "",
+   "Company": "RAND/SDC"
+ },
+ {
+   "Name": "Editing Generator",
+   "Name": "Editing Generator",
+   "Year": 1952,
+   "Predecessor(s)": "SORT/MERGE",
+   "Developer": "Milly Koss",
+   "Company": ""
+ },
+ {
+   "Name": "Glennie Autocode",
+   "Name": "Glennie Autocode",
+   "Year": 1952,
+   "Predecessor(s)": "CPC Coding scheme",
+   "Developer": "Alick Glennie",
+   "Company": ""
+ },
+ {
+   "Name": "Operator programming",
+   "Name": "Operator programming",
+   "Year": 1952,
+   "Predecessor(s)": "MESM",
+   "Developer": "Alexey Andreevich Lyapunov with the participation Kateryna Yushchenko",
+   "Company": ""
+ },
+ {
+   "Name": "Short Code (for UNIVAC II)",
+   "Name": "Short Code (for UNIVAC II)",
+   "Year": 1952,
+   "Predecessor(s)": "Short Code (for UNIVAC I)",
+   "Developer": "Albert B. Tonik, J. R. Logan",
+   "Company": ""
+ },
+ {
+   "Name": "READ/PRINT",
+   "Name": "READ/PRINT",
+   "Year": 1953,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Don Harroff, James Fishman, George Ryckman",
+   "Company": ""
+ },
+ {
+   "Name": "Speedcoding",
+   "Name": "Speedcoding",
+   "Year": 1953,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "John W. Backus",
+   "Company": ""
+ },
+ {
+   "Name": "ARITH-MATIC",
+   "Name": "ARITH-MATIC",
+   "Year": 1954,
+   "Predecessor(s)": "A-0 System",
+   "Developer": "Team led by Grace Hopper at UNIVAC",
+   "Company": ""
+ },
+ {
+   "Name": "FORTRAN",
+   "Name": "FORTRAN",
+   "Year": 1954,
+   "Predecessor(s)": "Speedcoding",
+   "Developer": "Team led by John W. Backus at IBM",
+   "Company": ""
+ },
+ {
+   "Name": "IPL I",
+   "Name": "IPL I",
+   "Year": 1954,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Allen Newell, Cliff Shaw, Herbert A. Simon",
+   "Company": ""
+ },
+ {
+   "Name": "Laning and Zierler system",
+   "Name": "Laning and Zierler system",
+   "Year": 1954,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "J. Halcombe Laning,  Niel Zierler,  Adams at MIT",
+   "Company": "Project Whirlwind"
+ },
+ {
+   "Name": "MATH-MATIC",
+   "Name": "MATH-MATIC",
+   "Year": 1954,
+   "Predecessor(s)": "A-0 System",
+   "Developer": "Team led by Charles Katz",
+   "Company": ""
+ },
+ {
+   "Name": "MATRIX MATH",
+   "Name": "MATRIX MATH",
+   "Year": 1954,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "H G Kahrimanian",
+   "Company": ""
+ },
+ {
+   "Name": "Mark I Autocode",
+   "Name": "Mark I Autocode",
+   "Year": 1954,
+   "Predecessor(s)": "Glennie Autocode",
+   "Developer": "Tony Brooker",
+   "Company": ""
+ },
+ {
+   "Name": "Address programming language",
+   "Name": "Address programming language",
+   "Year": 1955,
+   "Predecessor(s)": "Operator programming",
+   "Developer": "Kateryna Yushchenko",
+   "Company": ""
+ },
+ {
+   "Name": "BACAIC",
+   "Name": "BACAIC",
+   "Year": 1955,
+   "Predecessor(s)": "???",
+   "Developer": "M. Grems, R. Porter",
+   "Company": ""
+ },
+ {
+   "Name": "FLOW-MATIC",
+   "Name": "FLOW-MATIC",
+   "Year": 1955,
+   "Predecessor(s)": "A-0 System",
+   "Developer": "Team led by Grace Hopper at UNIVAC",
+   "Company": ""
+ },
+ {
+   "Name": "Freiburger Code",
+   "Name": "Freiburger Code",
+   "Year": 1955,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "",
+   "Company": "University of Freiburg"
+ },
+ {
+   "Name": "IT",
+   "Name": "IT",
+   "Year": 1955,
+   "Predecessor(s)": "Laning and Zierler",
+   "Developer": "Team led by Alan Perlis",
+   "Company": ""
+ },
+ {
+   "Name": "PACT I",
+   "Name": "PACT I",
+   "Year": 1955,
+   "Predecessor(s)": "FORTRAN, A-2",
+   "Developer": "",
+   "Company": "SHARE"
+ },
+ {
+   "Name": "PRINT",
+   "Name": "PRINT",
+   "Year": 1955,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "Sequentielle Formelübersetzung",
+   "Name": "Sequentielle Formelübersetzung",
+   "Year": 1955,
+   "Predecessor(s)": "Boehm",
+   "Developer": "Fritz Bauer,  Karl Samelson",
+   "Company": ""
+ },
+ {
+   "Name": "LISP",
+   "Name": "LISP",
+   "Year": 1956,
+   "Predecessor(s)": "IPL",
+   "Developer": "John McCarthy",
+   "Company": ""
+ },
+ {
+   "Name": "COMIT",
+   "Name": "COMIT",
+   "Year": 1957,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Victor Yngve",
+   "Company": ""
+ },
+ {
+   "Name": "COMTRAN",
+   "Name": "COMTRAN",
+   "Year": 1957,
+   "Predecessor(s)": "FLOW-MATIC",
+   "Developer": "Bob Bemer",
+   "Company": ""
+ },
+ {
+   "Name": "FORTRAN I",
+   "Name": "FORTRAN I",
+   "Year": 1957,
+   "Predecessor(s)": "FORTRAN",
+   "Developer": "John W. Backus",
+   "Company": "IBM"
+ },
+ {
+   "Name": "GEORGE",
+   "Name": "GEORGE",
+   "Year": 1957,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Charles Leonard Hamblin",
+   "Company": ""
+ },
+ {
+   "Name": "UNICODE",
+   "Name": "UNICODE",
+   "Year": 1957,
+   "Predecessor(s)": "MATH-MATIC",
+   "Developer": "",
+   "Company": "Remington Rand UNIVAC"
+ },
+ {
+   "Name": "ALGOL 58 (IAL)",
+   "Name": "ALGOL 58 (IAL)",
+   "Year": 1958,
+   "Predecessor(s)": "FORTRAN, IT, Sequentielle Formelübersetzung",
+   "Developer": "",
+   "Company": "ACM/GAMM"
+ },
+ {
+   "Name": "FORTRAN II",
+   "Name": "FORTRAN II",
+   "Year": 1958,
+   "Predecessor(s)": "FORTRAN I",
+   "Developer": "John W. Backus",
+   "Company": "IBM"
+ },
+ {
+   "Name": "IPL II",
+   "Name": "IPL II",
+   "Year": 1958,
+   "Predecessor(s)": "IPL I",
+   "Developer": "Allen Newell, Cliff Shaw, Herbert A. Simon",
+   "Company": ""
+ },
+ {
+   "Name": "IPL V",
+   "Name": "IPL V",
+   "Year": 1958,
+   "Predecessor(s)": "IPL II",
+   "Developer": "Allen Newell, Cliff Shaw, Herbert A. Simon",
+   "Company": ""
+ },
+ {
+   "Name": "APT",
+   "Name": "APT",
+   "Year": 1959,
+   "Predecessor(s)": "???",
+   "Developer": "Douglas T. Ross",
+   "Company": ""
+ },
+ {
+   "Name": "COBOL",
+   "Name": "COBOL",
+   "Year": 1959,
+   "Predecessor(s)": "FLOW-MATIC, COMTRAN, FACT",
+   "Developer": "",
+   "Company": "CODASYL"
+ },
+ {
+   "Name": "FACT",
+   "Name": "FACT",
+   "Year": 1959,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Fletcher R. Jones, Roy Nutt, Robert L. Patrick",
+   "Company": ""
+ },
+ {
+   "Name": "JOVIAL",
+   "Name": "JOVIAL",
+   "Year": 1959,
+   "Predecessor(s)": "ALGOL 58",
+   "Developer": "Jules Schwartz",
+   "Company": "SDC"
+ },
+ {
+   "Name": "LISP",
+   "Name": "LISP",
+   "Year": 1959,
+   "Predecessor(s)": "IPL",
+   "Developer": "Steve Russell",
+   "Company": ""
+ },
+ {
+   "Name": "MAD",
+   "Name": "MAD",
+   "Year": 1959,
+   "Predecessor(s)": "ALGOL 58",
+   "Developer": "Bruce Arden, Bernard Galler, Robert M. Graham",
+   "Company": ""
+ },
+ {
+   "Name": "TRAC",
+   "Name": "TRAC",
+   "Year": 1959,
+   "Predecessor(s)": "???",
+   "Developer": "Calvin Mooers",
+   "Company": ""
+ },
+ {
+   "Name": "ALGOL 60",
+   "Name": "ALGOL 60",
+   "Year": 1960,
+   "Predecessor(s)": "ALGOL 58",
+   "Developer": "",
+   "Company": ""
+ },
+ {
+   "Name": "COBOL 61",
+   "Name": "COBOL 61",
+   "Year": 1960,
+   "Predecessor(s)": "FLOW-MATIC, COMTRAN",
+   "Developer": "",
+   "Company": "CODASYL"
+ },
+ {
+   "Name": "SAKO",
+   "Name": "SAKO",
+   "Year": 1960,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Leon Łukaszewicz",
+   "Company": "Polish Academy of Sciences"
+ },
+ {
+   "Name": "COMIT",
+   "Name": "COMIT",
+   "Year": 1961,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Victor Yngve",
+   "Company": ""
+ },
+ {
+   "Name": "GPSS",
+   "Name": "GPSS",
+   "Year": 1961,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Geoffrey Gordon",
+   "Company": "IBM"
+ },
+ {
+   "Name": "APL",
+   "Name": "APL",
+   "Year": 1962,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Kenneth E. Iverson",
+   "Company": ""
+ },
+ {
+   "Name": "FORTRAN IV",
+   "Name": "FORTRAN IV",
+   "Year": 1962,
+   "Predecessor(s)": "FORTRAN II",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "SNOBOL",
+   "Name": "SNOBOL",
+   "Year": 1962,
+   "Predecessor(s)": "FORTRAN II, COMIT",
+   "Developer": "Ralph Griswold",
+   "Company": ""
+ },
+ {
+   "Name": "Simula",
+   "Name": "Simula",
+   "Year": 1962,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "Ole-Johan Dahl",
+   "Company": ""
+ },
+ {
+   "Name": "ALGOL 68",
+   "Name": "ALGOL 68",
+   "Year": 1963,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "Adriaan van Wijngaarden",
+   "Company": ""
+ },
+ {
+   "Name": "CPL",
+   "Name": "CPL",
+   "Year": 1963,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "Barron, Christopher Strachey",
+   "Company": ""
+ },
+ {
+   "Name": "JOSS I",
+   "Name": "JOSS I",
+   "Year": 1963,
+   "Predecessor(s)": "ALGOL 58",
+   "Developer": "Cliff Shaw",
+   "Company": " RAND"
+ },
+ {
+   "Name": "SNOBOL3",
+   "Name": "SNOBOL3",
+   "Year": 1963,
+   "Predecessor(s)": "SNOBOL",
+   "Developer": "Ralph E. Griswold",
+   "Company": ""
+ },
+ {
+   "Name": "BASIC",
+   "Name": "BASIC",
+   "Year": 1964,
+   "Predecessor(s)": "FORTRAN II, JOSS",
+   "Developer": "John George Kemeny,Thomas Eugene Kurtz",
+   "Company": "Dartmouth College"
+ },
+ {
+   "Name": "Basic Assembly Language",
+   "Name": "Basic Assembly Language",
+   "Year": 1964,
+   "Predecessor(s)": "Assembly language",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "COWSEL",
+   "Name": "COWSEL",
+   "Year": 1964,
+   "Predecessor(s)": "CPL, LISP",
+   "Developer": "Rod Burstall, Robin Popplestone",
+   "Company": ""
+ },
+ {
+   "Name": "IITRAN",
+   "Name": "IITRAN",
+   "Year": 1964,
+   "Predecessor(s)": "PL/I",
+   "Developer": "William S. Worley",
+   "Company": "Illinois Institute of Technology"
+ },
+ {
+   "Name": "MIMIC",
+   "Name": "MIMIC",
+   "Year": 1964,
+   "Predecessor(s)": "MIDAS",
+   "Developer": "H. E. Petersen",
+   "Company": ""
+ },
+ {
+   "Name": "Mark-IV",
+   "Name": "Mark-IV",
+   "Year": 1964,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "Sterling Software"
+ },
+ {
+   "Name": "PL/I",
+   "Name": "PL/I",
+   "Year": 1964,
+   "Predecessor(s)": "ALGOL 60, COBOL, FORTRAN",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "P′′",
+   "Name": "P′′",
+   "Year": 1964,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Corrado Böhm",
+   "Company": ""
+ },
+ {
+   "Name": "RPG",
+   "Name": "RPG",
+   "Year": 1964,
+   "Predecessor(s)": "FARGO",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "Speakeasy-2",
+   "Name": "Speakeasy-2",
+   "Year": 1964,
+   "Predecessor(s)": "Speakeasy",
+   "Developer": "Stanley Cohen",
+   "Company": "Argonne National Laboratory"
+ },
+ {
+   "Name": "TRAC",
+   "Name": "TRAC",
+   "Year": 1964,
+   "Predecessor(s)": "???",
+   "Developer": "Calvin Mooers",
+   "Company": ""
+ },
+ {
+   "Name": "Atlas Autocode",
+   "Name": "Atlas Autocode",
+   "Year": 1965,
+   "Predecessor(s)": "ALGOL 60, Autocode",
+   "Developer": "Tony Brooker, Derrick Morris",
+   "Company": "Manchester University"
+ },
+ {
+   "Name": "MAD/I",
+   "Name": "MAD/I",
+   "Year": 1965,
+   "Predecessor(s)": "MAD, ALGOL 60, PL/I",
+   "Developer": "",
+   "Company": "University of Michigan"
+ },
+ {
+   "Name": "PL360",
+   "Name": "PL360",
+   "Year": 1965,
+   "Predecessor(s)": "ALGOL 60, ESPOL",
+   "Developer": "Niklaus Wirth",
+   "Company": ""
+ },
+ {
+   "Name": "RPG II",
+   "Name": "RPG II",
+   "Year": 1965,
+   "Predecessor(s)": "FARGO, RPG",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "TELCOMP",
+   "Name": "TELCOMP",
+   "Year": 1965,
+   "Predecessor(s)": "JOSS",
+   "Developer": "",
+   "Company": "BBN"
+ },
+ {
+   "Name": "ALGOL W",
+   "Name": "ALGOL W",
+   "Year": 1966,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "Niklaus Wirth, C. A. R. Hoare",
+   "Company": ""
+ },
+ {
+   "Name": "APL",
+   "Name": "APL",
+   "Year": 1966,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Kenneth E. Iverson",
+   "Company": ""
+ },
+ {
+   "Name": "CORAL 66",
+   "Name": "CORAL 66",
+   "Year": 1966,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "I. F. Currie, M. Griffiths",
+   "Company": ""
+ },
+ {
+   "Name": "FORTRAN 66",
+   "Name": "FORTRAN 66",
+   "Year": 1966,
+   "Predecessor(s)": "FORTRAN IV",
+   "Developer": "John Backus",
+   "Company": ""
+ },
+ {
+   "Name": "ISWIM",
+   "Name": "ISWIM",
+   "Year": 1966,
+   "Predecessor(s)": "LISP",
+   "Developer": "Peter J. Landin",
+   "Company": ""
+ },
+ {
+   "Name": "JOSS II",
+   "Name": "JOSS II",
+   "Year": 1966,
+   "Predecessor(s)": "JOSS I",
+   "Developer": "Chuck Baker",
+   "Company": "RAND"
+ },
+ {
+   "Name": "BCPL",
+   "Name": "BCPL",
+   "Year": 1967,
+   "Predecessor(s)": "CPL",
+   "Developer": "Martin Richards",
+   "Company": ""
+ },
+ {
+   "Name": "EXAPT",
+   "Name": "EXAPT",
+   "Year": 1967,
+   "Predecessor(s)": "APT",
+   "Developer": "Herwart Opitz, Wilhelm Simon, Günter Spur, Gottfried Stute",
+   "Company": "RWTH Aachen University and TU Berlin"
+ },
+ {
+   "Name": "Interlisp",
+   "Name": "Interlisp",
+   "Year": 1967,
+   "Predecessor(s)": "Lisp",
+   "Developer": "D.G. Bobrow and D.L. Murphy",
+   "Company": ""
+ },
+ {
+   "Name": "MUMPS",
+   "Name": "MUMPS",
+   "Year": 1967,
+   "Predecessor(s)": "FORTRAN,TELCOMP",
+   "Developer": "",
+   "Company": "Massachusetts General Hospital"
+ },
+ {
+   "Name": "SNOBOL4",
+   "Name": "SNOBOL4",
+   "Year": 1967,
+   "Predecessor(s)": "SNOBOL3",
+   "Developer": "Ralph Griswold",
+   "Company": ""
+ },
+ {
+   "Name": "Simula 67",
+   "Name": "Simula 67",
+   "Year": 1967,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "Ole-Johan Dahl, Bjørn Myhrhaug, Kristen Nygaard",
+   "Company": "Norsk Regnesentral"
+ },
+ {
+   "Name": "XPL",
+   "Name": "XPL",
+   "Year": 1967,
+   "Predecessor(s)": "PL/I",
+   "Developer": "William M. McKeeman, J. J. Horning",
+   "Company": "University of California,Stanford University"
+ },
+ {
+   "Name": "ALGOL 68",
+   "Name": "ALGOL 68",
+   "Year": 1968,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "Adriaan van Wijngaarden, Barry J. Mailloux, John E. L. Peck, Cornelis H. A. Koster",
+   "Company": ""
+ },
+ {
+   "Name": "DIBOL-8",
+   "Name": "DIBOL-8",
+   "Year": 1968,
+   "Predecessor(s)": "DIBOL",
+   "Developer": "",
+   "Company": "DEC"
+ },
+ {
+   "Name": "Forth",
+   "Name": "Forth",
+   "Year": 1968,
+   "Predecessor(s)": "???",
+   "Developer": "Chuck Moore",
+   "Company": ""
+ },
+ {
+   "Name": "Logo",
+   "Name": "Logo",
+   "Year": 1968,
+   "Predecessor(s)": "LISP",
+   "Developer": "Wally Feurzeig, Seymour Papert, Cynthia Solomon",
+   "Company": ""
+ },
+ {
+   "Name": "MAPPER",
+   "Name": "MAPPER",
+   "Year": 1968,
+   "Predecessor(s)": "CRT RPS",
+   "Developer": "",
+   "Company": "Unisys"
+ },
+ {
+   "Name": "PILOT",
+   "Name": "PILOT",
+   "Year": 1968,
+   "Predecessor(s)": "Computest",
+   "Developer": "John Amsden Starkweather",
+   "Company": "University of California"
+ },
+ {
+   "Name": "PL/S",
+   "Name": "PL/S",
+   "Year": 1968,
+   "Predecessor(s)": "Assembly language",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "PL360",
+   "Name": "PL360",
+   "Year": 1968,
+   "Predecessor(s)": "ALGOL 60, ESPOL",
+   "Developer": "Niklaus Wirth",
+   "Company": ""
+ },
+ {
+   "Name": "POP-1",
+   "Name": "POP-1",
+   "Year": 1968,
+   "Predecessor(s)": "COWSEL",
+   "Developer": "Rod Burstall, Robin Popplestone",
+   "Company": ""
+ },
+ {
+   "Name": "REFAL",
+   "Name": "REFAL",
+   "Year": 1968,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Valentin Turchin",
+   "Company": ""
+ },
+ {
+   "Name": "TTM",
+   "Name": "TTM",
+   "Year": 1968,
+   "Predecessor(s)": "GAP, GPM",
+   "Developer": "Steven Caine, E. Kent Gordon",
+   "Company": "California Institute of Technology"
+ },
+ {
+   "Name": "B",
+   "Name": "B",
+   "Year": 1969,
+   "Predecessor(s)": "BCPL, Fortran",
+   "Developer": "Ken Thompson, Dennis Ritchie",
+   "Company": ""
+ },
+ {
+   "Name": "Edinburgh IMP",
+   "Name": "Edinburgh IMP",
+   "Year": 1969,
+   "Predecessor(s)": "ALGOL 60, Autocode, Atlas Autocode",
+   "Developer": "",
+   "Company": "Edinburgh University"
+ },
+ {
+   "Name": "PL/I",
+   "Name": "PL/I",
+   "Year": 1969,
+   "Predecessor(s)": "ALGOL 60, COBOL, FORTRAN",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "PPL",
+   "Name": "PPL",
+   "Year": 1969,
+   "Predecessor(s)": "???",
+   "Developer": "Thomas A. Standish",
+   "Company": "Harvard University"
+ },
+ {
+   "Name": "SETL",
+   "Name": "SETL",
+   "Year": 1969,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "Jack Schwartz",
+   "Company": "Courant Institute of Mathematical Sciences"
+ },
+ {
+   "Name": "TUTOR",
+   "Name": "TUTOR",
+   "Year": 1969,
+   "Predecessor(s)": "???",
+   "Developer": "Paul Tenczar",
+   "Company": "University of Illinois"
+ },
+ {
+   "Name": "BLISS",
+   "Name": "BLISS",
+   "Year": 1970,
+   "Predecessor(s)": "ALGOL",
+   "Developer": "Wulf, Russell, Habermann",
+   "Company": "Carnegie Mellon University"
+ },
+ {
+   "Name": "Forth",
+   "Name": "Forth",
+   "Year": 1970,
+   "Predecessor(s)": "Forth",
+   "Developer": "Charles H. Moore",
+   "Company": ""
+ },
+ {
+   "Name": "POP-2",
+   "Name": "POP-2",
+   "Year": 1970,
+   "Predecessor(s)": "POP-1",
+   "Developer": "Robin Popplestone",
+   "Company": ""
+ },
+ {
+   "Name": "Pascal",
+   "Name": "Pascal",
+   "Year": 1970,
+   "Predecessor(s)": "ALGOL 60, ALGOL W",
+   "Developer": "Niklaus Wirth, Kathleen Jensen",
+   "Company": ""
+ },
+ {
+   "Name": "SAIL",
+   "Name": "SAIL",
+   "Year": 1970,
+   "Predecessor(s)": "ALGOL 60",
+   "Developer": "Dan Swinehart, Bob Sproull",
+   "Company": ""
+ },
+ {
+   "Name": "CDL",
+   "Name": "CDL",
+   "Year": 1971,
+   "Predecessor(s)": "???",
+   "Developer": "Cornelis H.A. Koster",
+   "Company": "University of Nijmegen"
+ },
+ {
+   "Name": "KRL",
+   "Name": "KRL",
+   "Year": 1971,
+   "Predecessor(s)": "KM, FRL (MIT)",
+   "Developer": "Daniel G. Bobrow, Terry Winograd",
+   "Company": "Xerox PARC, Stanford University"
+ },
+ {
+   "Name": "C",
+   "Name": "C",
+   "Year": 1972,
+   "Predecessor(s)": "B, BCPL, ALGOL 68",
+   "Developer": "Dennis Ritchie",
+   "Company": ""
+ },
+ {
+   "Name": "INTERCAL",
+   "Name": "INTERCAL",
+   "Year": 1972,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Don Woods, James M. Lyon",
+   "Company": ""
+ },
+ {
+   "Name": "PL/M",
+   "Name": "PL/M",
+   "Year": 1972,
+   "Predecessor(s)": "PL/I, ALGOL, XPL",
+   "Developer": "Gary Kildall",
+   "Company": "Digital Research"
+ },
+ {
+   "Name": "Prolog",
+   "Name": "Prolog",
+   "Year": 1972,
+   "Predecessor(s)": "2-level W-Grammar",
+   "Developer": "Alain Colmerauer",
+   "Company": ""
+ },
+ {
+   "Name": "SASL",
+   "Name": "SASL",
+   "Year": 1972,
+   "Predecessor(s)": "ISWIM",
+   "Developer": "David Turner",
+   "Company": "University of St Andrews"
+ },
+ {
+   "Name": "SQL",
+   "Name": "SQL",
+   "Year": 1972,
+   "Predecessor(s)": "ALPHA, Quel (Ingres)",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "Smalltalk-72",
+   "Name": "Smalltalk-72",
+   "Year": 1972,
+   "Predecessor(s)": "Simula 67",
+   "Developer": "Alan Kay, Adele Goldberg, Dan Ingalls",
+   "Company": "Xerox PARC"
+ },
+ {
+   "Name": "COMAL",
+   "Name": "COMAL",
+   "Year": 1973,
+   "Predecessor(s)": "Pascal, BASIC",
+   "Developer": "Børge Christensen, Benedict Løfstedt",
+   "Company": ""
+ },
+ {
+   "Name": "LIS",
+   "Name": "LIS",
+   "Year": 1973,
+   "Predecessor(s)": "Pascal, Sue",
+   "Developer": "Jean Ichbiah",
+   "Company": "CII Honeywell Bull"
+ },
+ {
+   "Name": "ML",
+   "Name": "ML",
+   "Year": 1973,
+   "Predecessor(s)": "???",
+   "Developer": "Robin Milner",
+   "Company": ""
+ },
+ {
+   "Name": "Speakeasy-3",
+   "Name": "Speakeasy-3",
+   "Year": 1973,
+   "Predecessor(s)": "Speakeasy-2",
+   "Developer": "Stanley Cohen, Steven Pieper",
+   "Company": "Argonne National Laboratory"
+ },
+ {
+   "Name": "BASIC FOUR",
+   "Name": "BASIC FOUR",
+   "Year": 1974,
+   "Predecessor(s)": "Business BASIC",
+   "Developer": "",
+   "Company": "MAI BASIC Four Inc."
+ },
+ {
+   "Name": "CLU",
+   "Name": "CLU",
+   "Year": 1974,
+   "Predecessor(s)": "ALGOL 60, Lisp, Simula",
+   "Developer": "Barbara Liskov",
+   "Company": ""
+ },
+ {
+   "Name": "GRASS",
+   "Name": "GRASS",
+   "Year": 1974,
+   "Predecessor(s)": "BASIC",
+   "Developer": "Thomas A. DeFanti",
+   "Company": ""
+ },
+ {
+   "Name": "PROSE modeling language",
+   "Name": "PROSE modeling language",
+   "Year": 1974,
+   "Predecessor(s)": "SLANG, FORTRAN",
+   "Developer": "",
+   "Company": "CDC 6600 Cybernet Services"
+ },
+ {
+   "Name": "sed",
+   "Name": "sed",
+   "Year": 1974,
+   "Predecessor(s)": "ed",
+   "Developer": "Lee E. McMahon",
+   "Company": "Bell Labs"
+ },
+ {
+   "Name": "ABC",
+   "Name": "ABC",
+   "Year": 1975,
+   "Predecessor(s)": "SETL",
+   "Developer": "Leo Geurts, Lambert Meertens",
+   "Company": ""
+ },
+ {
+   "Name": "Altair BASIC",
+   "Name": "Altair BASIC",
+   "Year": 1975,
+   "Predecessor(s)": "BASIC",
+   "Developer": "Bill Gates, Paul Allen",
+   "Company": ""
+ },
+ {
+   "Name": "Modula",
+   "Name": "Modula",
+   "Year": 1975,
+   "Predecessor(s)": "Pascal",
+   "Developer": "Niklaus Wirth",
+   "Company": ""
+ },
+ {
+   "Name": "PROSE",
+   "Name": "PROSE",
+   "Year": 1975,
+   "Predecessor(s)": "SLANG, FORTRAN",
+   "Developer": "",
+   "Company": "CDC 6400 Cybernet KRONOS Services"
+ },
+ {
+   "Name": "Scheme",
+   "Name": "Scheme",
+   "Year": 1975,
+   "Predecessor(s)": "LISP",
+   "Developer": "Gerald Jay Sussman, Guy L. Steele Jr.",
+   "Company": ""
+ },
+ {
+   "Name": "Integer BASIC",
+   "Name": "Integer BASIC",
+   "Year": 1976,
+   "Predecessor(s)": "BASIC",
+   "Developer": "Steve Wozniak",
+   "Company": ""
+ },
+ {
+   "Name": "Mesa",
+   "Name": "Mesa",
+   "Year": 1976,
+   "Predecessor(s)": "ALGOL",
+   "Developer": "",
+   "Company": "Xerox PARC"
+ },
+ {
+   "Name": "Ratfor",
+   "Name": "Ratfor",
+   "Year": 1976,
+   "Predecessor(s)": "C, FORTRAN",
+   "Developer": "Brian Kernighan",
+   "Company": ""
+ },
+ {
+   "Name": "S",
+   "Name": "S",
+   "Year": 1976,
+   "Predecessor(s)": "APL, PPL, Scheme",
+   "Developer": "John Chambers",
+   "Company": "Bell Labs"
+ },
+ {
+   "Name": "SAS",
+   "Name": "SAS",
+   "Year": 1976,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "SAS Institute"
+ },
+ {
+   "Name": "Smalltalk-76",
+   "Name": "Smalltalk-76",
+   "Year": 1976,
+   "Predecessor(s)": "Smalltalk-72",
+   "Developer": "",
+   "Company": "Xerox PARC"
+ },
+ {
+   "Name": "Applesoft BASIC",
+   "Name": "Applesoft BASIC",
+   "Year": 1977,
+   "Predecessor(s)": "BASIC",
+   "Developer": "Marc McDonald, Ric Weiland",
+   "Company": "Apple Computer"
+ },
+ {
+   "Name": "Bourne Shell (sh)",
+   "Name": "Bourne Shell (sh)",
+   "Year": 1977,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Stephen R. Bourne",
+   "Company": ""
+ },
+ {
+   "Name": "Commodore BASIC",
+   "Name": "Commodore BASIC",
+   "Year": 1977,
+   "Predecessor(s)": "BASIC",
+   "Developer": "Jack Tramiel",
+   "Company": ""
+ },
+ {
+   "Name": "Euclid",
+   "Name": "Euclid",
+   "Year": 1977,
+   "Predecessor(s)": "???",
+   "Developer": "Butler Lampson, Ric Holt, James Cordy",
+   "Company": "Xerox PARC, University of Toronto"
+ },
+ {
+   "Name": "FP",
+   "Name": "FP",
+   "Year": 1977,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "John Backus",
+   "Company": ""
+ },
+ {
+   "Name": "IDL",
+   "Name": "IDL",
+   "Year": 1977,
+   "Predecessor(s)": "Fortran",
+   "Developer": "David Stern",
+   "Company": "Research Systems Inc"
+ },
+ {
+   "Name": "Icon",
+   "Name": "Icon",
+   "Year": 1977,
+   "Predecessor(s)": "SNOBOL",
+   "Developer": "Ralph Griswold",
+   "Company": ""
+ },
+ {
+   "Name": "Standard MUMPS",
+   "Name": "Standard MUMPS",
+   "Year": 1977,
+   "Predecessor(s)": "MUMPS",
+   "Developer": "",
+   "Company": "Massachusetts General Hospital"
+ },
+ {
+   "Name": "Applesoft II BASIC",
+   "Name": "Applesoft II BASIC",
+   "Year": 1978,
+   "Predecessor(s)": "Applesoft BASIC",
+   "Developer": "Marc McDonald, Ric Weiland",
+   "Company": ""
+ },
+ {
+   "Name": "C shell",
+   "Name": "C shell",
+   "Year": 1978,
+   "Predecessor(s)": "C",
+   "Developer": "Bill Joy",
+   "Company": ""
+ },
+ {
+   "Name": "HAL/S",
+   "Name": "HAL/S",
+   "Year": 1978,
+   "Predecessor(s)": "XPL",
+   "Developer": "",
+   "Company": "designed by Intermetrics for NASA"
+ },
+ {
+   "Name": "MATLAB",
+   "Name": "MATLAB",
+   "Year": 1978,
+   "Predecessor(s)": "Fortran",
+   "Developer": "Cleve Moler",
+   "Company": "University of New Mexico"
+ },
+ {
+   "Name": "RAPT",
+   "Name": "RAPT",
+   "Year": 1978,
+   "Predecessor(s)": "APT",
+   "Developer": "Pat Ambler, Robin Popplestone",
+   "Company": ""
+ },
+ {
+   "Name": "RPG III",
+   "Name": "RPG III",
+   "Year": 1978,
+   "Predecessor(s)": "FARGO, RPG, RPG II",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "SMALL",
+   "Name": "SMALL",
+   "Year": 1978,
+   "Predecessor(s)": "Algol60",
+   "Developer": "Nevil Brownlee",
+   "Company": "University of Auckland"
+ },
+ {
+   "Name": "VisiCalc",
+   "Name": "VisiCalc",
+   "Year": 1978,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Dan Bricklin, Bob Frankston",
+   "Company": "VisiCorp"
+ },
+ {
+   "Name": "AWK",
+   "Name": "AWK",
+   "Year": 1979,
+   "Predecessor(s)": "C, SNOBOL",
+   "Developer": "Alfred Aho, Peter J. Weinberger, Brian Kernighan",
+   "Company": ""
+ },
+ {
+   "Name": "Icon",
+   "Name": "Icon",
+   "Year": 1979,
+   "Predecessor(s)": "SNOBOL",
+   "Developer": "Ralph Griswold",
+   "Company": ""
+ },
+ {
+   "Name": "Modula-2",
+   "Name": "Modula-2",
+   "Year": 1979,
+   "Predecessor(s)": "Modula, Mesa",
+   "Developer": "Niklaus Wirth",
+   "Company": ""
+ },
+ {
+   "Name": "REXX",
+   "Name": "REXX",
+   "Year": 1979,
+   "Predecessor(s)": "PL/I, BASIC, EXEC 2",
+   "Developer": "Mike Cowlishaw",
+   "Company": "IBM"
+ },
+ {
+   "Name": "TI BASIC",
+   "Name": "TI BASIC",
+   "Year": 1979,
+   "Predecessor(s)": "BASIC",
+   "Developer": "",
+   "Company": "Texas Instruments"
+ },
+ {
+   "Name": "Vulcan dBase-II",
+   "Name": "Vulcan dBase-II",
+   "Year": 1979,
+   "Predecessor(s)": "RETRIEVE",
+   "Developer": "Wayne Ratliff",
+   "Company": ""
+ },
+ {
+   "Name": "Ada 80 (MIL-STD-1815)",
+   "Name": "Ada 80 (MIL-STD-1815)",
+   "Year": 1980,
+   "Predecessor(s)": "ALGOL 68, Green",
+   "Developer": "Jean Ichbiah",
+   "Company": "CII Honeywell Bull"
+ },
+ {
+   "Name": "Apple III Microsoft BASIC",
+   "Name": "Apple III Microsoft BASIC",
+   "Year": 1980,
+   "Predecessor(s)": "Microsoft BASIC",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Applesoft III",
+   "Name": "Applesoft III",
+   "Year": 1980,
+   "Predecessor(s)": "Applesoft II BASIC",
+   "Developer": "",
+   "Company": "Apple Computer"
+ },
+ {
+   "Name": "C with classes",
+   "Name": "C with classes",
+   "Year": 1980,
+   "Predecessor(s)": "C, Simula 67",
+   "Developer": "Bjarne Stroustrup",
+   "Company": ""
+ },
+ {
+   "Name": "CBASIC",
+   "Name": "CBASIC",
+   "Year": 1980,
+   "Predecessor(s)": "BASIC, Compiler Systems, Digital Research",
+   "Developer": "Gordon Eubanks",
+   "Company": ""
+ },
+ {
+   "Name": "Smalltalk-80",
+   "Name": "Smalltalk-80",
+   "Year": 1980,
+   "Predecessor(s)": "Smalltalk-76",
+   "Developer": "Adele Goldberg",
+   "Company": "Xerox PARC"
+ },
+ {
+   "Name": "BBC BASIC",
+   "Name": "BBC BASIC",
+   "Year": 1981,
+   "Predecessor(s)": "BASIC",
+   "Developer": "Sophie Wilson",
+   "Company": "Acorn Computers"
+ },
+ {
+   "Name": "IBM BASIC",
+   "Name": "IBM BASIC",
+   "Year": 1981,
+   "Predecessor(s)": "BASIC",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "TI Extended BASIC",
+   "Name": "TI Extended BASIC",
+   "Year": 1981,
+   "Predecessor(s)": "TI BASIC",
+   "Developer": "",
+   "Company": "Texas Instruments"
+ },
+ {
+   "Name": "Draco",
+   "Name": "Draco",
+   "Year": 1982,
+   "Predecessor(s)": "Pascal, C, ALGOL 68",
+   "Developer": "Chris Gray",
+   "Company": ""
+ },
+ {
+   "Name": "PostScript",
+   "Name": "PostScript",
+   "Year": 1982,
+   "Predecessor(s)": "InterPress",
+   "Developer": "John Edward Warnock",
+   "Company": ""
+ },
+ {
+   "Name": "Speakeasy-IV",
+   "Name": "Speakeasy-IV",
+   "Year": 1982,
+   "Predecessor(s)": "Speakeasy-3",
+   "Developer": "Stanley Cohen",
+   "Company": "Speakeasy Computing Corporation"
+ },
+ {
+   "Name": "Turing",
+   "Name": "Turing",
+   "Year": 1982,
+   "Predecessor(s)": "Euclid",
+   "Developer": "Ric Holt. James Cordy",
+   "Company": "University of Toronto"
+ },
+ {
+   "Name": "ABAP",
+   "Name": "ABAP",
+   "Year": 1983,
+   "Predecessor(s)": "COBOL",
+   "Developer": "",
+   "Company": "SAP AG"
+ },
+ {
+   "Name": "Ada 83",
+   "Name": "Ada 83",
+   "Year": 1983,
+   "Predecessor(s)": "Ada 80, Green",
+   "Developer": "Jean Ichbiah",
+   "Company": "Alsys"
+ },
+ {
+   "Name": "C++",
+   "Name": "C++",
+   "Year": 1983,
+   "Predecessor(s)": "C with Classes",
+   "Developer": "Bjarne Stroustrup",
+   "Company": ""
+ },
+ {
+   "Name": "Clascal",
+   "Name": "Clascal",
+   "Year": 1983,
+   "Predecessor(s)": "Pascal",
+   "Developer": "",
+   "Company": "Apple Computer"
+ },
+ {
+   "Name": "GW-BASIC",
+   "Name": "GW-BASIC",
+   "Year": 1983,
+   "Predecessor(s)": "IBM BASIC",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "KornShell (ksh)",
+   "Name": "KornShell (ksh)",
+   "Year": 1983,
+   "Predecessor(s)": "sh",
+   "Developer": "David Korn",
+   "Company": ""
+ },
+ {
+   "Name": "Objective-C",
+   "Name": "Objective-C",
+   "Year": 1983,
+   "Predecessor(s)": "Smalltalk, C",
+   "Developer": "Brad Cox",
+   "Company": ""
+ },
+ {
+   "Name": "True BASIC",
+   "Name": "True BASIC",
+   "Year": 1983,
+   "Predecessor(s)": "BASIC",
+   "Developer": "John George Kemeny, Thomas Eugene Kurtz",
+   "Company": "Dartmouth College"
+ },
+ {
+   "Name": "Turbo Pascal",
+   "Name": "Turbo Pascal",
+   "Year": 1983,
+   "Predecessor(s)": "Pascal",
+   "Developer": "Hejlsberg",
+   "Company": "Borland"
+ },
+ {
+   "Name": "occam",
+   "Name": "occam",
+   "Year": 1983,
+   "Predecessor(s)": "EPL",
+   "Developer": "David May",
+   "Company": ""
+ },
+ {
+   "Name": "CLIPPER",
+   "Name": "CLIPPER",
+   "Year": 1984,
+   "Predecessor(s)": "dBase",
+   "Developer": "",
+   "Company": "Nantucket Corporation"
+ },
+ {
+   "Name": "Common Lisp",
+   "Name": "Common Lisp",
+   "Year": 1984,
+   "Predecessor(s)": "LISP",
+   "Developer": "Guy L. Steele Jr.",
+   "Company": ""
+ },
+ {
+   "Name": "OPL",
+   "Name": "OPL",
+   "Year": 1984,
+   "Predecessor(s)": "BASIC",
+   "Developer": "",
+   "Company": "Psion"
+ },
+ {
+   "Name": "RPL",
+   "Name": "RPL",
+   "Year": 1984,
+   "Predecessor(s)": "Forth, Lisp",
+   "Developer": "",
+   "Company": "Hewlett-Packard"
+ },
+ {
+   "Name": "Redcode",
+   "Name": "Redcode",
+   "Year": 1984,
+   "Predecessor(s)": "???",
+   "Developer": "Alexander Dewdney, D.G. Jones",
+   "Company": ""
+ },
+ {
+   "Name": "Rocq",
+   "Name": "Rocq",
+   "Year": 1984,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "INRIA"
+ },
+ {
+   "Name": "Standard ML",
+   "Name": "Standard ML",
+   "Year": 1984,
+   "Predecessor(s)": "ML",
+   "Developer": "",
+   "Company": ""
+ },
+ {
+   "Name": "PARADOX",
+   "Name": "PARADOX",
+   "Year": 1985,
+   "Predecessor(s)": "dBase",
+   "Developer": "",
+   "Company": "Borland"
+ },
+ {
+   "Name": "QuickBASIC",
+   "Name": "QuickBASIC",
+   "Year": 1985,
+   "Predecessor(s)": "BASIC",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Clarion",
+   "Name": "Clarion",
+   "Year": 1986,
+   "Predecessor(s)": "???",
+   "Developer": "Bruce Barrington",
+   "Company": ""
+ },
+ {
+   "Name": "CorVision",
+   "Name": "CorVision",
+   "Year": 1986,
+   "Predecessor(s)": "INFORM",
+   "Developer": "",
+   "Company": "Cortex"
+ },
+ {
+   "Name": "Eiffel",
+   "Name": "Eiffel",
+   "Year": 1986,
+   "Predecessor(s)": "Simula 67, Ada",
+   "Developer": "Bertrand Meyer",
+   "Company": ""
+ },
+ {
+   "Name": "Erlang",
+   "Name": "Erlang",
+   "Year": 1986,
+   "Predecessor(s)": "PLEX, Prolog",
+   "Developer": "Joe Armstrong",
+   "Company": "Ericsson"
+ },
+ {
+   "Name": "GFA BASIC",
+   "Name": "GFA BASIC",
+   "Year": 1986,
+   "Predecessor(s)": "BASIC",
+   "Developer": "Frank Ostrowski",
+   "Company": ""
+ },
+ {
+   "Name": "Informix-4GL",
+   "Name": "Informix-4GL",
+   "Year": 1986,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "IBM"
+ },
+ {
+   "Name": "LabVIEW",
+   "Name": "LabVIEW",
+   "Year": 1986,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "National Instruments"
+ },
+ {
+   "Name": "Miranda",
+   "Name": "Miranda",
+   "Year": 1986,
+   "Predecessor(s)": "SASL",
+   "Developer": "David Turner",
+   "Company": "University of Kent"
+ },
+ {
+   "Name": "Object Pascal",
+   "Name": "Object Pascal",
+   "Year": 1986,
+   "Predecessor(s)": "Pascal",
+   "Developer": "",
+   "Company": "Apple Computer"
+ },
+ {
+   "Name": "PROMAL",
+   "Name": "PROMAL",
+   "Year": 1986,
+   "Predecessor(s)": "C",
+   "Developer": "",
+   "Company": ""
+ },
+ {
+   "Name": "Clean",
+   "Name": "Clean",
+   "Year": 1987,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "",
+   "Company": "Radboud University Nijmegen"
+ },
+ {
+   "Name": "HyperTalk",
+   "Name": "HyperTalk",
+   "Year": 1987,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "",
+   "Company": "Apple Computer"
+ },
+ {
+   "Name": "Oberon",
+   "Name": "Oberon",
+   "Year": 1987,
+   "Predecessor(s)": "Modula-2",
+   "Developer": "Niklaus Wirth",
+   "Company": ""
+ },
+ {
+   "Name": "Perl",
+   "Name": "Perl",
+   "Year": 1987,
+   "Predecessor(s)": "C, sed, awk, sh",
+   "Developer": "Larry Wall",
+   "Company": ""
+ },
+ {
+   "Name": "Self",
+   "Name": "Self",
+   "Year": 1987,
+   "Predecessor(s)": "Smalltalk",
+   "Developer": "",
+   "Company": "Sun Microsystems Inc."
+ },
+ {
+   "Name": "Turbo Basic",
+   "Name": "Turbo Basic",
+   "Year": 1987,
+   "Predecessor(s)": "BASIC/Z",
+   "Developer": "Robert 'Bob' Zale",
+   "Company": ""
+ },
+ {
+   "Name": "occam 2",
+   "Name": "occam 2",
+   "Year": 1987,
+   "Predecessor(s)": "occam",
+   "Developer": "David May",
+   "Company": "INMOS"
+ },
+ {
+   "Name": "A+",
+   "Name": "A+",
+   "Year": 1988,
+   "Predecessor(s)": "APL, A",
+   "Developer": "Arthur Whitney",
+   "Company": ""
+ },
+ {
+   "Name": "Actor",
+   "Name": "Actor",
+   "Year": 1988,
+   "Predecessor(s)": "Forth, Smalltalk",
+   "Developer": "Charles Duff",
+   "Company": "Whitewater Group"
+ },
+ {
+   "Name": "C90",
+   "Name": "C90",
+   "Year": 1988,
+   "Predecessor(s)": "C",
+   "Developer": "",
+   "Company": "C90 ISO/IEC 9899:1990"
+ },
+ {
+   "Name": "Hamilton C shell",
+   "Name": "Hamilton C shell",
+   "Year": 1988,
+   "Predecessor(s)": "C shell",
+   "Developer": "Nicole Hamilton",
+   "Company": ""
+ },
+ {
+   "Name": "Object REXX",
+   "Name": "Object REXX",
+   "Year": 1988,
+   "Predecessor(s)": "REXX, Smalltalk",
+   "Developer": "Simon C. Nash",
+   "Company": ""
+ },
+ {
+   "Name": "Octave",
+   "Name": "Octave",
+   "Year": 1988,
+   "Predecessor(s)": "MATLAB",
+   "Developer": "",
+   "Company": ""
+ },
+ {
+   "Name": "SPARK",
+   "Name": "SPARK",
+   "Year": 1988,
+   "Predecessor(s)": "Ada",
+   "Developer": "Bernard A. Carré",
+   "Company": ""
+ },
+ {
+   "Name": "STOS BASIC",
+   "Name": "STOS BASIC",
+   "Year": 1988,
+   "Predecessor(s)": "BASIC",
+   "Developer": "François Lionet, Constantin Sotiropoulos",
+   "Company": ""
+ },
+ {
+   "Name": "Tcl",
+   "Name": "Tcl",
+   "Year": 1988,
+   "Predecessor(s)": "Awk, Lisp",
+   "Developer": "John Ousterhout",
+   "Company": ""
+ },
+ {
+   "Name": "Wolfram",
+   "Name": "Wolfram",
+   "Year": 1988,
+   "Predecessor(s)": "none (unique language) though borrowing some syntax from C and certain functionalities of lists from LISP",
+   "Developer": "",
+   "Company": "Wolfram Research"
+ },
+ {
+   "Name": "Bash",
+   "Name": "Bash",
+   "Year": 1989,
+   "Predecessor(s)": "Bourne shell, C shell, KornShell",
+   "Developer": "Brian Fox",
+   "Company": ""
+ },
+ {
+   "Name": "LPC",
+   "Name": "LPC",
+   "Year": 1989,
+   "Predecessor(s)": "???",
+   "Developer": "Lars Pensjö",
+   "Company": ""
+ },
+ {
+   "Name": "Magik",
+   "Name": "Magik",
+   "Year": 1989,
+   "Predecessor(s)": "Smalltalk",
+   "Developer": "Arthur Chance",
+   "Company": "Smallworld Systems Ltd"
+ },
+ {
+   "Name": "Modula-3",
+   "Name": "Modula-3",
+   "Year": 1989,
+   "Predecessor(s)": "Modula-2",
+   "Developer": "Cardeli",
+   "Company": "DEC, Olivetti"
+ },
+ {
+   "Name": "PowerBASIC",
+   "Name": "PowerBASIC",
+   "Year": 1989,
+   "Predecessor(s)": "Turbo Basic",
+   "Developer": "Robert 'Bob' Zale",
+   "Company": ""
+ },
+ {
+   "Name": "Turbo Pascal OOP",
+   "Name": "Turbo Pascal OOP",
+   "Year": 1989,
+   "Predecessor(s)": "Turbo Pascal, Object Pascal",
+   "Developer": "Anders Hejlsberg",
+   "Company": "Borland"
+ },
+ {
+   "Name": "VisSim",
+   "Name": "VisSim",
+   "Year": 1989,
+   "Predecessor(s)": "???",
+   "Developer": "Peter Darnell",
+   "Company": "Visual Solutions"
+ },
+ {
+   "Name": "AMOS BASIC",
+   "Name": "AMOS BASIC",
+   "Year": 1990,
+   "Predecessor(s)": "STOS BASIC",
+   "Developer": "François Lionet, Constantin Sotiropoulos",
+   "Company": ""
+ },
+ {
+   "Name": "AMPL",
+   "Name": "AMPL",
+   "Year": 1990,
+   "Predecessor(s)": "???",
+   "Developer": "Robert Fourer, David Gay, Brian Kernighan",
+   "Company": "Bell Laboratories"
+ },
+ {
+   "Name": "EuLisp",
+   "Name": "EuLisp",
+   "Year": 1990,
+   "Predecessor(s)": "Common Lisp, Scheme",
+   "Developer": "",
+   "Company": ""
+ },
+ {
+   "Name": "Haskell",
+   "Name": "Haskell",
+   "Year": 1990,
+   "Predecessor(s)": "Miranda, Clean",
+   "Developer": "",
+   "Company": ""
+ },
+ {
+   "Name": "J",
+   "Name": "J",
+   "Year": 1990,
+   "Predecessor(s)": "APL, FP",
+   "Developer": "Kenneth E. Iverson, Roger Hui",
+   "Company": "Iverson Software"
+ },
+ {
+   "Name": "Object Oberon",
+   "Name": "Object Oberon",
+   "Year": 1990,
+   "Predecessor(s)": "Oberon",
+   "Developer": "H. Mössenböck, J. Templ, R. Griesemer",
+   "Company": ""
+ },
+ {
+   "Name": "SKILL",
+   "Name": "SKILL",
+   "Year": 1990,
+   "Predecessor(s)": "Franz Lisp",
+   "Developer": "T. J. Barnes",
+   "Company": "Cadence Design Systems"
+ },
+ {
+   "Name": "Sather",
+   "Name": "Sather",
+   "Year": 1990,
+   "Predecessor(s)": "Eiffel",
+   "Developer": "Steve Omohundro",
+   "Company": ""
+ },
+ {
+   "Name": "Z shell (zsh)",
+   "Name": "Z shell (zsh)",
+   "Year": 1990,
+   "Predecessor(s)": "ksh",
+   "Developer": "Paul Falstad",
+   "Company": "Princeton University"
+ },
+ {
+   "Name": "GNU E",
+   "Name": "GNU E",
+   "Year": 1991,
+   "Predecessor(s)": "C++",
+   "Developer": "David J. DeWitt, Michael J. Carey",
+   "Company": ""
+ },
+ {
+   "Name": "Oberon-2",
+   "Name": "Oberon-2",
+   "Year": 1991,
+   "Predecessor(s)": "Object Oberon",
+   "Developer": "Hanspeter Mössenböck, Niklaus Wirth",
+   "Company": ""
+ },
+ {
+   "Name": "Oz",
+   "Name": "Oz",
+   "Year": 1991,
+   "Predecessor(s)": "Prolog",
+   "Developer": "Gert Smolka",
+   "Company": ""
+ },
+ {
+   "Name": "Python",
+   "Name": "Python",
+   "Year": 1991,
+   "Predecessor(s)": "Perl, ABC, C",
+   "Developer": "Guido van Rossum",
+   "Company": ""
+ },
+ {
+   "Name": "Q",
+   "Name": "Q",
+   "Year": 1991,
+   "Predecessor(s)": "???",
+   "Developer": "Albert Gräf",
+   "Company": ""
+ },
+ {
+   "Name": "Visual Basic",
+   "Name": "Visual Basic",
+   "Year": 1991,
+   "Predecessor(s)": "QuickBASIC",
+   "Developer": "Alan Cooper",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Borland Pascal",
+   "Name": "Borland Pascal",
+   "Year": 1992,
+   "Predecessor(s)": "Turbo Pascal OOP",
+   "Developer": "Anders Hejlsberg",
+   "Company": "Borland"
+ },
+ {
+   "Name": "Dylan",
+   "Name": "Dylan",
+   "Year": 1992,
+   "Predecessor(s)": "Common Lisp, Scheme",
+   "Developer": "",
+   "Company": "Apple Computer"
+ },
+ {
+   "Name": "S-Lang",
+   "Name": "S-Lang",
+   "Year": 1992,
+   "Predecessor(s)": "PostScript",
+   "Developer": "John E. Davis",
+   "Company": ""
+ },
+ {
+   "Name": "Amiga E",
+   "Name": "Amiga E",
+   "Year": 1993,
+   "Predecessor(s)": "DEX, C, Modula-2",
+   "Developer": "Wouter van Oortmerssen",
+   "Company": ""
+ },
+ {
+   "Name": "AppleScript",
+   "Name": "AppleScript",
+   "Year": 1993,
+   "Predecessor(s)": "HyperTalk",
+   "Developer": "",
+   "Company": "Apple Computer"
+ },
+ {
+   "Name": "Brainfuck",
+   "Name": "Brainfuck",
+   "Year": 1993,
+   "Predecessor(s)": "P'′",
+   "Developer": "Urban Müller",
+   "Company": ""
+ },
+ {
+   "Name": "Euphoria",
+   "Name": "Euphoria",
+   "Year": 1993,
+   "Predecessor(s)": "SNOBOL, AWK, ABC, Icon, Python",
+   "Developer": "Robert Craig",
+   "Company": ""
+ },
+ {
+   "Name": "K",
+   "Name": "K",
+   "Year": 1993,
+   "Predecessor(s)": "APL, Lisp",
+   "Developer": "Arthur Whitney",
+   "Company": ""
+ },
+ {
+   "Name": "LiveCode Transcript",
+   "Name": "LiveCode Transcript",
+   "Year": 1993,
+   "Predecessor(s)": "HyperTalk",
+   "Developer": "",
+   "Company": "LiveCode Ltd."
+ },
+ {
+   "Name": "Lua",
+   "Name": "Lua",
+   "Year": 1993,
+   "Predecessor(s)": "Scheme, SNOBOL, Modula, CLU, C++",
+   "Developer": "Roberto Ierusalimschy",
+   "Company": "Tecgraf, PUC-Rio"
+ },
+ {
+   "Name": "NewtonScript",
+   "Name": "NewtonScript",
+   "Year": 1993,
+   "Predecessor(s)": "Self, Dylan",
+   "Developer": "Walter Smith",
+   "Company": ""
+ },
+ {
+   "Name": "R",
+   "Name": "R",
+   "Year": 1993,
+   "Predecessor(s)": "S",
+   "Developer": "Robert Gentleman, Ross Ihaka",
+   "Company": ""
+ },
+ {
+   "Name": "Self",
+   "Name": "Self",
+   "Year": 1993,
+   "Predecessor(s)": "Smalltalk",
+   "Developer": "",
+   "Company": "Sun Microsystems"
+ },
+ {
+   "Name": "ZPL",
+   "Name": "ZPL",
+   "Year": 1993,
+   "Predecessor(s)": "C",
+   "Developer": "Chamberlain",
+   "Company": "University of Washington"
+ },
+ {
+   "Name": "ANS Forth",
+   "Name": "ANS Forth",
+   "Year": 1994,
+   "Predecessor(s)": "Forth",
+   "Developer": "Elizabeth Rather",
+   "Company": ""
+ },
+ {
+   "Name": "ANSI Common Lisp",
+   "Name": "ANSI Common Lisp",
+   "Year": 1994,
+   "Predecessor(s)": "Common Lisp",
+   "Developer": "",
+   "Company": ""
+ },
+ {
+   "Name": "Claire",
+   "Name": "Claire",
+   "Year": 1994,
+   "Predecessor(s)": "Smalltalk, SETL, OPS5, Lisp, ML, C, LORE, LAURE",
+   "Developer": "Yves Caseau",
+   "Company": ""
+ },
+ {
+   "Name": "Pike",
+   "Name": "Pike",
+   "Year": 1994,
+   "Predecessor(s)": "LPC, C, μLPC",
+   "Developer": "Fredrik Hübinette",
+   "Company": "Linköping University"
+ },
+ {
+   "Name": "RAPID",
+   "Name": "RAPID",
+   "Year": 1994,
+   "Predecessor(s)": "ARLA",
+   "Developer": "",
+   "Company": "ABB"
+ },
+ {
+   "Name": "Ada 95",
+   "Name": "Ada 95",
+   "Year": 1995,
+   "Predecessor(s)": "Ada 83",
+   "Developer": "S. Tucker Taft",
+   "Company": "Intermetrics"
+ },
+ {
+   "Name": "Borland Delphi",
+   "Name": "Borland Delphi",
+   "Year": 1995,
+   "Predecessor(s)": "Borland Pascal",
+   "Developer": "Anders Hejlsberg",
+   "Company": "Borland"
+ },
+ {
+   "Name": "ColdFusion (CFML)",
+   "Name": "ColdFusion (CFML)",
+   "Year": 1995,
+   "Predecessor(s)": "???",
+   "Developer": "Allaire",
+   "Company": "Allaire"
+ },
+ {
+   "Name": "Java",
+   "Name": "Java",
+   "Year": 1995,
+   "Predecessor(s)": "C, Simula 67, C++, Smalltalk, Ada 83, Objective-C, Mesa",
+   "Developer": "James Gosling",
+   "Company": "Sun Microsystems"
+ },
+ {
+   "Name": "JavaScript",
+   "Name": "JavaScript",
+   "Year": 1995,
+   "Predecessor(s)": "LiveScript",
+   "Developer": "Brendan Eich",
+   "Company": "Netscape"
+ },
+ {
+   "Name": "LiveScript",
+   "Name": "LiveScript",
+   "Year": 1995,
+   "Predecessor(s)": "Self, C, Scheme",
+   "Developer": "Brendan Eich",
+   "Company": "Netscape"
+ },
+ {
+   "Name": "Mercury",
+   "Name": "Mercury",
+   "Year": 1995,
+   "Predecessor(s)": "Prolog, Hope, Haskell",
+   "Developer": "Zoltan Somogyi",
+   "Company": "University of Melbourne"
+ },
+ {
+   "Name": "PHP",
+   "Name": "PHP",
+   "Year": 1995,
+   "Predecessor(s)": "Perl",
+   "Developer": "Rasmus Lerdorf",
+   "Company": ""
+ },
+ {
+   "Name": "Racket",
+   "Name": "Racket",
+   "Year": 1995,
+   "Predecessor(s)": "Scheme, Lisp",
+   "Developer": "Matthew Flatt",
+   "Company": "Rice University"
+ },
+ {
+   "Name": "Ruby",
+   "Name": "Ruby",
+   "Year": 1995,
+   "Predecessor(s)": "Smalltalk, Perl",
+   "Developer": "Yukihiro Matsumoto",
+   "Company": ""
+ },
+ {
+   "Name": "CSS",
+   "Name": "CSS",
+   "Year": 1996,
+   "Predecessor(s)": "SGML",
+   "Developer": "Håkon Wium Lie, Bert Bos",
+   "Company": ""
+ },
+ {
+   "Name": "Curl",
+   "Name": "Curl",
+   "Year": 1996,
+   "Predecessor(s)": "Lisp, C++, Tcl/Tk, TeX, HTML",
+   "Developer": "David Kranz, Steve Ward, Chris Terman",
+   "Company": "MIT"
+ },
+ {
+   "Name": "Lasso",
+   "Name": "Lasso",
+   "Year": 1996,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "Blue World Communications"
+ },
+ {
+   "Name": "NetRexx",
+   "Name": "NetRexx",
+   "Year": 1996,
+   "Predecessor(s)": "REXX",
+   "Developer": "Mike Cowlishaw",
+   "Company": ""
+ },
+ {
+   "Name": "OCaml",
+   "Name": "OCaml",
+   "Year": 1996,
+   "Predecessor(s)": "Caml Light, Standard ML",
+   "Developer": "",
+   "Company": "INRIA"
+ },
+ {
+   "Name": "Perl Data Language (PDL)",
+   "Name": "Perl Data Language (PDL)",
+   "Year": 1996,
+   "Predecessor(s)": "APL, Perl",
+   "Developer": "Karl Glazebrook, Jarle Brinchmann, Tuomas Lukka, Christian Soeller",
+   "Company": ""
+ },
+ {
+   "Name": "Pure Data",
+   "Name": "Pure Data",
+   "Year": 1996,
+   "Predecessor(s)": "Max",
+   "Developer": "Miller Puckette",
+   "Company": ""
+ },
+ {
+   "Name": "VBScript",
+   "Name": "VBScript",
+   "Year": 1996,
+   "Predecessor(s)": "Visual Basic",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Component Pascal",
+   "Name": "Component Pascal",
+   "Year": 1997,
+   "Predecessor(s)": "Oberon-2",
+   "Developer": "",
+   "Company": "Oberon Microsystems"
+ },
+ {
+   "Name": "E",
+   "Name": "E",
+   "Year": 1997,
+   "Predecessor(s)": "Joule, Original-E",
+   "Developer": "Mark S. Miller",
+   "Company": ""
+ },
+ {
+   "Name": "ECMAScript",
+   "Name": "ECMAScript",
+   "Year": 1997,
+   "Predecessor(s)": "JavaScript",
+   "Developer": "",
+   "Company": "ECMA TC39-TG1"
+ },
+ {
+   "Name": "F-Script",
+   "Name": "F-Script",
+   "Year": 1997,
+   "Predecessor(s)": "Smalltalk, APL, Objective-C",
+   "Developer": "Philippe Mougin",
+   "Company": ""
+ },
+ {
+   "Name": "ISLISP",
+   "Name": "ISLISP",
+   "Year": 1997,
+   "Predecessor(s)": "Common Lisp",
+   "Developer": "",
+   "Company": "ISO Standard ISLISP"
+ },
+ {
+   "Name": "Pico",
+   "Name": "Pico",
+   "Year": 1997,
+   "Predecessor(s)": "Scheme",
+   "Developer": "",
+   "Company": "Free University of Brussels"
+ },
+ {
+   "Name": "REBOL",
+   "Name": "REBOL",
+   "Year": 1997,
+   "Predecessor(s)": "Self, Forth, Lisp, Logo",
+   "Developer": "Carl Sassenrath",
+   "Company": "Rebol Technologies"
+ },
+ {
+   "Name": "Squeak",
+   "Name": "Squeak",
+   "Year": 1997,
+   "Predecessor(s)": "Smalltalk-80, Self",
+   "Developer": "Alan Kay",
+   "Company": "Apple Computer"
+ },
+ {
+   "Name": "Tea",
+   "Name": "Tea",
+   "Year": 1997,
+   "Predecessor(s)": "Java, Scheme, Tcl",
+   "Developer": "Jorge Nunes",
+   "Company": ""
+ },
+ {
+   "Name": "ActionScript",
+   "Name": "ActionScript",
+   "Year": 1998,
+   "Predecessor(s)": "ECMAScript",
+   "Developer": "Gary Grossman",
+   "Company": ""
+ },
+ {
+   "Name": "Logtalk",
+   "Name": "Logtalk",
+   "Year": 1998,
+   "Predecessor(s)": "Prolog",
+   "Developer": "Paulo Moura",
+   "Company": "University of Coimbra"
+ },
+ {
+   "Name": "PureBasic",
+   "Name": "PureBasic",
+   "Year": 1998,
+   "Predecessor(s)": "BASIC",
+   "Developer": "Frederic Laboureur",
+   "Company": "Fantaisie Software"
+ },
+ {
+   "Name": "Standard C++",
+   "Name": "Standard C++",
+   "Year": 1998,
+   "Predecessor(s)": "C++, Standard C, C",
+   "Developer": "",
+   "Company": "ANSI/ISO Standard C++"
+ },
+ {
+   "Name": "UnrealScript",
+   "Name": "UnrealScript",
+   "Year": 1998,
+   "Predecessor(s)": "C++, Java",
+   "Developer": "Tim Sweeney",
+   "Company": "Epic Games"
+ },
+ {
+   "Name": "XSLT (+ XPath)",
+   "Name": "XSLT (+ XPath)",
+   "Year": 1998,
+   "Predecessor(s)": "DSSSL",
+   "Developer": "James Clark",
+   "Company": "W3C"
+ },
+ {
+   "Name": "Xojo (REALbasic at the time)",
+   "Name": "Xojo (REALbasic at the time)",
+   "Year": 1998,
+   "Predecessor(s)": "Visual Basic",
+   "Developer": "Andrew Barry",
+   "Company": "Xojo"
+ },
+ {
+   "Name": "C99",
+   "Name": "C99",
+   "Year": 1999,
+   "Predecessor(s)": "C90",
+   "Developer": "",
+   "Company": "C99 ISO/IEC 9899:1999"
+ },
+ {
+   "Name": "Gambas",
+   "Name": "Gambas",
+   "Year": 1999,
+   "Predecessor(s)": "Visual Basic, Java",
+   "Developer": "Benoît Minisini",
+   "Company": ""
+ },
+ {
+   "Name": "Game Maker Language (GML)",
+   "Name": "Game Maker Language (GML)",
+   "Year": 1999,
+   "Predecessor(s)": "Game Maker",
+   "Developer": "Mark Overmars",
+   "Company": ""
+ },
+ {
+   "Name": "Harbour",
+   "Name": "Harbour",
+   "Year": 1999,
+   "Predecessor(s)": "dBase, Clipper",
+   "Developer": "Antonio Linares",
+   "Company": ""
+ },
+ {
+   "Name": "C#",
+   "Name": "C#",
+   "Year": 2000,
+   "Predecessor(s)": "C, C++, Java, Delphi, Modula-2",
+   "Developer": "Anders Hejlsberg",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "DarkBASIC",
+   "Name": "DarkBASIC",
+   "Year": 2000,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "The Game Creators"
+ },
+ {
+   "Name": "Join Java",
+   "Name": "Join Java",
+   "Year": 2000,
+   "Predecessor(s)": "Java",
+   "Developer": "G Stewart von Itzstein",
+   "Company": ""
+ },
+ {
+   "Name": "AspectJ",
+   "Name": "AspectJ",
+   "Year": 2001,
+   "Predecessor(s)": "Java, Common Lisp",
+   "Developer": "Gregor Kiczales",
+   "Company": "Xerox PARC"
+ },
+ {
+   "Name": "D",
+   "Name": "D",
+   "Year": 2001,
+   "Predecessor(s)": "C, C++, C#, Java",
+   "Developer": "Walter Bright",
+   "Company": "Digital Mars"
+ },
+ {
+   "Name": "GDScript (GDS)",
+   "Name": "GDScript (GDS)",
+   "Year": 2001,
+   "Predecessor(s)": "Godot",
+   "Developer": "Juan Linietsky, Ariel Manzur",
+   "Company": "OKAM Studio"
+ },
+ {
+   "Name": "Joy",
+   "Name": "Joy",
+   "Year": 2001,
+   "Predecessor(s)": "FP, Forth",
+   "Developer": "Manfred von Thun",
+   "Company": ""
+ },
+ {
+   "Name": "Processing",
+   "Name": "Processing",
+   "Year": 2001,
+   "Predecessor(s)": "Java, C, C++",
+   "Developer": "Casey Reasm Benjamin Fry",
+   "Company": ""
+ },
+ {
+   "Name": "Shakespeare Programming Language",
+   "Name": "Shakespeare Programming Language",
+   "Year": 2001,
+   "Predecessor(s)": "???",
+   "Developer": "Jon Åslund, Karl Hasselström",
+   "Company": ""
+ },
+ {
+   "Name": "Visual Basic .NET",
+   "Name": "Visual Basic .NET",
+   "Year": 2001,
+   "Predecessor(s)": "Visual Basic",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Gosu",
+   "Name": "Gosu",
+   "Year": 2002,
+   "Predecessor(s)": "GScript",
+   "Developer": "",
+   "Company": "Guidewire Software"
+ },
+ {
+   "Name": "Io",
+   "Name": "Io",
+   "Year": 2002,
+   "Predecessor(s)": "Self, NewtonScript, Lua",
+   "Developer": "Steve Dekorte",
+   "Company": ""
+ },
+ {
+   "Name": "Scratch",
+   "Name": "Scratch",
+   "Year": 2002,
+   "Predecessor(s)": "Logo, Smalltalk, Squeak, E-Toys, HyperCard, AgentSheets, StarLogo, Tweak",
+   "Developer": "Mitchel Resnick, John Maloney, Natalie Rusk, Evelyn Eastmond, Tammy Stern,  Amon Millner, Jay Silver, Brian Silverman",
+   "Company": ""
+ },
+ {
+   "Name": "Boo",
+   "Name": "Boo",
+   "Year": 2003,
+   "Predecessor(s)": "Python, C#",
+   "Developer": "Rodrigo B. de Oliveira",
+   "Company": ""
+ },
+ {
+   "Name": "C++03",
+   "Name": "C++03",
+   "Year": 2003,
+   "Predecessor(s)": "C++, Standard C, C",
+   "Developer": "",
+   "Company": "C++ ISO/IEC 14882:2003"
+ },
+ {
+   "Name": "Factor",
+   "Name": "Factor",
+   "Year": 2003,
+   "Predecessor(s)": "Joy, Forth, Lisp",
+   "Developer": "Slava Pestov",
+   "Company": ""
+ },
+ {
+   "Name": "Nemerle",
+   "Name": "Nemerle",
+   "Year": 2003,
+   "Predecessor(s)": "C#, ML, Haskell",
+   "Developer": "",
+   "Company": "University of Wrocław"
+ },
+ {
+   "Name": "Nix",
+   "Name": "Nix",
+   "Year": 2003,
+   "Predecessor(s)": "Miranda/SASL, Haskell",
+   "Developer": "Eelco Dolstra",
+   "Company": ""
+ },
+ {
+   "Name": "Scala",
+   "Name": "Scala",
+   "Year": 2003,
+   "Predecessor(s)": "Smalltalk, Java, Haskell, Standard ML, OCaml",
+   "Developer": "Martin Odersky",
+   "Company": ""
+ },
+ {
+   "Name": "Squirrel",
+   "Name": "Squirrel",
+   "Year": 2003,
+   "Predecessor(s)": "Lua",
+   "Developer": "Alberto Demichelis",
+   "Company": ""
+ },
+ {
+   "Name": "Alma-0",
+   "Name": "Alma-0",
+   "Year": 2004,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Krzysztof Apt",
+   "Company": "Centrum Wiskunde & Informatica"
+ },
+ {
+   "Name": "FreeBASIC",
+   "Name": "FreeBASIC",
+   "Year": 2004,
+   "Predecessor(s)": "QBasic",
+   "Developer": "Andre Victor",
+   "Company": ""
+ },
+ {
+   "Name": "Groovy",
+   "Name": "Groovy",
+   "Year": 2004,
+   "Predecessor(s)": "Java",
+   "Developer": "James Strachan",
+   "Company": ""
+ },
+ {
+   "Name": "Little b",
+   "Name": "Little b",
+   "Year": 2004,
+   "Predecessor(s)": "Lisp",
+   "Developer": "Aneil Mallavarapu",
+   "Company": "Harvard Medical School"
+ },
+ {
+   "Name": "Subtext",
+   "Name": "Subtext",
+   "Year": 2004,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Jonathan Edwards",
+   "Company": ""
+ },
+ {
+   "Name": "F#",
+   "Name": "F#",
+   "Year": 2005,
+   "Predecessor(s)": "OCaml, C#, Haskell",
+   "Developer": "Don Syme",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Fantom",
+   "Name": "Fantom",
+   "Year": 2005,
+   "Predecessor(s)": "C#, Scala, Ruby, Erlang",
+   "Developer": "Brian Frank, Andy Frank",
+   "Company": ""
+ },
+ {
+   "Name": "Haxe",
+   "Name": "Haxe",
+   "Year": 2005,
+   "Predecessor(s)": "ActionScript, OCaml, Java",
+   "Developer": "Nicolas Cannasse",
+   "Company": ""
+ },
+ {
+   "Name": "HolyC",
+   "Name": "HolyC",
+   "Year": 2005,
+   "Predecessor(s)": "C, C++",
+   "Developer": "Terry A. Davis",
+   "Company": ""
+ },
+ {
+   "Name": "Oxygene",
+   "Name": "Oxygene",
+   "Year": 2005,
+   "Predecessor(s)": "Object Pascal, C#",
+   "Developer": "RemObjects Software",
+   "Company": ""
+ },
+ {
+   "Name": "PWCT",
+   "Name": "PWCT",
+   "Year": 2005,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Mahmoud Samir Fayed",
+   "Company": ""
+ },
+ {
+   "Name": "Seed7",
+   "Name": "Seed7",
+   "Year": 2005,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Thomas Mertes",
+   "Company": ""
+ },
+ {
+   "Name": "fish",
+   "Name": "fish",
+   "Year": 2005,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Thomas Mertes",
+   "Company": ""
+ },
+ {
+   "Name": "Cobra",
+   "Name": "Cobra",
+   "Year": 2006,
+   "Predecessor(s)": "Python, C#, Eiffel, Objective-C",
+   "Developer": "Chuck Esterbrook",
+   "Company": ""
+ },
+ {
+   "Name": "Fortress",
+   "Name": "Fortress",
+   "Year": 2006,
+   "Predecessor(s)": "Scala, ML, Haskell",
+   "Developer": "Guy L. Steele Jr.",
+   "Company": ""
+ },
+ {
+   "Name": "OptimJ",
+   "Name": "OptimJ",
+   "Year": 2006,
+   "Predecessor(s)": "Java",
+   "Developer": "",
+   "Company": "Ateji"
+ },
+ {
+   "Name": "Vala",
+   "Name": "Vala",
+   "Year": 2006,
+   "Predecessor(s)": "C#",
+   "Developer": "",
+   "Company": "GNOME"
+ },
+ {
+   "Name": "Windows PowerShell",
+   "Name": "Windows PowerShell",
+   "Year": 2006,
+   "Predecessor(s)": "C#, ksh, Perl, CL, DCL, SQL",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Ada 2005",
+   "Name": "Ada 2005",
+   "Year": 2007,
+   "Predecessor(s)": "Ada 95",
+   "Developer": "",
+   "Company": "Ada Rapporteur Group"
+ },
+ {
+   "Name": "Agda",
+   "Name": "Agda",
+   "Year": 2007,
+   "Predecessor(s)": "Rocq, Epigram, Haskell",
+   "Developer": "Ulf Norell",
+   "Company": ""
+ },
+ {
+   "Name": "Clojure",
+   "Name": "Clojure",
+   "Year": 2007,
+   "Predecessor(s)": "Lisp, ML, Haskell, Erlang",
+   "Developer": "Rich Hickey",
+   "Company": ""
+ },
+ {
+   "Name": "LOLCODE",
+   "Name": "LOLCODE",
+   "Year": 2007,
+   "Predecessor(s)": "none (unique language)",
+   "Developer": "Adam Lindsay",
+   "Company": ""
+ },
+ {
+   "Name": "Oberon-07",
+   "Name": "Oberon-07",
+   "Year": 2007,
+   "Predecessor(s)": "Oberon",
+   "Developer": "Niklaus Wirth",
+   "Company": ""
+ },
+ {
+   "Name": "QB64",
+   "Name": "QB64",
+   "Year": 2007,
+   "Predecessor(s)": "QBasic",
+   "Developer": "Rob Galleon",
+   "Company": "QB64Team"
+ },
+ {
+   "Name": "Swift (parallel scripting language)",
+   "Name": "Swift (parallel scripting language)",
+   "Year": 2007,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "University of Chicago"
+ },
+ {
+   "Name": "Genie",
+   "Name": "Genie",
+   "Year": 2008,
+   "Predecessor(s)": "Python, Boo, D, Object Pascal",
+   "Developer": "Jamie McCracken",
+   "Company": ""
+ },
+ {
+   "Name": "Nim",
+   "Name": "Nim",
+   "Year": 2008,
+   "Predecessor(s)": "Python, Lisp, Object Pascal",
+   "Developer": "Andreas Rumpf",
+   "Company": ""
+ },
+ {
+   "Name": "Pure",
+   "Name": "Pure",
+   "Year": 2008,
+   "Predecessor(s)": "Q",
+   "Developer": "Albert Gräf",
+   "Company": ""
+ },
+ {
+   "Name": "Chapel",
+   "Name": "Chapel",
+   "Year": 2009,
+   "Predecessor(s)": "HPF, ZPL",
+   "Developer": "Brad Chamberlain",
+   "Company": "Cray Inc."
+ },
+ {
+   "Name": "CoffeeScript",
+   "Name": "CoffeeScript",
+   "Year": 2009,
+   "Predecessor(s)": "JavaScript, Ruby, Python, Haskell",
+   "Developer": "Jeremy Ashkenas",
+   "Company": ""
+ },
+ {
+   "Name": "Dafny",
+   "Name": "Dafny",
+   "Year": 2009,
+   "Predecessor(s)": "Java, Spec#",
+   "Developer": "K. Rustan M. Leino",
+   "Company": ""
+ },
+ {
+   "Name": "Go",
+   "Name": "Go",
+   "Year": 2009,
+   "Predecessor(s)": "C, Oberon, Limbo, Smalltalk",
+   "Developer": "",
+   "Company": "Google"
+ },
+ {
+   "Name": "Idris",
+   "Name": "Idris",
+   "Year": 2009,
+   "Predecessor(s)": "Haskell, Agda, Rocq",
+   "Developer": "Edwin Brady",
+   "Company": ""
+ },
+ {
+   "Name": "Parasail",
+   "Name": "Parasail",
+   "Year": 2009,
+   "Predecessor(s)": "Modula, Ada, Pascal, ML",
+   "Developer": "S. Tucker Taft",
+   "Company": "AdaCore"
+ },
+ {
+   "Name": "Whiley",
+   "Name": "Whiley",
+   "Year": 2009,
+   "Predecessor(s)": "Java, C, Python",
+   "Developer": "David J. Pearce",
+   "Company": ""
+ },
+ {
+   "Name": "Rust",
+   "Name": "Rust",
+   "Year": 2010,
+   "Predecessor(s)": "Alef, C++, Camlp4, Erlang, Hermes, Limbo, Napier, Napier88, Newsqueak, NIL, Sather, Standard ML",
+   "Developer": "Graydon Hoare",
+   "Company": "Mozilla"
+ },
+ {
+   "Name": "C++11",
+   "Name": "C++11",
+   "Year": 2011,
+   "Predecessor(s)": "C++, Standard C, C",
+   "Developer": "",
+   "Company": "C++ ISO/IEC 14882:2011"
+ },
+ {
+   "Name": "C11",
+   "Name": "C11",
+   "Year": 2011,
+   "Predecessor(s)": "C99",
+   "Developer": "",
+   "Company": "C11 ISO/IEC 9899:2011"
+ },
+ {
+   "Name": "Ceylon",
+   "Name": "Ceylon",
+   "Year": 2011,
+   "Predecessor(s)": "Java",
+   "Developer": "Gavin King",
+   "Company": "Red Hat"
+ },
+ {
+   "Name": "Dart",
+   "Name": "Dart",
+   "Year": 2011,
+   "Predecessor(s)": "Java, JavaScript, CoffeeScript, Go",
+   "Developer": "",
+   "Company": "Google"
+ },
+ {
+   "Name": "Kotlin",
+   "Name": "Kotlin",
+   "Year": 2011,
+   "Predecessor(s)": "Java, Scala, Groovy, C#, Gosu",
+   "Developer": "",
+   "Company": "JetBrains"
+ },
+ {
+   "Name": "Opa",
+   "Name": "Opa",
+   "Year": 2011,
+   "Predecessor(s)": "OCaml, Erlang, JavaScript",
+   "Developer": "",
+   "Company": "MLstate"
+ },
+ {
+   "Name": "Red",
+   "Name": "Red",
+   "Year": 2011,
+   "Predecessor(s)": "Rebol, Scala, Lua",
+   "Developer": "Nenad Rakočević",
+   "Company": ""
+ },
+ {
+   "Name": "Ada 2012",
+   "Name": "Ada 2012",
+   "Year": 2012,
+   "Predecessor(s)": "Ada 2005",
+   "Developer": "",
+   "Company": "ARA, Ada Europe"
+ },
+ {
+   "Name": "Elixir",
+   "Name": "Elixir",
+   "Year": 2012,
+   "Predecessor(s)": "Erlang, Ruby, Clojure",
+   "Developer": "José Valim",
+   "Company": ""
+ },
+ {
+   "Name": "Elm",
+   "Name": "Elm",
+   "Year": 2012,
+   "Predecessor(s)": "Haskell, Standard ML, OCaml, F#",
+   "Developer": "Evan Czaplicki",
+   "Company": ""
+ },
+ {
+   "Name": "Julia",
+   "Name": "Julia",
+   "Year": 2012,
+   "Predecessor(s)": "MATLAB, Lisp, C, Fortran, Wolfram, Python, Perl, R, Ruby, Lua",
+   "Developer": "Jeff Bezanson, Stefan Karpinski, Viral Shah, Alan Edelman",
+   "Company": "MIT"
+ },
+ {
+   "Name": "P",
+   "Name": "P",
+   "Year": 2012,
+   "Predecessor(s)": "???",
+   "Developer": "Vivek Gupta, Ethan Jackson, Shaz Qadeer, Sriram Rajamani",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "P4",
+   "Name": "P4",
+   "Year": 2012,
+   "Predecessor(s)": "???",
+   "Developer": "",
+   "Company": "P4 Language Consortium"
+ },
+ {
+   "Name": "TypeScript",
+   "Name": "TypeScript",
+   "Year": 2012,
+   "Predecessor(s)": "JavaScript, CoffeeScript",
+   "Developer": "Anders Hejlsberg",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Cuneiform",
+   "Name": "Cuneiform",
+   "Year": 2013,
+   "Predecessor(s)": "Swift (the parallel scripting language)",
+   "Developer": "Jörgen Brandt",
+   "Company": ""
+ },
+ {
+   "Name": "Hopscotch",
+   "Name": "Hopscotch",
+   "Year": 2013,
+   "Predecessor(s)": "Scratch",
+   "Developer": "",
+   "Company": "Hopscotch Technologies"
+ },
+ {
+   "Name": "Hy",
+   "Name": "Hy",
+   "Year": 2013,
+   "Predecessor(s)": "Python, Lisp, Clojure",
+   "Developer": "Paul Tagliamonte",
+   "Company": ""
+ },
+ {
+   "Name": "Lean",
+   "Name": "Lean",
+   "Year": 2013,
+   "Predecessor(s)": "ML, Rocq, Haskell, Agda",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "PureScript",
+   "Name": "PureScript",
+   "Year": 2013,
+   "Predecessor(s)": "Haskell",
+   "Developer": "Phil Freeman",
+   "Company": ""
+ },
+ {
+   "Name": "C++14",
+   "Name": "C++14",
+   "Year": 2014,
+   "Predecessor(s)": "C++11, Standard C, C",
+   "Developer": "",
+   "Company": "C++ ISO/IEC 14882:2014"
+ },
+ {
+   "Name": "Crystal",
+   "Name": "Crystal",
+   "Year": 2014,
+   "Predecessor(s)": "Ruby, C, Rust, Go, C#, Python",
+   "Developer": "Ary Borenszweig",
+   "Company": "Manas Technology Solutions"
+ },
+ {
+   "Name": "Hack",
+   "Name": "Hack",
+   "Year": 2014,
+   "Predecessor(s)": "PHP",
+   "Developer": "",
+   "Company": "Facebook"
+ },
+ {
+   "Name": "Solidity",
+   "Name": "Solidity",
+   "Year": 2014,
+   "Predecessor(s)": "JavaScript, C++, Python",
+   "Developer": "Gavin Wood",
+   "Company": "Ethereum"
+ },
+ {
+   "Name": "Swift",
+   "Name": "Swift",
+   "Year": 2014,
+   "Predecessor(s)": "Objective-C, Rust, Haskell, Ruby, Python, C#, CLU",
+   "Developer": "",
+   "Company": "Apple Inc."
+ },
+ {
+   "Name": "Raku",
+   "Name": "Raku",
+   "Year": 2015,
+   "Predecessor(s)": "Perl, Haskell, Python, Ruby",
+   "Developer": "Larry Wall",
+   "Company": "The Rakudo Team"
+ },
+ {
+   "Name": "Zig",
+   "Name": "Zig",
+   "Year": 2015,
+   "Predecessor(s)": "C, C++, LLVM IR, Go, Rust",
+   "Developer": "Andrew Kelley",
+   "Company": ""
+ },
+ {
+   "Name": "Reason",
+   "Name": "Reason",
+   "Year": 2016,
+   "Predecessor(s)": "JavaScript, OCaml",
+   "Developer": "Jordan Walke",
+   "Company": ""
+ },
+ {
+   "Name": "Ring",
+   "Name": "Ring",
+   "Year": 2016,
+   "Predecessor(s)": "Lua, Python, Ruby, C, C#, BASIC, QML, xBase, Supernova",
+   "Developer": "Mahmoud Samir Fayed",
+   "Company": ""
+ },
+ {
+   "Name": "AssemblyScript",
+   "Name": "AssemblyScript",
+   "Year": 2017,
+   "Predecessor(s)": "JavaScript, TypeScript, WebAssembly",
+   "Developer": "",
+   "Company": "The AssemblyScript Project"
+ },
+ {
+   "Name": "Ballerina",
+   "Name": "Ballerina",
+   "Year": 2017,
+   "Predecessor(s)": "Java, JavaScript, Go, Rust, C#",
+   "Developer": "",
+   "Company": "WSO2, open source"
+ },
+ {
+   "Name": "C++17",
+   "Name": "C++17",
+   "Year": 2017,
+   "Predecessor(s)": "C++14, Standard C, C",
+   "Developer": "",
+   "Company": "C++ ISO/IEC 14882:2017"
+ },
+ {
+   "Name": "Q#",
+   "Name": "Q#",
+   "Year": 2017,
+   "Predecessor(s)": "C#, F#, Python",
+   "Developer": "",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "C17",
+   "Name": "C17",
+   "Year": 2018,
+   "Predecessor(s)": "C11",
+   "Developer": "",
+   "Company": "ISO/IEC 9899:2018"
+ },
+ {
+   "Name": "Fortran 2018",
+   "Name": "Fortran 2018",
+   "Year": 2018,
+   "Predecessor(s)": "Fortran 2008",
+   "Developer": "",
+   "Company": "ISO/IEC JTC1/SC22/WG5 N2150:2018"
+ },
+ {
+   "Name": "Bosque",
+   "Name": "Bosque",
+   "Year": 2019,
+   "Predecessor(s)": "JavaScript, TypeScript, ML",
+   "Developer": "Mark Marron",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "V (Vlang)",
+   "Name": "V (Vlang)",
+   "Year": 2019,
+   "Predecessor(s)": "C, Go, Kotlin, Oberon, Python, Rust, Swift",
+   "Developer": "Alexander Medvednikov",
+   "Company": ""
+ },
+ {
+   "Name": "Microsoft Power Fx",
+   "Name": "Microsoft Power Fx",
+   "Year": 2021,
+   "Predecessor(s)": "Excel formulas",
+   "Developer": "Vijay Mital, Robin Abraham, Shon Katzenberger, Darryl Rubin",
+   "Company": "Microsoft"
+ },
+ {
+   "Name": "Carbon",
+   "Name": "Carbon",
+   "Year": 2022,
+   "Predecessor(s)": "C++, Rust, Swift, Zig, Kotlin, Haskell",
+   "Developer": "",
+   "Company": "Google"
+ },
+ {
+   "Name": "Mojo",
+   "Name": "Mojo",
+   "Year": 2023,
+   "Predecessor(s)": "Python, Rust, Cython, C, C++, CUDA, Swift, Zig",
+   "Developer": "",
+   "Company": "Modular"
+ },
+ {
+   "Name": "Gleam",
+   "Name": "Gleam",
+   "Year": 2024,
+   "Predecessor(s)": "Erlang, Elixir, Elm, Rust, Go, OCaml, JavaScript",
+   "Developer": "Louis Pilfold",
+   "Company": "Fly.io"
+ }
+]

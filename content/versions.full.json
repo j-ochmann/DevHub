@@ -10,17 +10,23 @@
       "keyword.await"
     ],
     "paradigms": [
-      "paradigm.oop",
-      "paradigm.object-based"
+      "paradigm.oop"
     ]
   },
   "proglang.csharp.08": {
     "id": "proglang.csharp.08",
-    "features": [],
+    "features": [
+      "feature.oop.class.abstract",
+      "feature.oop.method.overriding"
+    ],
     "keywords": [
+      "keyword.async",
       "keyword.await"
     ],
-    "paradigms": []
+    "paradigms": [
+      "paradigm.oop",
+      "paradigm.object-based"
+    ]
   },
   "proglang.java.17": {
     "id": "proglang.java.17",
@@ -36,8 +42,14 @@
   },
   "proglang.kotlin.01": {
     "id": "proglang.kotlin.01",
-    "features": [],
+    "features": [
+      "feature.oop.class.abstract",
+      "feature.oop.method.overriding"
+    ],
     "keywords": [],
-    "paradigms": []
+    "paradigms": [
+      "paradigm.oop",
+      "paradigm.object-based"
+    ]
   }
 }

@@ -37,6 +37,7 @@ function loadData(directoryPath) {
     const jsonObject = readJson(filePath);
     dataMap[jsonObject.id] = jsonObject;
   }
+  //console.log(dataMap);
   return dataMap;
 }
 
@@ -55,52 +56,61 @@ function checkExists(id) {
 }
 
 // --- MERGE ADD & INHERIT ---
-function mergeVersion(id, seen = new Set()) {
-  if (!versions[id]) throw new Error(`Version not found: ${id}`);
-  if (seen.has(id)) throw new Error(`Cyclic inheritance detected at: ${id}`);
-  seen.add(id);
-
-  const v = versions[id];
-  let result = { id, features: [], keywords: [], paradigms: [] };
-
-  // inherit first
-  if (v.inherit) {
-    for (const parentId of v.inherit) {
-      const parentMerged = mergeVersion(parentId, seen);
-      result.features.push(...parentMerged.features);
-      result.keywords.push(...parentMerged.keywords);
-      result.paradigms.push(...parentMerged.paradigms);
-    }
+function mergeAdds(versionId, stack = []) {
+  if (stack.includes(versionId)) {
+    throw new Error(`Cyclic inheritance detected: ${stack.join(" -> ")} -> ${versionId}`);
   }
 
-  // add
-  if (v.add) {
-    for (const item of v.add) {
-      checkExists(item);
-      if (item.startsWith("feature.") && !result.features.includes(item)) result.features.push(item);
-      if (item.startsWith("keyword.") && !result.keywords.includes(item)) result.keywords.push(item);
-      if (item.startsWith("paradigm.") && !result.paradigms.includes(item)) result.paradigms.push(item);
-    }
+  const v = versions[versionId];
+  if (!v) {
+    throw new Error(`Version not found: ${versionId}`);
   }
 
-  // remove
-  if (v.remove) {
-    for (const item of v.remove) {
-      if (item.startsWith("feature.")) result.features = result.features.filter(f => f !== item);
-      if (item.startsWith("keyword.")) result.keywords = result.keywords.filter(f => f !== item);
-      if (item.startsWith("paradigm.")) result.paradigms = result.paradigms.filter(f => f !== item);
-    }
+  // ✅ BASELINE STATE – always exists
+  let result = {
+    id: v.id,
+    features: [],
+    keywords: [],
+    paradigms: []
+  };
+
+  // ✅ INHERITANCE ONLY IF IT EXISTS
+  if (v.extends) {
+    const parent = mergeAdds(v.extends, [...stack, versionId]);
+
+    result.features.push(...parent.features);
+    result.keywords.push(...parent.keywords);
+    result.paradigms.push(...parent.paradigms);
   }
+
+  // ✅ ADD (namespace-driven)
+  (v.add || []).forEach(id => {
+    checkExists(id);
+
+    if (id.startsWith("feature.")) result.features.push(id);
+    else if (id.startsWith("keyword.")) result.keywords.push(id);
+    else if (id.startsWith("paradigm.")) result.paradigms.push(id);
+    else {
+      throw new Error(`Unknown add reference: ${id}`);
+    }
+  });
+
+  // ✅ DEDUP
+  result.features = [...new Set(result.features)];
+  result.keywords = [...new Set(result.keywords)];
+  result.paradigms = [...new Set(result.paradigms)];
 
   return result;
 }
 
 // --- BUILD FULL VERSIONS ---
 const versionsFull = {};
-for (const vid of Object.keys(versions)) {
-  versionsFull[vid] = mergeVersion(vid);
+for (const ID of Object.keys(versions)) {
+  console.log(ID);
+  versionsFull[ID] = mergeAdds(ID);
 }
 
+console.log(versionsFull);
 // --- EXPORT FRONTEND JSON ---
 fs.writeFileSync(VERSIONS_FULL_JSON, JSON.stringify(versionsFull, null, 2), "utf8");
 console.log(`✅ Versions full export written to ${VERSIONS_FULL_JSON}`);
