@@ -2,8 +2,8 @@
 
 Podmíněné vykonání kódu při splnění podmínky.
 
-### abap
-```abap
+### ABAP
+```ABAP
 REPORT ZEXAMPLE.
 
   DATA x TYPE i VALUE 0.
@@ -13,8 +13,8 @@ REPORT ZEXAMPLE.
   ENDIF.
 ```
 
-### cobol85
-```cobol
+### COBOL
+```COBOL
 IDENTIFICATION DIVISION.
 PROGRAM-ID. EXAMPLE.
 
@@ -29,8 +29,8 @@ PROCEDURE DIVISION.
   STOP RUN.
 ```
 
-### cpp
-```cpp
+### C++
+```C++
 #include <iostream>
 
 int main()
@@ -44,26 +44,25 @@ int main()
 }
 ```
 
-### csharp
-```csharp
+### C#
+```C#
 if (x > 0)
 {
     Console.WriteLine(x);
 }
 ```
 
-### python
-```python
+### Python
+```Python
 if x > 0:
     print(x)
 ```
 
-### fortran77
-```fortran
+### Fortran
+```Fortran
       PROGRAM EXAMPLE
   IF (X > 0) THEN
     PRINT *, X
   ENDIF
       END
 ```
-
