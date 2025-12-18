@@ -1,0 +1,31 @@
+{
+    "asm47": {
+        "id": { 
+            "family": "assembly",
+            "language": "assembly",
+            "version": "asm47",
+            "parent": "machine_code",  
+            "influenced_by_ids": [ "machine_code", "eniacsc" ]
+        },
+        "date": { "year": 1947, "month": null, "day": null },
+        "name": [ "Assembly ARC2", "Assembly language (ASM)" ],
+        "desc": [ "", "Nízkoúrovňový zápis instrukcí procesoru" ],
+        "paradigms": [ "imperative", "unstructured", "meta" ],
+        "typings": [ "none" ],
+        "developers": [ "Kathleen Booth" ],
+        "organisations": [ "Birkbeck College", "Princeton University" ],
+        "extensions": [ "asm", "s", "S", "inc", "wla", "SRC" ],
+        "implementations": [ "" ],
+        "dialects": [ "" ],
+        "purpose": "Low-level system programming",
+        "scope": "",
+        "platform": "hw",
+        "wiki": "Assembly_language",
+        "website": "",
+        "generation": 2,
+        "add": [
+            "checksums.keywords.18",
+            "organisation.Microsoft"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "key": {
+        "id": { 
+            "family": "",
+            "language": "",
+            "version": "",
+            "parent": "",  
+            "influenced_by_ids": [ "", "" ]
+        },
+        "date": { "year": null, "month": null, "day": null },
+        "name": [ "", "" ],
+        "desc": [ "", "" ],
+        "paradigms": [ "", "", "" ],
+        "typings": [ "" ],
+        "developers": [ "", "" ],
+        "organisations": [ "", "" ],
+        "extensions": [  ],
+        "implementations": [ "" ],
+        "dialects": [ "" ],
+        "purpose": "",
+        "scope": "",
+        "platform": "",
+        "wiki": "",
+        "website": "",
+        "generation": null,
+        "add": [
+            "",
+            ""
+        ]
+    }
+}

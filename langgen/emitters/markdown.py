@@ -3,13 +3,23 @@ class MarkdownEmitter:
         self.code_emitters = code_emitters
 
     def emit_program(self, ast):
-        sections = []
+        lines = []
 
+        # ---- kompletní program ----
+        lines.append("## Kompletní program\n")
+        for lang, emitter in self.code_emitters.items():
+            lines.append(f"### {lang.capitalize()}")
+            lines.append("```" + lang)
+            lines.append(emitter.emit(ast))
+            lines.append("```")
+            lines.append("")
+
+        # ---- učebnicové sekce ----
         for node in ast["body"]:
             if node["type"] == "if":
-                sections.append(self.emit_if(node))
+                lines.append(self.emit_if(node))
 
-        return "\n\n".join(sections)
+        return "\n".join(lines)
 
     def emit_if(self, node):
         out = []

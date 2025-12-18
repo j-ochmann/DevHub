@@ -22,7 +22,7 @@ class CppEmitter(Emitter):
             lines.append(self.emit(stmt, level + 1))
 
         lines.append("")
-        lines.append(f"{self.i(level + 1)}return 0;")
+        lines.append(f"{self.indent(level + 1)}return 0;")
         lines.append("}")
         return "\n".join(lines)
 
@@ -30,14 +30,14 @@ class CppEmitter(Emitter):
 
     def emit_var_decl(self, node, level):
         # Zatím jednoduché: int
-        return f"{self.i(level)}int {node['name']} = {self.emit(node['value'])};"
+        return f"{self.indent(level)}int {node['name']} = {self.emit(node['value'])};"
 
     def emit_assign(self, node, level):
-        return f"{self.i(level)}{node['target']} = {self.emit(node['value'])};"
+        return f"{self.indent(level)}{node['target']} = {self.emit(node['value'])};"
 
     def emit_print(self, node, level):
         return (
-            f"{self.i(level)}std::cout << "
+            f"{self.indent(level)}std::cout << "
             f"{self.emit(node['value'])} << std::endl;"
         )
 
@@ -45,20 +45,20 @@ class CppEmitter(Emitter):
         lines = []
         cond = self.emit(node["condition"])
 
-        lines.append(f"{self.i(level)}if ({cond})")
-        lines.append(f"{self.i(level)}{{")
+        lines.append(f"{self.indent(level)}if ({cond})")
+        lines.append(f"{self.indent(level)}{{")
 
         for stmt in node["then"]:
             lines.append(self.emit(stmt, level + 1))
 
-        lines.append(f"{self.i(level)}}}")
+        lines.append(f"{self.indent(level)}}}")
 
         if node.get("else"):
-            lines.append(f"{self.i(level)}else")
-            lines.append(f"{self.i(level)}{{")
+            lines.append(f"{self.indent(level)}else")
+            lines.append(f"{self.indent(level)}{{")
             for stmt in node["else"]:
                 lines.append(self.emit(stmt, level + 1))
-            lines.append(f"{self.i(level)}}}")
+            lines.append(f"{self.indent(level)}}}")
 
         return "\n".join(lines)
 

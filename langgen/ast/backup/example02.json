@@ -74,52 +74,9 @@
       "else": null
     },
     {
-      "type": "var_decl",
-      "name": "i",
-      "value": {
-        "type": "literal",
-        "value": 1
-      }
-    },
-    {
       "type": "while",
-      "condition": {
-        "type": "binary",
-        "op": "<",
-        "left": {
-          "type": "identifier",
-          "name": "i"
-        },
-        "right": {
-          "type": "literal",
-          "value": 6
-        }
-      },
-      "body": [
-        {
-          "type": "print",
-          "value": {
-            "type": "identifier",
-            "name": "i"
-          }
-        },
-        {
-          "type": "assign",
-          "target": "i",
-          "value": {
-            "type": "binary",
-            "op": "Add",
-            "left": {
-              "type": "identifier",
-              "name": "i"
-            },
-            "right": {
-              "type": "literal",
-              "value": 1
-            }
-          }
-        }
-      ]
+      "condition": { },
+      "body": [ "" ]
     }
   ]
 }

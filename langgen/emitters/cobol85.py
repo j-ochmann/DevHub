@@ -11,14 +11,14 @@ class Cobol85Emitter(Emitter):
         lines.append("DATA DIVISION.")
         lines.append("WORKING-STORAGE SECTION.")
         # deklarace proměnných jednoduchá, integer
-        lines.append(f"{self.i(1)}01 X        PIC 9(4) VALUE 0.")
+        lines.append(f"{self.indent(1)}01 X        PIC 9(4) VALUE 0.")
         lines.append("")
         lines.append("PROCEDURE DIVISION.")
         
         for stmt in node["body"]:
             lines.append(self.emit(stmt, 1))
         
-        lines.append(f"{self.i(1)}STOP RUN.")
+        lines.append(f"{self.indent(1)}STOP RUN.")
         return "\n".join(lines)
 
     # -------- Statements --------
@@ -27,20 +27,20 @@ class Cobol85Emitter(Emitter):
         return ""  # už jsme deklarovali X ručně
 
     def emit_assign(self, node, level):
-        return f"{self.i(level)}MOVE {self.emit(node['value'])} TO {node['target'].upper()}."
+        return f"{self.indent(level)}MOVE {self.emit(node['value'])} TO {node['target'].upper()}."
 
     def emit_print(self, node, level):
-        return f"{self.i(level)}DISPLAY {self.emit(node['value'])}."
+        return f"{self.indent(level)}DISPLAY {self.emit(node['value'])}."
 
     def emit_if(self, node, level):
         lines = []
         cond = self.emit(node["condition"])
-        lines.append(f"{self.i(level)}IF {cond} THEN")
+        lines.append(f"{self.indent(level)}IF {cond} THEN")
 
         for stmt in node["then"]:
             lines.append(self.emit(stmt, level + 1))
 
-        lines.append(f"{self.i(level)}END-IF")
+        lines.append(f"{self.indent(level)}END-IF")
 
         return "\n".join(lines)
 
@@ -61,3 +61,40 @@ class Cobol85Emitter(Emitter):
         elif op == "!=":
             op = "<>"
         return f"{left} {op} {right}"
+
+    def emit_while(self, node, level=0):
+        indent = self.indent(level)
+        lines = []
+
+        # invertujeme podmínku
+        cond = self.emit_inverted_condition(node["condition"])
+
+        lines.append(f"{indent}PERFORM UNTIL {cond}")
+
+        for stmt in node.get("body", []):
+            lines.append(self.emit(stmt, level + 1))
+
+        lines.append(f"{indent}END-PERFORM.")
+        return "\n".join(lines)
+
+    def emit_inverted_condition(self, cond):
+        if cond["type"] != "binary":
+            raise NotImplementedError("Složené podmínky nejsou podporovány")
+
+        invert = {
+            "<": ">=",
+            "<=": ">",
+            ">": "<=",
+            ">=": "<",
+            "==": "NOT =",
+            "!=": "="
+        }
+
+        op = invert.get(cond["op"])
+        if not op:
+            raise NotImplementedError(f"Neznámý operátor {cond['op']}")
+
+        left = self.emit(cond["left"])
+        right = self.emit(cond["right"])
+        return f"{left} {op} {right}"
+

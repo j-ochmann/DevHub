@@ -8,7 +8,7 @@ class ABAPEmitter(Emitter):
         lines.append("REPORT ZEXAMPLE.")
         lines.append("")
         # deklarace jednoduché proměnné
-        lines.append(f"{self.i(1)}DATA x TYPE i VALUE 0.")
+        lines.append(f"{self.indent(1)}DATA x TYPE i VALUE 0.")
         lines.append("")
 
         for stmt in node["body"]:
@@ -18,23 +18,23 @@ class ABAPEmitter(Emitter):
 
     # -------- Statements --------
     def emit_var_decl(self, node, level):
-        return f"{self.i(level)}DATA {node['name']} TYPE i VALUE {self.emit(node['value'])}."
+        return f"{self.indent(level)}DATA {node['name']} TYPE i VALUE {self.emit(node['value'])}."
 
     def emit_assign(self, node, level):
-        return f"{self.i(level)}{node['target']} = {self.emit(node['value'])}."
+        return f"{self.indent(level)}{node['target']} = {self.emit(node['value'])}."
 
     def emit_print(self, node, level):
-        return f"{self.i(level)}WRITE {self.emit(node['value'])}."
+        return f"{self.indent(level)}WRITE {self.emit(node['value'])}."
 
     def emit_if(self, node, level):
         lines = []
         cond = self.emit(node["condition"])
-        lines.append(f"{self.i(level)}IF {cond}.")
+        lines.append(f"{self.indent(level)}IF {cond}.")
 
         for stmt in node["then"]:
             lines.append(self.emit(stmt, level + 1))
 
-        lines.append(f"{self.i(level)}ENDIF.")
+        lines.append(f"{self.indent(level)}ENDIF.")
         return "\n".join(lines)
 
     # -------- Expressions --------
@@ -53,3 +53,16 @@ class ABAPEmitter(Emitter):
         elif op == "!=":
             op = "<>"
         return f"{left} {op} {right}"
+        
+    def emit_while(self, node, level=0):
+        indent = self.indent(level)
+        lines = []
+
+        cond = self.emit(node["condition"])
+        lines.append(f"{indent}WHILE {cond}.")
+
+        for stmt in node.get("body", []):
+            lines.append(self.emit(stmt, level + 1))
+
+        lines.append(f"{indent}ENDWHILE.")
+        return "\n".join(lines)

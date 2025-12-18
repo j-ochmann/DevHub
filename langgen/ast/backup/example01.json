@@ -1,0 +1,21 @@
+{
+  "type": "program",
+  "body": [
+    {
+      "type": "if",
+      "condition": {
+        "type": "binary",
+        "op": ">",
+        "left": { "type": "identifier", "name": "x" },
+        "right": { "type": "literal", "value": 0 }
+      },
+      "then": [
+        {
+          "type": "print",
+          "value": { "type": "identifier", "name": "x" }
+        }
+      ]
+    }
+  ]
+}
+

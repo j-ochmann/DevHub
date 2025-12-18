@@ -1,0 +1,17 @@
+{
+    "jacquard1801": {
+        "id": { 
+            "family": "jacquard",
+            "language": "jacquard",
+            "version": "jacquard1801",
+            "parent": "jacquard1790"
+        },
+        "date": { "year": 1801, "month": null, "day": null },
+        "name": [ "Jacquard machine", "Jacquard machine (implementation)" ],
+        "desc": [ "", "" ],
+        "wiki": "Jacquard_machine",
+        "website": null,
+        "generation": 0,
+        "add": [ null ]
+    }
+}

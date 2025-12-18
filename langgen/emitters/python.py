@@ -8,13 +8,13 @@ class PythonEmitter(Emitter):
         )
 
     def emit_var_decl(self, node, level):
-        return f"{self.i(level)}{node['name']} = {self.emit(node['value'])}"
+        return f"{self.indent(level)}{node['name']} = {self.emit(node['value'])}"
 
     def emit_assign(self, node, level):
-        return f"{self.i(level)}{node['target']} = {self.emit(node['value'])}"
+        return f"{self.indent(level)}{node['target']} = {self.emit(node['value'])}"
 
     def emit_print(self, node, level):
-        return f"{self.i(level)}print({self.emit(node['value'])})"
+        return f"{self.indent(level)}print({self.emit(node['value'])})"
 
     def emit_literal(self, node, level=0):
         return str(node["value"])
@@ -28,14 +28,22 @@ class PythonEmitter(Emitter):
     def emit_if(self, node, level):
         lines = []
         cond = self.emit(node["condition"])
-        lines.append(f"{self.i(level)}if {cond}:")
+        lines.append(f"{self.indent(level)}if {cond}:")
 
         for stmt in node["then"]:
             lines.append(self.emit(stmt, level + 1))
 
         if node.get("else"):
-            lines.append(f"{self.i(level)}else:")
+            lines.append(f"{self.indent(level)}else:")
             for stmt in node["else"]:
                 lines.append(self.emit(stmt, level + 1))
 
         return "\n".join(lines)
+    
+    def emit_while(self, node, level):
+        lines = []
+        lines.append(f"{self.indent(level)}while {self.emit(node['condition'])}:")
+        for stmt in node["body"]:
+            lines.append(self.emit(stmt, level + 1))
+        return "\n".join(lines)
+

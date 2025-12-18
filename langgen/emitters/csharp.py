@@ -6,13 +6,13 @@ class CSharpEmitter(Emitter):
         return "\n".join(self.emit(stmt, level) for stmt in node["body"])
 
     def emit_var_decl(self, node, level):
-        return f"{self.i(level)}int {node['name']} = {self.emit(node['value'])};"
+        return f"{self.indent(level)}int {node['name']} = {self.emit(node['value'])};"
 
     def emit_assign(self, node, level):
-        return f"{self.i(level)}{node['target']} = {self.emit(node['value'])};"
+        return f"{self.indent(level)}{node['target']} = {self.emit(node['value'])};"
 
     def emit_print(self, node, level):
-        return f"{self.i(level)}Console.WriteLine({self.emit(node['value'])});"
+        return f"{self.indent(level)}Console.WriteLine({self.emit(node['value'])});"
 
     def emit_literal(self, node, level=0):
         return str(node["value"])
@@ -26,19 +26,19 @@ class CSharpEmitter(Emitter):
     def emit_if(self, node, level):
         lines = []
         cond = self.emit(node["condition"])
-        lines.append(f"{self.i(level)}if ({cond})")
-        lines.append(f"{self.i(level)}{{")
+        lines.append(f"{self.indent(level)}if ({cond})")
+        lines.append(f"{self.indent(level)}{{")
 
         for stmt in node["then"]:
             lines.append(self.emit(stmt, level + 1))
 
-        lines.append(f"{self.i(level)}}}")
+        lines.append(f"{self.indent(level)}}}")
 
         if node.get("else"):
-            lines.append(f"{self.i(level)}else")
-            lines.append(f"{self.i(level)}{{")
+            lines.append(f"{self.indent(level)}else")
+            lines.append(f"{self.indent(level)}{{")
             for stmt in node["else"]:
                 lines.append(self.emit(stmt, level + 1))
-            lines.append(f"{self.i(level)}}}")
+            lines.append(f"{self.indent(level)}}}")
 
         return "\n".join(lines)

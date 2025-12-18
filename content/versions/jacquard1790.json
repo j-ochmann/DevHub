@@ -1,0 +1,28 @@
+{
+    "jacquard1790": {
+        "id": { 
+            "family": "jacquard",
+            "language": "jacquard",
+            "version": "jacquard1790",
+            "parent": null,  
+            "influenced_by_ids": [ null ]
+        },
+        "date": { "year": 1790, "month": null, "day": null },
+        "name": [ "Jacquard loom", "Jacquard loom (concept)" ],
+        "desc": [ "", "" ],
+        "paradigms": [ null ],
+        "typings": [ null ],
+        "developers": [ "Joseph Marie Jacquard" ],
+        "organisations": [ null ],
+        "extensions": [ null ],
+        "implementations": [ null ],
+        "dialects": [ null ],
+        "purpose": "loom machine",
+        "scope": null,
+        "platform": null,
+        "wiki": "Joseph_Marie_Jacquard",
+        "website": null,
+        "generation": 0,
+        "add": [ null ]
+    }
+}
