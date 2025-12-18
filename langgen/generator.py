@@ -13,12 +13,12 @@ with open("ast/example.json", "r") as f:
 
 # ---- EMITERY ----
 code_emitters = {
-    "abap": ABAPEmitter(),
-    "cobol85": Cobol85Emitter(),
-    "cpp": CppEmitter(),
-    "csharp": CSharpEmitter(),
-    "python": PythonEmitter(),
-    "fortran77": Fortran77Emitter(),
+    "ABAP": ABAPEmitter(),
+    "COBOL": Cobol85Emitter(),
+    "C++": CppEmitter(),
+    "C#": CSharpEmitter(),
+    "Python": PythonEmitter(),
+    "Fortran": Fortran77Emitter(),
 }
 
 # ---- GENERACE MD ----

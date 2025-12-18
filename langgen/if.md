@@ -14,7 +14,7 @@ REPORT ZEXAMPLE.
 ```
 
 ### cobol85
-```cobol85
+```cobol
 IDENTIFICATION DIVISION.
 PROGRAM-ID. EXAMPLE.
 
@@ -59,7 +59,7 @@ if x > 0:
 ```
 
 ### fortran77
-```fortran77
+```fortran
       PROGRAM EXAMPLE
   IF (X > 0) THEN
     PRINT *, X
