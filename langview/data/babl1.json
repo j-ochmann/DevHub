@@ -1,0 +1,31 @@
+{
+    "babl1": {
+        "id": { 
+            "family": "babl1",
+            "language": "babl1",
+            "version": "babl1",
+            "parent": "jacquard1801",  
+            "influenced_by": [ "", "" ]
+        },
+        "date": { "year": 1837, "month": null, "day": null },
+        "name": [ "BAB L1", "" ],
+        "desc": [ "", "" ],
+        "paradigms": [ "", "", "" ],
+        "typings": [ "" ],
+        "developers": [ "Charles Babbage", "" ],
+        "organisations": [ "", "" ],
+        "extensions": [  ],
+        "implementations": [ "" ],
+        "dialects": [ "" ],
+        "purpose": "",
+        "scope": "",
+        "platform": "",
+        "wiki": "",
+        "website": "",
+        "generation": null,
+        "add": [
+            "",
+            ""
+        ]
+    }
+}

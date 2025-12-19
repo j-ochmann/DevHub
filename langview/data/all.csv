@@ -1,0 +1,815 @@
+year;id;extends;predecessors;name;developers;companies;wiki;paradigm;;;
+1790;jacquard.1790;unique;;Jacquard loom (concept);Joseph Marie Jacquard;;Jacquard_machine;;;;
+1801;jacquard.1801;jacquard.1790;;Jacquard machine (implementation);Joseph Marie Jacquard;;Jacquard_machine;;;;
+1837;babl1;jacquard.1801;;BAB L1;Charles Babbage;;Analytical_engine;;;;
+1843;noteg;babl1;;Note G;Ada Lovelace;;Note_G;;;;
+1879;begriffsschrift;unique;;Begriffsschrift;Gottlob Frege;;Begriffsschrift;;;;
+1943;plankalkul.1943;unique;;Plankalkül;Konrad Zuse;;Plankalk%C3%BCl;;;;
+1943;eniac.1943;unique;;ENIAC coding system;John von Neumann, John Mauchly, J. Presper Eckert, and Herman Goldstine after Alan Turing;US Army, University of Pennsylvania;ENIAC;;;;
+1946;eniac.1946;eniac.1943;;ENIAC Short Code;Richard Clippinger and John von Neumann after Alan Turing;US Army, University of Pennsylvania;ENIAC#Programming_languages;;;;
+1947;arc;eniac.1946;;ARC/Birkbeck Assembler;Kathleen Booth;;;;;;
+1947;assemblylanguage;;;Assembly language;Kathleen Booth;Various;Assembly_language;imperative;untyped;;
+1948;plankalkul.1948;plankalkul.1943;;Plankalkül (publication);Konrad Zuse;;Plankalk%C3%BCl;procedural;;;
+1949;edsac;eniac.1943;;EDSAC Initial Orders;David Wheeler;;;;;;
+1949;briefcode;eniac.1946;;Brief Code;John Mauchly, William F. Schmitt;;;;;;
+1950;shortcode;briefcode;;Short Code (for UNIVAC I);William F. Schmitt;;Short_Code_(computer_language);;;;
+1951;algae;;;ALGAE;Edward A. Voorhees, Karl Balke;;;;;;
+1951;boehm;CPC Coding scheme;;Boehm unnamed coding system;Corrado Böhm;;;;;;
+1951;ipl;Short Code;;IPL;Arthur Burks;;;;;;
+1951;klammerausdrcke;Plankalkül;;Klammerausdrücke;Konrad Zuse;;;;;;
+1951;sortmergegenerator;;;Sort Merge Generator;Betty Holberton;;;;;;
+1951;stanislaus;;;Stanislaus;Fritz Bauer;;;;;;
+1951;superplan;Plankalkül;;Superplan;Heinz Rutishauser;;Superplan;;;;
+1951;microcode;;;Microcode;Maurice Wilkes;University of Cambridge;Microassembler;instructional;low-level;CPU internal control logic;en.wikipedia.org
+1952;a0system;Short Code;;A-0 System;Grace Hopper;;A-0_System;;;;
+1952;compool;;;COMPOOL;;RAND,SDC;;;;;
+1952;editinggenerator;SORT/MERGE;;Editing Generator;Milly Koss;;;;;;
+1952;glennieautocode;CPC Coding scheme;;Glennie Autocode;Alick Glennie;University of Manchester;;první jazyk, který umožňoval kompilaci do strojového kódu.;;;
+1952;operatorprogramming;MESM;;Operator programming;Alexey Andreevich Lyapunov with the participation Kateryna Yushchenko;;;;;;
+1952;shortcodeforunivacii;Short Code (for UNIVAC I);;Short Code (for UNIVAC II);Albert B. Tonik, J. R. Logan;;;;;;
+1953;readprint;;;READ/PRINT;Don Harroff, James Fishman, George Ryckman;;;;;;
+1953;speedcoding;;;Speedcoding;John W. Backus;;;;;;
+1953;speedcode;;;Speedcode;John Backus;IBM;Speedcoding;procedural;untyped;First high-level language for IBM 701;en.wikipedia.org
+1954;arithmatic;A-0 System;;ARITH-MATIC;Team led by Grace Hopper at UNIVAC;;;;;;
+1954;fortran;Speedcoding;;FORTRAN;Team led by John W. Backus at IBM;;Fortran;;;;
+1954;ipli;;;IPL I;Allen Newell, Cliff Shaw, Herbert A. Simon;;;;;;
+1954;laningandzierlersystem;;;Laning and Zierler system;J. Halcombe Laning, Niel Zierler, Adams at MIT;Project Whirlwind;;;;;
+1954;markiautocode;Glennie Autocode;;Mark I Autocode;Tony Brooker;;;;;;
+1954;mathmatic;A-0 System;;MATH-MATIC;Team led by Charles Katz;;MATH-MATIC;;;;
+1954;matrixmath;;;MATRIX MATH;H G Kahrimanian;;;;;;
+1955;addressprogramminglanguage;Operator programming;;Address programming language;Kateryna Yushchenko;;;;;;
+1955;bacaic;;;BACAIC;M. Grems, R. Porter;;;;;;
+1955;flowmatic;A-0 System;;FLOW-MATIC;Team led by Grace Hopper at UNIVAC;;FLOW-MATIC;;;;
+1955;freiburgercode;;;Freiburger Code;;University of Freiburg;;;;;
+1955;it;Laning and Zierler;;IT;Team led by Alan Perlis;;;;;;
+1955;pacti;FORTRAN, A-2;;PACT I;;SHARE;;;;;
+1955;print;;;PRINT;;IBM;;;;;
+1955;sequentielleformelbersetzung;Boehm;;Sequentielle Formelübersetzung;Fritz Bauer, Karl Samelson;;;;;;
+1957;comtran;FLOW-MATIC;;COMTRAN;Bob Bemer;;COMTRAN;;;;
+1957;fortrani;FORTRAN;;FORTRAN I;John W. Backus;IBM;;;;;
+1957;george;;;GEORGE;Charles Leonard Hamblin;;GEORGE_(programming_language);;;;
+1957;unicode;MATH-MATIC;;UNICODE;;Remington Rand UNIVAC;;;;;
+1957;floop;;;FlooP;David Wheeler;Cambridge University;BlooP_and_FlooP;imperative;untyped;EDSAC compiler implementation;ooP
+1958;algol58;FORTRAN, IT, Sequentielle Formelübersetzung;;ALGOL 58 (IAL);;ACM,GAMM;ALGOL_58;;;;
+1958;fortranii;FORTRAN I;;FORTRAN II;John W. Backus;IBM;;;;;
+1958;iplii;IPL I;;IPL II;Allen Newell, Cliff Shaw, Herbert A. Simon;;;;;;
+1958;iplv;IPL II;;IPL V;Allen Newell, Cliff Shaw, Herbert A. Simon;;;;;;
+1958;dynamo;;;DYNAMO;Jay Forrester;MIT;DYNAMO_(programming_language);simulation;continuous;System dynamics;
+1959;apt;;;APT;Douglas T. Ross;;APT_(programming_language);cnc;;;
+1959;cobol;FLOW-MATIC, COMTRAN, FACT;;COBOL;Howard Bromberg, Norman Discount, Vernon Reeves, Jean E. Sammet, William Selden, Gertrude Tierney;CODASYL, ANSI, ISO,IEC;COBOL;procedural, imperative, objectoriented, generic;weak, static;;
+1959;fact;;;FACT;Fletcher R. Jones, Roy Nutt, Robert L. Patrick;;;;;;
+1959;jovial;ALGOL 58;;JOVIAL;Jules Schwartz;SDC;JOVIAL;;;;
+1959;lisp;IPL;;LISP;Steve Russell;;Lisp_(programming_language);;;;
+1959;mad;ALGOL 58;;MAD;Bruce Arden, Bernard Galler, Robert M. Graham;;MAD_(programming_language);;;;
+1959;sps;;;SPS;IBM;IBM;IBM_1401_Symbolic_Programming_System;assembly;untyped;IBM 1401 symbolic programming;en.wikipedia.org
+1960;algol60;ALGOL 58;;ALGOL 60;;;ALGOL_60;;;;
+1960;sako;;;SAKO;Leon Łukaszewicz;Polish Academy of Sciences;SAKO_(programming_language);;;;
+1961;comit;;;COMIT;Victor Yngve;;COMIT;;;;
+1961;gpss;;;GPSS;Geoffrey Gordon;IBM;GPSS;;;;
+1961;gotran;;;GOTRAN;;IBM;IBM_1620#GOTRAN;procedural;static;Interpreted FORTRAN (IBM 1620);
+1961;speakeasy;;;Speakeasy;Stanley Cohen;Argonne National Lab;Speakeasy_(computational_environment);numerical;dynamic;Interactive physics analysis;https://www.speakeasy.com
+1962;fortraniv;FORTRAN II;;FORTRAN IV;;IBM;;;;;
+1962;simula;ALGOL 60;;Simula;Ole-Johan Dahl;;Simula;;;;
+1962;snobol;FORTRAN II, COMIT;;SNOBOL;Ralph Griswold;;SNOBOL;;;;
+1962;formac;;;FORMAC;Jean Sammet;IBM;FORMAC;symbolic/algebraic;static;Formula manipulation;https://www.ibm.com
+1962;languageh;;;Language H;NCR;NCR Corporation;Language_H;procedural;static;Business data processing;en.wikipedia.org
+1962;linc;;;LINC;Mary K. Hawes;Burroughs Corporation;LINC_4GL;database/4gl;strong;Business app development;en.wikipedia.org
+1962;simscript;;;SIMSCRIPT;Harry Markowitz;RAND Corporation;SIMSCRIPT;simulation;static;Discrete event simulation;https://simscript.com
+1962;snowball;;;Snowball;G. Farber;Bell Labs;Snowball_programming_language;text-processing;dynamic;String manipulation (SNOBOL);en.wikipedia.org
+1962;teco;;;TECO;Dan Murphy;MIT;Text_Editor_and_Corrector;text-processing/macro;untyped;Editor and scripting (PDP);en.wikipedia.orgECO_(text_editor)
+1963;cpl;ALGOL 60;;CPL;Barron, Christopher Strachey;;CPL_(programming_language);;;;
+1963;jossi;ALGOL 58;;JOSS I;Cliff Shaw;RAND;;;;;
+1963;snobol3;SNOBOL;;SNOBOL3;Ralph E. Griswold;;;;;;
+1963;joss;;;JOSS;Cliff Shaw;RAND Corporation;JOSS;interactive;dynamic;Numerical calculations (time-sharing);https://www.rand.org
+1963;slip;;;SLIP;Joseph Weizenbaum;MIT;SLIP_(programming_language);list-processing;dynamic;Natural language research (ELIZA);en.wikipedia.org_(programming_language)
+1964;basic;FORTRAN II, JOSS;;BASIC;John George Kemeny, Thomas Eugene Kurtz;Dartmouth College;BASIC;;;;
+1964;basicassemblylanguage;Assembly language;;Basic Assembly Language;;IBM;;;;;
+1964;cowsel;CPL, LISP;;COWSEL;Rod Burstall, Robin Popplestone;;COWSEL;;;;
+1964;iitran;PL/I;;IITRAN;William S. Worley;Illinois Institute of Technology;;;;;
+1964;markiv;;;Mark-IV;;Sterling Software;MARK_IV_(software);;;;
+1964;mimic;MIDAS;;MIMIC;H. E. Petersen;;MIMIC;;;;
+1964;rpg;FARGO;;RPG;;IBM;IBM_RPG;;;;
+1964;speakeasy2;Speakeasy;;Speakeasy-2;Stanley Cohen;Argonne National Laboratory;;;;;
+1964;trac;;;TRAC;Calvin Mooers;;TRAC_(programming_language);;;;
+1964;compass;;;COMPASS;;Control Data Corp;COMPASS;assembly;low-level;CDC 6000 systems;https://computerhistory.org
+1964;ibmbasicassemblylanguage;;;IBM Basic assembly language;;IBM;IBM_Basic_assembly_language;assembly;untyped;Mainframe System/360 programming;https://www.ibm.com
+1964;jcl;;;JCL;;IBM;Job_Control_Language;scripting (job control);untyped;Mainframe workload management;https://www.ibm.com
+1964;klerermaysystem;;;Klerer-May System;Klerer,May;Columbia University;Klerer-May_System;mathematical;untyped;Natural mathematical notation;
+1964;lyapas;;;LYaPAS;A. D. Zakrevskii;USSR Academy of Sciences;LYaPAS;logical;untyped;Logic synthesis/Computing;en.wikipedia.org
+1965;atlasautocode;ALGOL 60, Autocode;;Atlas Autocode;Tony Brooker, Derrick Morris;Manchester University;;;;;
+1965;madi;MAD, ALGOL 60, PL/I;;MAD/I;;University of Michigan;;;;;
+1965;rpgii;FARGO, RPG;;RPG II;;IBM;;;;;
+1965;telcomp;JOSS;;TELCOMP;;BBN;TELCOMP;;;;
+1965;mohol;;;Mohol;NASA;NASA (Goddard);Mohol_programming_languages;procedural;static;Early orbital mechanics;en.wikipedia.org
+1966;algolw;ALGOL 60;;ALGOL W;Niklaus Wirth, C. A. R. Hoare;;ALGOL_W;;;;
+1966;coral66;ALGOL 60;;CORAL 66;I. F. Currie, M. Griffiths;;;;;;
+1966;fortran66;FORTRAN IV;;FORTRAN 66;John Backus;;;;;;
+1966;iswim;LISP;;ISWIM;Peter J. Landin;;;;;;
+1966;jossii;JOSS I;;JOSS II;Chuck Baker;RAND;;;;;
+1966;cmsexec;;;CMS EXEC;Stuart Madnick;IBM,MIT;CMS_EXEC;scripting;dynamic;Batch processing (VM/CMS);https://www.ibm.com
+1966;coral;;;CORAL;;RRE UK MOD;CORAL;procedural;static;Real-time systems;
+1966;euler;;;Euler;Niklaus Wirth, Helmut Weber;ETH Zurich;Euler_(programming_language);algol extension;dynamic;Research/Education;
+1966;jean;;;JEAN;;International Computers and Tabulators;JEAN;interactive;dynamic;General purpose (ICT 1900);
+1966;sabretalk;;;SabreTalk;IBM;IBM,American Airlines;SabreTalk;procedural;static;Sabre airline reservation system;en.wikipedia.org
+1967;bcpl;CPL;;BCPL;Martin Richards;;BCPL;;;;
+1967;exapt;APT;;EXAPT;Herwart Opitz, Wilhelm Simon, Günter Spur, Gottfried Stute;RWTH Aachen University and TU Berlin;;;;;
+1967;interlisp;Lisp;;Interlisp;D.G. Bobrow and D.L. Murphy;;;;;;
+1967;mumps;FORTRAN, TELCOMP;;MUMPS;;Massachusetts General Hospital;MUMPS;;;;
+1967;simula67;ALGOL 60;;Simula 67;Ole-Johan Dahl, Bjørn Myhrhaug, Kristen Nygaard;Norsk Regnesentral;;;;;
+1967;snobol4;SNOBOL3;;SNOBOL4;Ralph Griswold;;;;;;
+1967;xpl;PL/I;;XPL;William M. McKeeman, J. J. Horning;University of California, Stanford University;XPL;;;;
+1967;foil;;;FOIL;;University of Michigan;FOIL_(programming_language);educational/cai;dynamic;Computer Assisted Instruction;
+1967;maxima;;;Maxima;Bill Schelter;MIT (Project MAC);Maxima_(software);symbolic;dynamic;Computer Algebra System;https://maxima.sourceforge.io
+1968;algol68;ALGOL 60;;ALGOL 68;Adriaan van Wijngaarden, Barry J. Mailloux, John E. L. Peck, Cornelis H. A. Koster;;ALGOL_68;;;;
+1968;dibol8;DIBOL;;DIBOL-8;;DEC;;;;;
+1968;logo;LISP;;Logo;Wally Feurzeig, Seymour Papert, Cynthia Solomon;;Logo_(programming_language);;;;
+1968;mapper;CRT RPS;;MAPPER;;Unisys;MAPPER;;;;
+1968;pilot;Computest;;PILOT;John Amsden Starkweather;University of California;PILOT;;;;
+1968;pl360;ALGOL 60, ESPOL;;PL360;Niklaus Wirth;;PL360;;;;
+1968;pls;Assembly language;;PL/S;;IBM;PL/S;;;;
+1968;pop1;COWSEL;;POP-1;Rod Burstall, Robin Popplestone;;;;;;
+1968;refal;;;REFAL;Valentin Turchin;;REFAL;;;;
+1968;ttm;GAP, GPM;;TTM;Steven Caine, E. Kent Gordon;California Institute of Technology;TTM_(programming_language);;;;
+1968;analitik;ALMIR-65;;Analitik;Viktor Glushkov;Poltava National Technical University;%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA;;;;
+1968;cms2;;;CMS-2;;CSC, Intermetrics, U.S. Navy;CMS-2_(programming_language);imperative;static;;
+1968;csc;;;Computer Sciences Corporation (CSC);;US Navy;Computer_Sciences_Corporation;procedural;static;Military systems;
+1968;espol;;;ESPOL;Niklaus Wirth;ETH Zurich;Executive_Systems_Problem_Oriented_Language;algol extension;static;System programming (Burroughs);
+1968;focal;;;FOCAL;Richard Merrill;Digital Equipment Corporation;FOCAL_(programming_language);interactive/procedural;dynamic;Calculations on PDP systems;
+1968;model204;;;Model 204;Computer Corp.;CCA;Model_204;database;strong;High-performance mainframe DB;https://www.rocketsoftware.com
+1968;tmg;;;TMG;Robert M. McClure;McClure;TMG_(language);parser-generator;untyped;Compiler construction;en.wikipedia.orgMG_(programming_language)
+1969;b;BCPL, Fortran;;B;Ken Thompson, Dennis Ritchie;;B_(programming_language);;;;
+1969;edinburghimp;ALGOL 60, Autocode, Atlas Autocode;;Edinburgh IMP;;Edinburgh University;Edinburgh_IMP;;;;
+1969;pli;ALGOL 60, COBOL, FORTRAN;;PL/I;;IBM;PL/I;;;;
+1969;ppl;;;PPL;Thomas A. Standish;Harvard University;Polymorphic_Programming_Language;;;;
+1969;setl;ALGOL 60;;SETL;Jack Schwartz;Courant Institute of Mathematical Sciences;SETL;;;;
+1969;tutor;;;TUTOR;Paul Tenczar;University of Illinois;TUTOR;;;;
+1969;pcf;;;PCF;Dana Scott;University of Oxford;Programming_language_for_Computable_Functions;functional;static;Programming language theory;en.wikipedia.org_(programming_language)
+1969;planner;;;Planner;Carl Hewitt;MIT;Planner_(programming_language);logic/ai;dynamic;Early AI research;en.wikipedia.org_(programming_language)
+1969;watfiv;;;WATFIV;Univ. of Waterloo;University of Waterloo;WATFIV;procedural;static;FORTRAN teaching dialect;en.wikipedia.org
+1970;bliss;ALGOL;;BLISS;Wulf, Russell, Habermann;Carnegie Mellon University;BLISS;;;;
+1970;forth;Forth;;Forth;Charles H. Moore;;Forth_(programming_language);;;;
+1970;pascal;ALGOL 60, ALGOL W;;Pascal;Niklaus Wirth, Kathleen Jensen;;Pascal_(programming_language);;;;
+1970;pop2;POP-1;;POP-2;Robin Popplestone;;POP-2;;;;
+1970;sail;ALGOL 60;;SAIL;Dan Swinehart, Bob Sproull;;SAIL_(programming_language);;;;
+1970;clist;;;CLIST;;IBM;CLIST;dynamic;;;
+1970;dc;;;dc;Robert Morris, Lorinda Cherry;Bell Labs;Dc_(computer_program);stack-based;untyped;Arbitrary-precision math;www.gnu.org
+1970;dibol;;;DIBOL;;Digital Equipment Corporation;DIBOL;procedural (business);static;Business apps (PDP-8/11);
+1970;ladder;;;Ladder;Richard Morley;Modicon (Schneider Electric);Ladder_logic;visual/logic;static;Industrial PLC programming;https://www.automation.com
+1970;lse;;;LSE;Internal;CERN;LSE_(programming_language);procedural;static;Large Systems Language (CERN);en.wikipedia.org_(programming_language)
+1970;plc;;;PL/C;Cornell University;Cornell University;PL/C;procedural;static;PL/I dialect for education;en.wikipedia.org
+1970;s2;;;S2;University of Toronto;University of Toronto;S2_(programming_language);systems;static;Algol dialect for systems;en.wikipedia.org_(programming_language)
+1970;s3;;;S3;RRE;UK Ministry of Defence;S3_(programming_language);systems;static;ICL 2900 series programming;en.wikipedia.org_(programming_language)
+1970;zopl;;;ZOPL;Control Data Corp;CDC;ZOPL;systems;static;CDC 6000 system programming;en.wikipedia.org
+1971;cdl;;;CDL;Cornelis H.A. Koster;University of Nijmegen;;;;;
+1971;krl;KM, FRL (MIT);;KRL;Daniel G. Bobrow, Terry Winograd;Xerox PARC, Stanford University;KRL_(programming_language);;;;
+1971;mdl;;;MDL;MIT;MIT (Project MAC);MDL_(programming_language);lisp-like;dynamic;Zork engine development;en.wikipedia.org_(programming_language)
+1971;pl11;;;PL-11;Robert Russell;CERN;PL-11;systems;static;PDP-11 development;en.wikipedia.org
+1971;rtl2;;;RTL/2;ICI;Imperial Chemical Industries;RTL/2;real-time;static;Industrial process control;en.wikipedia.org
+1972;intercal;;;INTERCAL;Don Woods, James M. Lyon;;;;;;
+1972;plm;PL/I, ALGOL, XPL;;PL/M;Gary Kildall;Digital Research;PL/M;;;;
+1972;prolog;2-level W-Grammar;;Prolog;Alain Colmerauer;;Prolog;;;;
+1972;sasl;ISWIM;;SASL;David Turner;University of St Andrews;SASL_(programming_language);;;;
+1972;smalltalk72;Simula 67;;Smalltalk-72;Alan Kay, Adele Goldberg, Dan Ingalls;Xerox PARC;;;;;
+1972;sql;ALPHA, Quel (Ingres);;SQL;;IBM;SQL;;;;
+1972;plb;;;PL/B;Datapoint Corp;Datapoint Corporation;Programming_Language_for_Business;business (4gl);static;Commercial business systems;https://www.databasedesigns.com
+1972;smalltalk;;;Smalltalk;Alan Kay;Xerox PARC;Smalltalk;pure object-oriented;dynamic;GUI and interactive systems;http://www.smalltalk.org
+1973;comal;Pascal, BASIC;;COMAL;Børge Christensen, Benedict Løfstedt;;COMAL;;;;
+1973;lis;Pascal, Sue;;LIS;Jean Ichbiah;CII Honeywell Bull;LIS_(programming_language);;;;
+1973;ml;;;ML;Robin Milner;;ML_(programming_language);;;;
+1973;speakeasy3;Speakeasy-2;;Speakeasy-3;Stanley Cohen, Steven Pieper;Argonne National Laboratory;;;;;
+1973;easytrieveplus;;;EASYTRIEVE PLUS;;Pansophic Systems, Broadcom (CA);Easytrieve;reporting/4gl;static;Mainframe data reporting;https://www.broadcom.com
+1973;pdl;;;PDL;Caine,Farber,Gordon;CFG Inc;Perl_Data_Language;design language;untyped;Algorithm documentation;en.wikipedia.org
+1974;basicfour;Business BASIC;;BASIC FOUR;;MAI BASIC Four Inc.;;;;;
+1974;clu;ALGOL 60, Lisp, Simula;;CLU;Barbara Liskov;;CLU_(programming_language);;;;
+1974;grass;BASIC;;GRASS;Thomas A. DeFanti;;GRASS_(programming_language);;;;
+1974;prosemodelinglanguage;SLANG, FORTRAN;;PROSE modeling language;;CDC 6600 Cybernet Services;PROSE_modeling_language;;;;
+1974;sed;ed;;sed;Lee E. McMahon;Bell Labs;Sed;;;;
+1974;concurrentpascal;;;Concurrent Pascal;Per Brinch Hansen;Caltech;Concurrent_Pascal;concurrent;static;Operating systems;http://brinch-hansen.net
+1974;elan;;;ELAN;C.H.A. Koster;TU Berlin;ELAN_(programming_language);educational;static;Programming education;
+1974;lil;;;LIL;P. McJones;IBM Research;Little_Implementation_Language;data-driven;dynamic;Relational database research;en.wikipedia.org_(programming_language)
+1974;spk;;;SP/k;University of Toronto;University of Toronto;SP/k;educational (pl/i);static;Teaching programming (PL/I dialect);en.wikipedia.org
+1975;abc;SETL;;ABC;Leo Geurts, Lambert Meertens;;ABC_(programming_language);;;;
+1975;altairbasic;BASIC;;Altair BASIC;Bill Gates, Paul Allen;;;;;;
+1975;modula;Pascal;;Modula;Niklaus Wirth;;Modula;;;;
+1975;prose;SLANG, FORTRAN;;PROSE;;CDC 6400 Cybernet KRONOS Services;;;;;
+1975;scheme;LISP;;Scheme;Gerald Jay Sussman, Guy L. Steele Jr.;;Scheme_(programming_language);;;;
+1975;bc;;;bc;Robert Morris;Bell Labs;Bc_(programming_language);math;dynamic;;www.gnu.org
+1975;dcl;;;DCL;;Digital Equipment Corporation;DIGITAL_Command_Language;scripting (shell);weak;OpenVMS command language;https://vmssoftware.com
+1975;focus;;;FOCUS;;Information Builders;FOCUS;4gl/reporting;static;Business Intelligence/Reporting;https://www.ibi.com
+1975;mortran;;;Mortran;A. J. Cook;Stanford (SLAC);Mortran;procedural (fortran ext.);static;High-energy physics macros;en.wikipedia.org
+1975;pop11;;;POP-11;Robin Popplestone;University of Sussex;POP-11;multi-paradigm/ai;dynamic;AI education (Poplog);en.wikipedia.org
+1975;protel;;;PROTEL;Nortel;Nortel Networks;Protel;systems;static;Telecommunications switching;en.wikipedia.org
+1975;ssl;;;S/SL;Holt,Cordy;University of Toronto;S/SL_programming_language;specification;static;Compiler construction;en.wikipedia.org
+1976;integerbasic;BASIC;;Integer BASIC;Steve Wozniak;;;;;;
+1976;mesa;ALGOL;;Mesa;;Xerox PARC;Mesa_(programming_language);;;;
+1976;ratfor;C, FORTRAN;;Ratfor;Brian Kernighan;;Ratfor;;;;
+1976;s;APL, PPL, Scheme;;S;John Chambers;Bell Labs;S_(programming_language);;;;
+1976;sas;;;SAS;;SAS Institute;SAS_(software);;;;
+1976;smalltalk76;Smalltalk-72;;Smalltalk-76;;Xerox PARC;;;;;
+1976;beta;;;BETA;Kristen Nygaard, Bent Bruun Kristensen, Ole Lehrmann Madsen, Birger Møller-Pedersen;Aarhus University, Aalborg University Centre, Norwegian Computing Center, Oslo University, Mjølner Informatics;BETA_(programming_language);object-oriented, procedural, functional;strong, static, with runtime checks;;beta.cs.au.dk
+1976;exec2;;;EXEC 2;IBM;IBM SP Development Group;EXEC_2;scripting;dynamic;VM/CMS scripting (successor to EXEC);https://www.ibm.com
+1976;gams;;;General Algebraic Modeling System;;World Bank, GAMS Development Corp;General_Algebraic_Modeling_System;mathematical modeling;static;Linear/Nonlinear optimization;https://www.gams.com
+1976;pl0;;;PL/0;Niklaus Wirth;ETH Zurich;PL/0;educational;static;Teaching compiler design;en.wikipedia.org
+1976;plus;;;Plus;UBC;University of British Columbia;Plus_(programming_language);systems;static;Mainframe development (MTS);en.wikipedia.org_(programming_language)
+1976;xpl0;;;XPL0;Daniel Weaver;Daniel Weaver;XPL0;procedural;static;System and game development;http://www.xpl0.org
+1977;applesoftbasic;BASIC;;Applesoft BASIC;Marc McDonald, Ric Weiland;Apple Computer;;;;;
+1977;bourneshellsh;;;Bourne Shell (sh);Stephen R. Bourne;;;;;;
+1977;commodorebasic;BASIC;;Commodore BASIC;Jack Tramiel;;;;;;
+1977;euclid;;;Euclid;Butler Lampson, Ric Holt, James Cordy;Xerox PARC, University of Toronto;Euclid_(programming_language);;;;
+1977;fp;;;FP;John Backus;;FP_(programming_language);;;;
+1977;idl;Fortran;;IDL;David Stern;Research Systems Inc;IDL_(programming_language);;;;
+1977;standardmumps;MUMPS;;Standard MUMPS;;Massachusetts General Hospital;;;;;
+1977;datalog;;;Datalog;Herve Gallaire;University of Maryland;Datalog;declarative (logic);static;Database queries/Code analysis;
+1977;datatrieve;;;DATATRIEVE;;Digital Equipment Corporation;DATATRIEVE;query/reporting;strong;VMS Data management;https://vmssoftware.com
+1977;m4;;;M4;Kernighan,Ritchie;Bell Labs;M4_(computer_language);macro processor;untyped;Configuration & text processing;www.gnu.org
+1977;pearl;;;PEARL;GfK;GfK;PEARL_(programming_language);real-time;static;Industrial automation;http://www.real-time-languages.org
+1977;ucsdpascal;;;UCSD Pascal;Kenneth Bowles;UCSD;UCSD_Pascal;procedural;static;Early microcomputer development;
+1978;applesoftiibasic;Applesoft BASIC;;Applesoft II BASIC;Marc McDonald, Ric Weiland;;;;;;
+1978;cshell;C;;C shell;Bill Joy;;C_Shell;;;;
+1978;hals;XPL;;HAL/S;;designed by Intermetrics for NASA;HAL/S;;;;
+1978;matlab;Fortran;;MATLAB;Cleve Moler;University of New Mexico;MATLAB;;;;
+1978;rapt;APT;;RAPT;Pat Ambler, Robin Popplestone;;;;;;
+1978;rpgiii;FARGO, RPG, RPG II;;RPG III;;IBM;;;;;
+1978;small;Algol60;;SMALL;Nevil Brownlee;University of Auckland;SMALL;;;;
+1978;visicalc;;;VisiCalc;Dan Bricklin, Bob Frankston;VisiCorp;;;;;
+1978;controllanguage;;;Control Language;;IBM;Control_Language;scripting;static;IBM i (AS/400) management;https://www.ibm.com
+1978;ffp;;;FFP;John Backus;IBM;FFP_(programming_language);functional (formal);strong;Theoretical research;
+1978;franzlisp;;;Franz Lisp;;University of California Berkeley;Franz_Lisp;lisp/functional;dynamic;Symbolic math on VAX;
+1978;ops5;;;OPS5;Charles Forgy;Carnegie Mellon University;OPS5;rule-based;dynamic;Expert systems;en.wikipedia.org
+1978;tex;;;TeX;Donald Knuth;Stanford University;TeX;typesetting;dynamic;Scientific document preparation;https://www.tug.org
+1978;zetalisp;;;ZetaLisp;Symbolics,LMI;Symbolics;ZetaLisp;lisp/object-oriented;dynamic;Lisp machine programming;en.wikipedia.org
+1979;awk;C, SNOBOL;;AWK;Alfred Aho, Peter J. Weinberger, Brian Kernighan;;AWK;;;;
+1979;icon;SNOBOL;;Icon;Ralph Griswold;;Icon_(programming_language);;;;
+1979;modula2;Modula, Mesa;;Modula-2;Niklaus Wirth;;Modula-2;;;;
+1979;rexx;PL/I, BASIC, EXEC 2;;REXX;Mike Cowlishaw;IBM;REXX;;;;
+1979;tibasic;BASIC;;TI BASIC;;Texas Instruments;;;;;
+1979;vulcandbaseii;RETRIEVE;;Vulcan dBase-II;Wayne Ratliff;;;;;;
+1979;bloop;;;BlooP;Douglas Hofstadter;Indiana University;BlooP_and_FlooP;recursive, imperative;untyped;;
+1979;dbase;;;dBase;Wayne Ratliff;Ashton-Tate;DBase;procedural/db;dynamic;PC Database management;https://www.dbase.com
+1979;flavors;;;Flavors;;Symbolics, MIT;Flavors_(programming_language);object-oriented/mixin;dynamic;Lisp Machines/AI;avors_(programming_language)
+1979;mouse;;;Mouse;Peter Grogono;Concordia University;Mouse_(programming_language);stack-based;untyped;Minimalist computing;en.wikipedia.org_(programming_language)
+1979;powerhouse;;;Powerhouse;Cognos;Cognos (IBM);Powerhouse_(programming_language);4gl;static;Rapid application development;en.wikipedia.org_(programming_language)
+1980;ada.80;ALGOL 68, Green;;Ada 80 (MIL-STD-1815);Jean Ichbiah;CII Honeywell Bull;Ada_(programming_language);;;;
+1980;appleiiimicrosoftbasic;Microsoft BASIC;;Apple III Microsoft BASIC;;Microsoft;;;;;
+1980;applesoftiii;Applesoft II BASIC;;Applesoft III;;Apple Computer;;;;;
+1980;cbasic;BASIC, Compiler Systems, Digital Research;;CBASIC;Gordon Eubanks;;;;;;
+1980;cwithclasses;C, Simula 67;;C with classes;Bjarne Stroustrup;;;;;;
+1980;smalltalk80;Smalltalk-76;;Smalltalk-80;Adele Goldberg;Xerox PARC;;;;;
+1980;babbage;;;Babbage;GEC Computers;GEC Computers;Babbage_(programming_language);;static;;
+1980;cal;;;C/AL;Michael Nielsen;Microsoft (dříve Navision);C/AL;imperative;static;;
+1980;chill;;;CHILL;;ITU-T (CCITT);CHILL;procedural, modular;strong, static;;
+1980;cybil;;;Cybil;;Control Data Corp;Cybil_(programming_language);systems;static;NOS/VE systems;
+1980;hope;;;Hope;Burstall,MacQueen;Edinburgh University;Hope_(programming_language);functional;static;Functional research (Pattern matching);
+1980;pipelines;;;Pipelines;JP Hartmann;IBM;Hartmann_pipeline;dataflow;dynamic;CMS data processing;https://www.ibm.com
+1980;promela;;;Promela;Gerard J. Holzmann;Bell Labs;Promela;modeling language;static;System verification (SPIN);https://spinroot.com
+1980;spin;;;SPIN;Gerard J. Holzmann;Bell Labs;Parallax_Propeller;modeling;static;Software verification (Promela);https://spinroot.com
+1981;bbcbasic;BASIC;;BBC BASIC;Sophie Wilson;Acorn Computers;;;;;
+1981;ibmbasic;BASIC;;IBM BASIC;;Microsoft;;;;;
+1981;tiextendedbasic;TI BASIC;;TI Extended BASIC;;Texas Instruments;;;;;
+1981;karel;;;Karel;Richard E. Pattis;Stanford University;Karel_(programming_language);educational;untyped;Teaching programming fundamentals;http://karel.sourceforge.net
+1981;krc;;;KRC;David Turner;University of Kent;Kent_Recursive_Calculator;functional (lazy);strong;Research/Precursor to Miranda;en.wikipedia.org_(programming_language)
+1981;masmmicrosoftassemblyx86;;;MASM Microsoft Assembly x86;Microsoft;Microsoft;Microsoft_Macro_Assembler;assembly;low-level;x86 system development;https://learn.microsoft.com
+1981;nial;;;Nial;Jenkins,Gull;Queen's University;Nial;array-based;dynamic;Data analysis;http://www.nial.com
+1981;openedge;;;OpenEdge Advanced Business Language;Progress Software;Progress Software;OpenEdge_Advanced_Business_Language;4gl/object-oriented;strong;Enterprise applications;https://www.progress.com
+1981;ratfiv;;;Ratfiv;Bill Tuthill;UC Berkeley;Ratfiv;preprocessor;static;Ratfor dialect for FORTRAN;en.wikipedia.org
+1981;t;;;T;Rees,Adams;Yale University;T_(programming_language);lisp/scheme;dynamic;Lisp optimization research;en.wikipedia.org_(programming_language)
+1982;draco;Pascal, C, ALGOL 68;;Draco;Chris Gray;;Draco_(programming_language);;;;
+1982;postscript;InterPress;;PostScript;John Edward Warnock;;PostScript;;;;
+1982;speakeasyiv;Speakeasy-3;;Speakeasy-IV;Stanley Cohen;Speakeasy Computing Corporation;;;;;
+1982;turing;Euclid;;Turing;Ric Holt. James Cordy;University of Toronto;Turing_(programming_language);;;;
+1982;argus;;;Argus;Barbara Liskov;MIT;Argus_(programming_language);imperative;strong, static;;
+1982;dataflex;;;DataFlex;;Data Access Corp;DataFlex;object-oriented;strong;Business DB apps;https://www.dataaccess.com
+1982;gdl;;;Geometric Description Language;;Graphisoft;Geometric_Description_Language;parametric/visual;static;BIM objects for ArchiCAD;https://graphisoft.com
+1982;janus;;;Janus;Lutz, Derby;Caltech;Janus_(concurrent_constraint_programming_language);reversible;static;Energy-efficient computing research;_(time-reversible_computing_programming_language)
+1982;lithe;;;Lithe;Bjarne Stroustrup;Bell Labs;Lithe_(programming_language);systems;static;C++ precursor research;en.wikipedia.org
+1982;maple;;;Maple;Keith Geddes;University of Waterloo;Maple_(software);symbolic;dynamic;Mathematical computation;https://www.maplesoft.com
+1982;planc;;;PLANC;Norsk Data;Norsk Data;PLANC;systems;static;Nord-500 system programming;en.wikipedia.org
+1982;prograph;;;Prograph;Szpakowicz,Stanat;Acadia University;Prograph;visual/dataflow;dynamic;General purpose visual programming;en.wikipedia.org
+1982;signal;;;SIGNAL;Paul Le Guernic;INRIA;SIGNAL_(programming_language);synchronous;static;Embedded real-time systems;https://www.inria.fr
+1982;zebra;;;Zebra;Zebra Tech;Zebra Technologies;Zebra_(programming_language);label description;untyped;Barcode label printing;https://www.zebra.com
+1983;abap;COBOL;;ABAP;;SAP AG;ABAP;;;;
+1983;ada83;Ada 80, Green;;Ada 83;Jean Ichbiah;Alsys;;;;;
+1983;c;C with Classes;;C++;Bjarne Stroustrup;;C*;;;;
+1983;clascal;Pascal;;Clascal;;Apple Computer;;;;;
+1983;gwbasic;IBM BASIC;;GW-BASIC;;Microsoft;;;;;
+1983;kornshellksh;sh;;KornShell (ksh);David Korn;;;;;;
+1983;objectivec;Smalltalk, C;;Objective-C;Brad Cox;;Objective-C;;;;
+1983;occam;EPL;;occam;David May;;Occam-%CF%80;;;;
+1983;truebasic;BASIC;;True BASIC;John George Kemeny, Thomas Eugene Kurtz;Dartmouth College;;;;;
+1983;turbopascal;Pascal;;Turbo Pascal;Hejlsberg;Borland;;;;;
+1983;epl;;;EPL;University of Edinburgh;Edinburgh Poplog Group;Easy_Programming_Language;multi-paradigm;dynamic;AI Research/Poplog environment;
+1983;kee;;;KEE;;IntelliCorp;IntelliCorp_(Software);knowledge-based;dynamic;Expert system development;
+1983;kornshell;;;KornShell;David Korn;Bell Labs;KornShell;scripting;dynamic;Unix shell & scripting;http://www.ksh93.org
+1983;krypton;;;KRYPTON;Brachman,Pigman;Xerox PARC;KRYPTON;knowledge-based;strong;AI & Frame representation;en.wikipedia.org
+1983;lucid;;;Lucid;Ashcroft,Wadge;University of Waterloo;Lucid_(programming_language);dataflow;static;Parallel computing research;en.wikipedia.org_(programming_language)
+1983;sisal;;;SISAL;LLNL;Lawrence Livermore Nat. Lab;SISAL;functional;static;Supercomputer scientific computing;en.wikipedia.org
+1983;sml;;;SML;Robin Milner;University of Edinburgh;Standard_ML;functional;strong static;Academic research/Theorem proving;https://www.smlnj.org
+1984;clipper;dBase;;CLIPPER;;Nantucket Corporation;Clipper_(programming_language);;;;
+1984;commonlisp;LISP;;Common Lisp;Guy L. Steele Jr.;;Common_Lisp;;;;
+1984;opl;BASIC;;OPL;;Psion;;;;;
+1984;redcode;;;Redcode;Alexander Dewdney, D.G. Jones;;Core_War;;;;
+1984;rocq;;;Rocq;;INRIA;Rocq;;;;
+1984;rpl;Forth, Lisp;;RPL;;Hewlett-Packard;RPL_(programming_language);;;;
+1984;standardml;ML;;Standard ML;;;;;;;
+1984;foxbasefoxpro;;;FoxBase/FoxPro;;Fox Software;FoxPro_(programming_language);procedural/db;dynamic;Desktop Database apps;https://www.microsoft.com
+1984;lisa;;;LISA;Invention Software;Invention Software;Language_for_Instruction_Set_Architecture;object-oriented;dynamic;Macintosh development (Legacy);en.wikipedia.org_(programming_language)
+1984;lynx;;;Lynx;Michael Scott;University of Wisconsin;Lynx_(programming_language);distributed;strong;Distributed systems research;en.wikipedia.org_(programming_language)
+1984;obj2;;;OBJ2;Joseph Goguen;SRI International;OBJ2;algebraic;strong;Verification and specification;en.wikipedia.org
+1984;open;;;Open Programming Language;Psion;Psion;Open_Programming_Language;scripting;dynamic;Handheld computers (EPOC);en.wikipedia.org
+1984;orwell;;;Orwell;Philip Wadler;Oxford University;Orwell_(programming_language);functional;static;Haskell precursor;en.wikipedia.org_(programming_language)
+1984;rapira;;;Rapira;Andrei Ershov;Soviet Academy of Sciences;Rapira;procedural;dynamic;Educational programming (USSR);en.wikipedia.org
+1984;uniface;;;Uniface;Uniface B.V.;Rocket Software;Uniface_(programming_language);low-code/4gl;static;Enterprise application development;https://www.rocketsoftware.com
+1985;paradox;dBase;;PARADOX;;Borland;;;;;
+1985;quickbasic;BASIC;;QuickBASIC;;Microsoft;;;;;
+1985;batchfile;;;Batch file;Microsoft;Microsoft , IBM;Batch_file;procedural;untyped;;
+1985;clips;C;C Language Integrated Production System;CLIPS;;NASA;CLIPS_(programming_language);object-oriented, expertsystem;;;http://clipsrules.net/
+1985;emacslisp;;;Emacs Lisp;Richard Stallman;Free Software Foundation;Emacs_Lisp;functional/lisp;dynamic;Emacs text editor extension;www.gnu.org
+1985;esterel;;;Esterel;Gerard Berry;INRIA;Esterel;synchronous/reactive;static;Real-time embedded systems;https://www.esterel-technologies.com
+1985;max;;;Max;Miller Puckette;IRCAM,Cycling '74;Max_(software);visual;dynamic;Audio/Video synthesis;https://cycling74.com
+1985;parigp;;;PARI/GP;Henri Cohen;University of Bordeaux;PARI/GP;number theory;dynamic;Advanced mathematics;https://pari.math.u-bordeaux.fr
+1985;sqr;;;SQR;SQRIBE;Oracle,PeopleSoft;SQR;reporting;dynamic;PeopleSoft report generation;https://www.oracle.com
+1985;sr;;;SR;Andrews,Olsson;University of Arizona;SR_(programming_language);concurrent;static;Concurrency research;www.cs.arizona.edu
+1985;stata;;;Stata;StataCorp;StataCorp;Stata;statistical;dynamic;Data analysis and econometrics;https://www.stata.com
+1986;clarion;;;Clarion;Bruce Barrington;;Clarion_(programming_language);;;;
+1986;corvision;INFORM;;CorVision;;Cortex;CorVision;;;;
+1986;eiffel;Simula 67, Ada;;Eiffel;Bertrand Meyer;;Eiffel_(programming_language);;;;
+1986;erlang;PLEX, Prolog;;Erlang;Joe Armstrong;Ericsson;Erlang_(programming_language);;;;
+1986;gfabasic;BASIC;;GFA BASIC;Frank Ostrowski;;;;;;
+1986;informix4gl;;;Informix-4GL;;IBM;;;;;
+1986;labview;;;LabVIEW;;National Instruments;LabVIEW;;;;
+1986;miranda;SASL;;Miranda;David Turner;University of Kent;Miranda_(programming_language);;;;
+1986;objectpascal;Pascal;;Object Pascal;;Apple Computer;Object_Pascal;;;;
+1986;promal;C;;PROMAL;;;PROMAL;;;;
+1986;autolisp;;;AutoLISP;David Betz;Autodesk;AutoLISP;;dynamic;;www.autodesk.com
+1986;csound;;;Csound;Barry Vercoe;MIT;Csound;domain-specific;audio-typed;Sound synthesis;https://csound.com
+1986;drakon;;;DRAKON;Vladimir Parondzhanov;Buran project;DRAKON;visual;graphical;Spacecraft control systems;http://drakon.su
+1986;emerald;;;Emerald;Black, Hutchinson, Levy;University of Washington;Emerald_(programming_language);distributed/object-oriented;strong;Distributed systems;http://www.emerald-lang.org
+1986;fl;;;FL;John Backus;IBM;FL_(programming_language);functional;static;Academic research (FP successor);
+1986;gap;;;GAP;;GAP Group, RWTH Aachen University;GAP_computer_algebra_system;algebraic/scripting;dynamic;Computational Group Theory;https://www.gap-system.org
+1986;hermes;;;Hermes;Robert Strom;IBM Research;Hermes_(programming_language);distributed;static;Secure distributed systems research;
+1986;ibminformix4gl;;;IBM Informix-4GL;;IBM,Informix;IBM_Informix-4GL;4gl/database;static;Enterprise SQL applications;www.ibm.com
+1986;objectlisp;;;Object Lisp;LMI;Lisp Machines Inc.;Object_Lisp;object-oriented (lisp);dynamic;Early Lisp OO extension;en.wikipedia.org
+1986;objectlogo;;;ObjectLOGO;Paradigm Software;Paradigm Software;ObjectLOGO;object-oriented (logo);dynamic;Educational programming;en.wikipedia.org
+1986;tpu;;;TPU;DEC;VMS Software (DEC);Text_Processing_Utility;scripting (editor);dynamic;EVE editor programming;https://vmssoftware.com
+1986;visualprolog;;;Visual Prolog;Prolog Development C;Prolog Development Center;Visual_Prolog;logic;static;AI/Expert systems;https://www.visual-prolog.com
+1987;clean;;;Clean;;Radboud University Nijmegen;Clean_(programming_language);;;;
+1987;hypertalk;;;HyperTalk;;Apple Computer;HyperTalk;;;;
+1987;oberon;Modula-2;;Oberon;Niklaus Wirth;;Oberon_(programming_language);;;;
+1987;occam2;occam;;occam 2;David May;INMOS;;;;;
+1987;perl;C, sed, awk, sh;;Perl;Larry Wall;;Perl;;;;
+1987;turbobasic;BASIC/Z;;Turbo Basic;Robert 'Bob' Zale;;;;;;
+1987;arexx;;;ARexx;William S. Hawes;Commodore (Amiga);ARexx;procedural;typeless;;
+1987;caml;;;Caml;Ascánder Suárez, Pierre Weis, Michel Mauny, Xavier Leroy, Damien Doligez, Gérard Huet;INRIA (French Institute for Research in Computer Science and Automation);Caml;functional;static (hindley–milner);;
+1987;flex;;;Flex;Vern Paxson;UC Berkeley;Flex_(language);domain-specific;n/a;Generating lexical analyzers;github.com
+1987;lansa;;;LANSA;LANSA;LANSA;LANSA_(development_environment);4gl/low-code;strong;IBM i (AS/400) development;https://www.lansa.com
+1987;lustre;;;Lustre;Paul Caspi;Verimag;Lustre_(programming_language);synchronous;static;Critical real-time systems;en.wikipedia.org_(programming_language)
+1987;tads;;;TADS;Michael J. Roberts;TADS Team;TADS;object-oriented/game;dynamic;Interactive fiction development;http://www.tads.org
+1987;transcript;;;Transcript;MetaCard;LiveCode (MetaCard);Transcript_(programming_language);natural-language;dynamic;Precursor to LiveCode;https://livecode.com
+1988;a;APL, A;;A+;Arthur Whitney;;A%2B_(programming_language);;;;
+1988;actor;Forth, Smalltalk;;Actor;Charles Duff;Whitewater Group;Actor_(programming_language);;;;
+1988;c90;C;;C90;;C90 ISO,IEC 9899:1990;;;;;
+1988;hamiltoncshell;C shell;;Hamilton C shell;Nicole Hamilton;;Hamilton_C_shell;;;;
+1988;objectrexx;REXX, Smalltalk;;Object REXX;Simon C. Nash;;Object_REXX;;;;
+1988;octave;MATLAB;;Octave;;;;;;;
+1988;spark;Ada;;SPARK;Bernard A. Carré;;SPARK_(programming_language);;;;
+1988;stosbasic;BASIC;;STOS BASIC;François Lionet, Constantin Sotiropoulos;;;;;;
+1988;tcl;Awk, Lisp;;Tcl;John Ousterhout;;Tcl;;;;
+1988;wolfram; though borrowing some syntax from C and certain functionalities of lists from LISP;;Wolfram;;Wolfram Research;;;;;
+1988;acc;!!!;;ACC;;;ACC_(programming_language);;;;
+1988;euslisprobotprogramminglanguage;;;EusLisp Robot Programming Language;Toshihiro Matsui;ETL (Japan);EusLisp_Robot_Programming_Language;object-oriented/lisp;dynamic;Robotics control systems;euslisp.github.io
+1988;gnuoctave;;;GNU Octave;John W. Eaton;University of Wisconsin-Madison;GNU_Octave;numerical;dynamic;Mathematical simulations (Matrix);www.gnu.org
+1988;lingo;;;Lingo;John Henry Thompson;Macromedia (Adobe);Lingo_(programming_language);scripting/oo;dynamic;Adobe Director multimedia;https://www.adobe.com
+1988;napier88;;;Napier88;Ronald Morrison;University of St Andrews;Napier88;persistent;strong;Persistent data research;en.wikipedia.org
+1988;omnimark;;;OmniMark;Stilo Corp;Stilo Corporation;OmniMark;stream-oriented;dynamic;XML/SGML processing;www.stilo.com
+1988;picolisp;;;Picolisp;Alexander Burger;Alexander Burger;Picolisp;lisp;dynamic;Minimalist Lisp implementation;https://picolisp.com
+1988;splus;;;S-PLUS;Insightful Corp;Insightful Corp;S-PLUS;statistical;dynamic;Commercial version of S language;https://www.tibco.com
+1988;strand;;;Strand;Foster,Taylor;Argonne National Lab;Strand_(programming_language);parallel (logic);dynamic;Parallel logic programming;en.wikipedia.org_(programming_language)
+1988;txl;;;TXL;Cordy,Halpern;Queen's University;TXL_(programming_language);transformational;static;Code analysis and transformation;http://www.txl.ca
+1988;unity;;;UNITY;Chandy,Misra;University of Texas;UNITY_(programming_language);declarative;static;Formal verification research;en.wikipedia.org_(programming_language)
+1988;wolframlanguage;;;Wolfram Language;Stephen Wolfram;Wolfram Research;Wolfram_Language;multi-paradigm/symbolic;dynamic;Scientific computation/Math;www.wolfram.com
+1989;bash;Bourne shell, C shell, KornShell;;Bash;Brian Fox;;Bash_(Unix_shell);;;;
+1989;lpc;;;LPC;Lars Pensjö;;LPC_(programming_language);;;;
+1989;magik;Smalltalk;;Magik;Arthur Chance;Smallworld Systems Ltd;Magik_(programming_language);;;;
+1989;modula3;Modula-2;;Modula-3;Cardeli;DEC, Olivetti;Modula-3;;;;
+1989;powerbasic;Turbo Basic;;PowerBASIC;Robert 'Bob' Zale;;;;;;
+1989;turbopascaloop;Turbo Pascal, Object Pascal;;Turbo Pascal OOP;Anders Hejlsberg;Borland;;;;;
+1989;vissim;;;VisSim;Peter Darnell;Visual Solutions;;;;;
+1989;formula;;;@Formula;;Lotus,IBM;Formula_language;declarative/scripting;dynamic;Lotus Notes/Domino automation;https://www.hcl-software.com
+1989;rc;;;rc;Tom Duff;Bell Labs;Rc_(Unix_shell);shell (plan 9);dynamic;Unix command line;doc.cat-v.org
+1989;sequencel;;;SequenceL;Daniel Cooke;Texas Tech University;SequenceL;parallel;static;Automatic parallelization;https://sequencel.com
+1989;supertalk;;;SuperTalk;Silicon Beach;Silicon Beach Software;SuperTalk;scripting;dynamic;SuperCard automation;http://www.supercard.us
+1989;tsql;;;T-SQL;Sybase,Microsoft;Microsoft;Transact-SQL;database;static;Procedural SQL extensions;https://learn.microsoft.com
+1990;amosbasic;STOS BASIC;;AMOS BASIC;François Lionet, Constantin Sotiropoulos;;;;;;
+1990;ampl;;;AMPL;Robert Fourer, David Gay, Brian Kernighan;Bell Laboratories;AMPL;;;;
+1990;eulisp;Common Lisp, Scheme;;EuLisp;;;;;;;
+1990;haskell;Miranda, Clean;;Haskell;;;Haskell;;;;
+1990;j;APL, FP;;J;Kenneth E. Iverson, Roger Hui;Iverson Software;J_(programming_language);;;;
+1990;objectoberon;Oberon;;Object Oberon;H. Mössenböck, J. Templ, R. Griesemer;;;;;;
+1990;sather;Eiffel;;Sather;Steve Omohundro;;Sather;;;;
+1990;skill;Franz Lisp;;SKILL;T. J. Barnes;Cadence Design Systems;SKILL;;;;
+1990;zshellzsh;ksh;;Z shell (zsh);Paul Falstad;Princeton University;;;;;
+1990;accent;!!!java;;ACcent;;Rational Software;Accent_(programming_language);;;;
+1990;aldor;A#, Pascal, Haskell;;Aldor;Richard Dimick Jenks, Barry Trager, Stephen Watt, James Davenport, Robert Sutor, Scott Morrison;IBM;Aldor;oop, functional, imperative, dependent typed, logic;;Axiom;https://aldor.org/
+1990;charm;RTL/2, C, Pascal;;Charm;P. Nowosad;University of Stirling (Scotland);Charm_(language);procedural, structured;static;RISC OS;http://charm.qu-bit.co.uk/
+1990;kaleidoscope;;;Kaleidoscope;Lopez, Freeman-Benson;University of Washington;Kaleidoscope_(programming_language);constraint-based;dynamic;Constraint research;
+1990;moo;;;MOO;Stephen White;Xerox PARC;MOO_(programming_language);object-oriented;dynamic;Multi-user virtual environments;en.wikipedia.org_(programming_language)
+1990;nesl;;;NESL;Guy Blelloch;CMU;NESL;parallel/functional;static;Parallel algorithm research;www.cs.cmu.edu
+1990;rsl;;;RSL;RAISE Group;UNU-IIST;Robot_Battle#Robot_scripting_language;formal specification;strong;System design specification;en.wikipedia.org
+1990;scilab;;;Scilab;INRIA;INRIA,ENPC;Scilab;numerical;dynamic;Scientific computation;https://www.scilab.org
+1990;simulink;;;Simulink;MathWorks;MathWorks;Simulink;graphical modeling;static;Physical system simulation;www.mathworks.com
+1990;starlogo;;;Starlogo;Mitchel Resnick;MIT Media Lab;Starlogo;agent-based;dynamic;Complex system simulation;https://education.mit.edu
+1990;unicon;;;Unicon;Clinton Jeffery;Unicon Org;Unicon_(programming_language);multi-paradigm;dynamic;Advanced data processing;http://unicon.org
+1990;zshell;;;Z shell;Paul Falstad;Zsh Team;Z_shell;scripting (shell);dynamic;Unix shell automation;https://www.zsh.org
+1991;gnue;C++;;GNU E;David J. DeWitt, Michael J. Carey;;GNU_E;;;;
+1991;oberon2;Object Oberon;;Oberon-2;Hanspeter Mössenböck, Niklaus Wirth;;;;;;
+1991;oz;Prolog;;Oz;Gert Smolka;;Oz_(programming_language);;;;
+1991;python;Perl, ABC, C;;Python;Guido van Rossum;;Python_(programming_language);;;;
+1991;q;;;Q;Albert Gräf;;Q_(programming_language_from_Kx_Systems);;;;
+1991;visualbasic;QuickBASIC;;Visual Basic;Alan Cooper;Microsoft;;;;;
+1991;constrainthandlingrules;;;Constraint Handling Rules;Thom Fruhwirth;LMU Munich;Constraint_Handling_Rules;declarative;logic;Constraint solving;dtai.cs.kuleuven.be
+1991;ease;;;Ease;Steven Atkinson;University of Reading;Ease_(programming_language);parallel (c-based);static;Parallel computing;
+1991;kixtart;;;Kixtart;Ruud van Velsen;Microsoft;KiXtart;scripting;dynamic;Windows logon scripting;http://www.kixtart.org
+1991;newlisp;;;NewLISP;Lutz Mueller;Lutz Mueller;NewLISP;lisp/scripting;dynamic;General purpose scripting;http://www.newlisp.org
+1991;oak;;;Oak;James Gosling;Sun Microsystems;Oak_(programming_language);object-oriented;static;Java precursor;https://www.oracle.com
+1991;plsql;;;PL/SQL;Oracle;Oracle;PL/SQL;database-driven;static;Oracle Database logic;www.oracle.com
+1991;povraysdl;;;POV-Ray SDL;POV-Team;POV-Ray Team;POV-Ray;raytracing sdl;untyped;3D scene description;https://www.povray.org
+1991;powerbuilder;;;PowerBuilder;Sybase;Appeon (originally Sybase);PowerBuilder;object-oriented (rad);static;Client-server apps;https://www.appeon.com
+1991;vimscript;;;Vim script;Bram Moolenaar;Vim Team;Vim_(text_editor)#Vim_script;scripting;dynamic;Vim editor extension;https://www.vim.org
+1991;zpp;;;Z++;Kevin Lano;Kevin Lano;Z%2B%2B;formal/object-oriented;strong;System specification (Z notation);en.wikipedia.org
+1992;borlandpascal;Turbo Pascal OOP;;Borland Pascal;Anders Hejlsberg;Borland;;;;;
+1992;dylan;Common Lisp, Scheme;;Dylan;;Apple Computer;Dylan_(programming_language);;;;
+1992;slang;PostScript;;S-Lang;John E. Davis;;S-Lang;;;;
+1992;alef;C, Newsqueak;;Alef;Phil Winterbottom;;Alef_(programming_language);compiled, concurrent, structured;static, strong;Plan 9 from Bell Labs;
+1992;alf;Prolog;Algebraic Logic Functional programming language;Algebraic Logic Functional (ALF);;;Algebraic_Logic_Functional_programming_language;logic, functional;;;http://www.informatik.uni-kiel.de/~mh/systems/ALF
+1992;cecil;;;Cecil;Craig Chambers;University of Washington;Cecil_(programming_language);object-oriented, imperative;dynamic, optional static;;
+1992;ch;;;Ch;Harry H. Cheng;SoftIntegration, Inc.;Ch_(computer_programming);;;;
+1992;darwin;;;Darwin;Gaston Gonnet;ETH Zurich;Darwin_(programming_language);scripting;dynamic;Bioinformatics;
+1992;gdel;;;Gödel;Hill, Lloyd;University of Bristol;G%C3%B6del_(programming_language);logic (declarative);strong;Logic programming research;
+1992;kif;;;KIF;Michael Genesereth;Stanford KSL;Knowledge_Interchange_Format;logic/interchange;strong;AI knowledge interchange;ksl.stanford.edu
+1992;mupad;;;MuPAD;University of Paderborn;MathWorks;MuPAD;symbolic;dynamic;Mathematical computation;www.mathworks.com
+1992;pict;;;Pict;Benjamin Pierce;University of Edinburgh;Pict_(programming_language);concurrent;strong;Pi-calculus research;en.wikipedia.org_(programming_language)
+1992;sensetalk;;;SenseTalk;Doug Simons;Eggplant (Keysight);SenseTalk;natural-language;dynamic;UI Test automation;https://www.eggplantsoftware.com
+1992;ttcn;;;TTCN;ETSI;ETSI;TTCN;testing;static;Communication protocol testing;http://www.ttcn-3.org
+1992;yorick;;;Yorick;David Munro;LLNL;Yorick_(programming_language);numerical/array-based;dynamic;Scientific data analysis;https://yorick.github.io
+1993;applescript;HyperTalk;;AppleScript;;Apple Computer;AppleScript;;;;
+1993;brainfuck;P'′;;Brainfuck;Urban Müller;;;;;;
+1993;euphoria;SNOBOL, AWK, ABC, Icon, Python;;Euphoria;Robert Craig;;Euphoria_(programming_language);;;;
+1993;k;APL, Lisp;;K;Arthur Whitney;;K_(programming_language);;;;
+1993;livecodetranscript;HyperTalk;;LiveCode Transcript;;LiveCode Ltd.;;;;;
+1993;lua;Scheme, SNOBOL, Modula, CLU, C++;;Lua;Roberto Ierusalimschy;Tecgraf, PUC-Rio;Lua_(programming_language);;;;
+1993;newtonscript;Self, Dylan;;NewtonScript;Walter Smith;;NewtonScript;;;;
+1993;r;S;;R;Robert Gentleman, Ross Ihaka;;R%2B%2B;;;;
+1993;self;Smalltalk;;Self;;Sun Microsystems;Self_(programming_language);;;;
+1993;zpl;C;;ZPL;Chamberlain;University of Washington;ZPL_(programming_language);;;;
+1993;agora;!!!;;Agora;;;Agora_(programming_language);;;;https://soft.vub.ac.be/research/agora/
+1993;aimms;!!!;Advanced Interactive Multidimensional Modeling System;AIMMS;Johannes J. Bisschop, Marcel Roelofs;Paragon Decision Technology B.V.;AIMMS;;;;https://www.aimms.com/
+1993;cfengine;;;CFEngine;Mark Burgess;CFEngine AS, Oslo University College;CFEngine;declarative (configuration management);untyped;;cfengine.com
+1993;es;;;es;Paul Haahr, Byron Rakitzis;Bell Labs;Es_(Unix_shell);functional/shell;dynamic;Unix shell scripting;doc.cat-v.org
+1993;gnuguile;;;GNU Guile;;Free Software Foundation;GNU_Guile;scheme/functional;dynamic;GNU system extension language;www.gnu.org
+1993;inform;;;Inform;Graham Nelson;Graham Nelson;Inform_(programming_language);rule-based/logic;dynamic;Interactive fiction/Game design;https://inform7.com
+1993;instructionlist;;;Instruction List;;IEC 61131-3;Instruction_List;low-level/plc;static;Industrial automation/PLC;https://www.iec.ch
+1993;magma;;;Magma;John Cannon;University of Sydney;Magma_computer_algebra_system;algebraic;dynamic;Advanced mathematics/Algebra;http://magma.maths.usyd.edu.au
+1993;maudesystem;;;Maude system;Meseguer,Clavel;SRI International;Maude_system;rewriting logic;strong;Formal verification/Logic;http://maude.cs.illinois.edu
+1993;maya;;;Maya;Alias;Autodesk (Alias);Maya_Embedded_Language;scripting (mel);dynamic;Maya 3D automation;www.autodesk.com
+1993;mpd;;;MPD;Andrews,Olsson;University of Arizona;MPD_(programming_language);parallel;static;Parallel programming education;www.cs.arizona.edu
+1993;obliq;;;Obliq;Luca Cardelli;Digital Equipment Corp;Obliq;distributed/oo;dynamic;Network programming;en.wikipedia.org
+1993;sol;;;SOL;PUC-Rio;PUC-Rio;Secure_Operations_Language;data-driven/scripting;dynamic;Precursor to Lua;www.lua.org
+1993;structuredtext;;;Structured Text;IEC;IEC;Structured_Text;plc/procedural;static;Industrial automation;https://www.iec.ch
+1993;xsb;;;XSB;Stony Brook Univ;Stony Brook University;XSB;logic (prolog);dynamic;Semantic web/Ontology research;http://xsb.sourceforge.net
+1994;ansforth;Forth;;ANS Forth;Elizabeth Rather;;;;;;
+1994;ansicommonlisp;Common Lisp;;ANSI Common Lisp;;;;;;;
+1994;claire;Smalltalk, SETL, OPS5, Lisp, ML, C, LORE, LAURE;;Claire;Yves Caseau;;Claire_(programming_language);;;;
+1994;pike;LPC, C, μLPC;;Pike;Fredrik Hübinette;Linköping University;Pike_(programming_language);;;;
+1994;rapid;ARLA;;RAPID;;ABB;RAPID;;;;
+1994;cilk;C;;Cilk;;MIT, Intel;Cilk;imperative, procedural, structured, parallel;static, weak, manifest;;https://cilk.mit.edu/
+1994;escher;;;Escher;Pieter Hendriks;University of Nijmegen;Escher_(programming_language);functional (pure);static;Research/Database querying;www.cs.ru.nl
+1994;opal;;;Opal;TU Berlin;TU Berlin;Opal_(programming_language);functional;static;Functional programming research;en.wikipedia.org
+1994;strongtalk;;;Strongtalk;Long,Bak;Sun Microsystems;Strongtalk;object-oriented;strong (optional);High-performance Smalltalk dialect;http://www.strongtalk.org
+1994;visualdataflex;;;Visual DataFlex;Data Access Corp;Data Access Corporation;Visual_DataFlex;object-oriented/rad;static;Database applications;https://www.dataaccess.com
+1994;xbase;;;xBase++;Alaska Software;Alaska Software;XBase%2B%2B;object-oriented/db;dynamic;Modernizing Clipper applications;http://www.alaska-software.com
+1995;ada95;Ada 83;;Ada 95;S. Tucker Taft;Intermetrics;;;;;
+1995;borlanddelphi;Borland Pascal;;Borland Delphi;Anders Hejlsberg;Borland;;;;;
+1995;coldfusioncfml;;;ColdFusion (CFML);Allaire;Allaire;;;;;
+1995;java;C, Simula 67, C++, Smalltalk, Ada 83, Objective-C, Mesa;;Java;James Gosling;Sun Microsystems;Java_(programming_language);;;;
+1995;javascript;LiveScript;;JavaScript;Brendan Eich;Netscape;JavaScript;;;;
+1995;livescript;Self, C, Scheme;;LiveScript;Brendan Eich;Netscape;LiveScript_(programming_language);;;;
+1995;mercury;Prolog, Hope, Haskell;;Mercury;Zoltan Somogyi;University of Melbourne;Mercury_(programming_language);;;;
+1995;php;Perl;;PHP;Rasmus Lerdorf;;PHP;;;;
+1995;racket;Scheme, Lisp;;Racket;Matthew Flatt;Rice University;Racket_(programming_language);;;;
+1995;ruby;Smalltalk, Perl;;Ruby;Yukihiro Matsumoto;;Ruby_(programming_language);;;;
+1995;coldfusion;;;ColdFusion;JJ Allaire;Adobe;ColdFusion;scripting/oo;dynamic;Web development;www.adobe.com
+1995;delphi;;;Delphi;Anders Hejlsberg;Borland;Delphi_(software);object-oriented;static;Windows Desktop applications;www.embarcadero.com
+1995;jess;;;Jess;Ernest Friedman-Hill;Sandia National Labs;Jess_(programming_language);rule-based;dynamic;Expert systems in Java;https://jessrules.com
+1995;limbo;;;Limbo;Sean Dorward;Bell Labs;Limbo_(programming_language);concurrent;static;Inferno OS development;www.vitanuova.com
+1995;lotusscript;;;LotusScript;Lotus;IBM,Lotus;LotusScript;object-oriented;dynamic;Lotus Notes/Domino automation;https://www.hcl-software.com
+1995;mheg5;;;MHEG-5;ISO,IEC;ISO,IEC;MHEG-5;multimedia;strong;Interactive TV/Minitel;en.wikipedia.org
+1995;mivascript;;;MIVA Script;MIVA;Miva Inc.;MIVA_Script;scripting;dynamic;E-commerce web development;https://www.miva.com
+1995;msl;;;MSL;Khaled Mardam-Bey;mIRC Co. Ltd.;MIRC_scripting_language;scripting;dynamic;mIRC client automation;https://www.mirc.com
+1995;visualdialogscript;;;Visual DialogScript;Julian Moss;Julian Moss;Visual_DialogScript;scripting;dynamic;Simple Windows tools;en.wikipedia.org
+1995;visualfoxpro;;;Visual FoxPro;Microsoft;Microsoft;Visual_FoxPro;object-oriented/database-driven;dynamic;Windows database apps;https://learn.microsoft.com
+1995;visualobjects;;;Visual Objects;Computer Associates;CA Technologies;Visual_Objects;object-oriented/xbase;dynamic;Enterprise xBase development;en.wikipedia.org
+1996;css;SGML;;CSS;Håkon Wium Lie, Bert Bos;;;;;;
+1996;curl;Lisp, C++, Tcl/Tk, TeX, HTML;;Curl;David Kranz, Steve Ward, Chris Terman;MIT;Curl_(programming_language);;;;
+1996;lasso;;;Lasso;;Blue World Communications;Lasso_(programming_language);;;;
+1996;netrexx;REXX;;NetRexx;Mike Cowlishaw;;NetRexx;;;;
+1996;ocaml;Caml Light, Standard ML;;OCaml;;INRIA;OCaml;;;;
+1996;perldatalanguagepdl;APL, Perl;;Perl Data Language (PDL);Karl Glazebrook, Jarle Brinchmann, Tuomas Lukka, Christian Soeller;;;;;;
+1996;puredata;Max;;Pure Data;Miller Puckette;;Pure_Data;;;;
+1996;vbscript;Visual Basic;;VBScript;;Microsoft;;;;;
+1996;curry;;;Curry;Michael Hanus;Kiel University;Curry_(programming_language);functional-logic;static;Research;http://www.curry-lang.org
+1996;jade;;;JADE;;Jade Software Corporation;JADE_(programming_language);object-oriented/db;static;Enterprise application development;https://www.jadeworld.com
+1996;joule;;;Joule;;Agorics Inc;Joule_(programming_language);distributed/object-oriented;strong;Secure distributed computing;www.erights.org
+1996;jscript;;;JScript;;Microsoft;JScript;scripting;dynamic;Web (Internet Explorer)/WSH;https://learn.microsoft.com
+1996;lilypond;;;LilyPond;Nienhuys,Nieuwenhuizen;GNU Project;LilyPond;domain-specific;static;Music engraving/notation;https://lilypond.org
+1996;maxscript;;;MaxScript;John Wainwright;Autodesk (Kinetix);Autodesk_3ds_Max;scripting;dynamic;3ds Max automation;help.autodesk.com
+1996;nasm;;;NASM;Simon Tatham;NASM Project;Netwide_Assembler;assembly;low-level;x86 software development;https://www.nasm.us
+1996;netdata;;;Net.Data;IBM;IBM;Net.Data;macro-based;dynamic;Web-to-DB2 middleware;https://www.ibm.com
+1996;pizza;;;Pizza;Odersky,Wadler;University of Karlsruhe;Pizza_(programming_language);object-oriented/functional;static;Generics for Java;http://pizzacompiler.net
+1996;quakec;;;QuakeC;John Carmack;id Software;QuakeC;procedural;static;Quake engine game logic;https://quakewiki.org
+1996;supercollider;;;SuperCollider;James McCartney;SuperCollider Team;SuperCollider;audio-scripting;dynamic;Algorithmic sound composition;https://supercollider.github.io
+1996;visualj;;;Visual J++;Microsoft;Microsoft;Visual_J%2B%2B;object-oriented (java);static;Windows development in Java;en.wikipedia.org
+1996;xojo;;;Xojo;Xojo Inc;Xojo Inc;Xojo;object-oriented/rad;static;Cross-platform app development;https://www.xojo.com
+1997;componentpascal;Oberon-2;;Component Pascal;;Oberon Microsystems;Component_Pascal;;;;
+1997;e;Joule, Original-E;;E;Mark S. Miller;;E_(programming_language);;;;
+1997;ecmascript;JavaScript;;ECMAScript;;ECMA TC39-TG1;ECMAScript;;;;
+1997;fscript;Smalltalk, APL, Objective-C;;F-Script;Philippe Mougin;;;;;;
+1997;islisp;Common Lisp;;ISLISP;;ISO Standard ISLISP;ISLISP;;;;
+1997;pico;Scheme;;Pico;;Free University of Brussels;Pico_(programming_language);;;;
+1997;rebol;Self, Forth, Lisp, Logo;;REBOL;Carl Sassenrath;Rebol Technologies;REBOL;;;;
+1997;squeak;Smalltalk-80, Self;;Squeak;Alan Kay;Apple Computer;Squeak;;;;
+1997;tea;Java, Scheme, Tcl;;Tea;Jorge Nunes;;Tea_(programming_language);;;;
+1997;almazero;Modula-2;;Alma-0;Krzysztof Apt, Marc Bezem, Jacob Brunekreef, Vincent Partington, Andrea Schaerf;Centrum Wiskunde & Informatica;Alma-0;constraint, imperative, logic;static;;
+1997;cachobjectscript;;;Caché ObjectScript;InterSystems Corporation;InterSystems;Cach%C3%A9_ObjectScript;object-oriented, procedural, functional, imperative;dynamic, weak;;community.intersystems.com
+1997;dinkc;;;DinkC;Seth Robinson;Robinson Technologies;Dink_Smallwood#Modification;scripting (game);dynamic;Dink Smallwood modding;https://www.rtsoft.com
+1997;jython;;;Jython;Jim Hugunin;Python Software Foundation;Jython;object-oriented/scripting;dynamic;Python implementation for JVM;https://www.jython.org
+1997;modelica;;;Modelica;Modelica Assoc;Modelica Association;Modelica;object-oriented/physical;static;System-level simulation;https://www.modelica.org
+1997;stateflow;;;Stateflow;MathWorks;MathWorks;Stateflow;visual (state-based);static;Event-driven logic design;www.mathworks.com
+1998;actionscript;ECMAScript;;ActionScript;Gary Grossman;;ActionScript;;;;
+1998;logtalk;Prolog;;Logtalk;Paulo Moura;University of Coimbra;Logtalk;;;;
+1998;purebasic;BASIC;;PureBasic;Frederic Laboureur;Fantaisie Software;;;;;
+1998;standardc;C++, Standard C, C;;Standard C++;;ANSI,ISO Standard C++;;;;;
+1998;unrealscript;C++, Java;;UnrealScript;Tim Sweeney;Epic Games;UnrealScript;;;;
+1998;xojorealbasicatthetime;Visual Basic;;Xojo (REALbasic at the time);Andrew Barry;Xojo;;;;;
+1998;xsltxpath;DSSSL;;XSLT (+ XPath);James Clark;W3C;;;;;
+1998;cayenne;;;Cayenne;Erik Meijer, Maarten van der Poel, Mark Tullsen;Utrecht University;Cayenne_(programming_language);functional;dependent;;https://dl.acm.org/doi/10.1145/289423.289451
+1998;cryptol;;;Cryptol;;NSA,Galois Inc;Cryptol;functional;strong;Cryptography;https://www.cryptol.net
+1998;gameorientedassemblylisp;;;Game Oriented Assembly Lisp;Andy Gavin;Naughty Dog;Game_Oriented_Assembly_Lisp;lisp/low-level;dynamic;Game development (PlayStation 2);
+1998;jal;;;JAL;Wouter van Ooijen;Wouter van Ooijen;JAL_(compiler);procedural;static;PIC microcontroller programming;www.casadejacob.com
+1998;legoscript;;;Legoscript;LEGO;LEGO,MIT;Legoscript;visual/block-based;untyped;LEGO Mindstorms RCX control;https://www.lego.com
+1998;notquitec;;;Not Quite C;Dave Baum;Dave Baum;Not_Quite_C;procedural (c-like);static;LEGO RCX robotics;bricxcc.sourceforge.net
+1998;qcl;;;Quantum Computation Language;Bernhard Omer;TU Wien;Quantum_Computation_Language;quantum;static;Quantum computer simulation;tph.tuwien.ac.at
+1998;sac;;;SA-C;CSU,Riverside;Colorado State University;SA-C_(programming_language);dataflow;static;FPGA programming;en.wikipedia.org_(programming_language)
+1998;xpp;;;X++;Microsoft;Microsoft;X%2B%2B;object-oriented/sql;static;Dynamics 365 ERP;https://learn.microsoft.com
+1998;xslt;;;XSLT;James Clark;W3C;XSLT;functional;dynamic;XML data transformation;www.w3.org
+1999;c99;C90;;C99;;C99 ISO,IEC 9899:1999;;;;;
+1999;gambas;Visual Basic, Java;;Gambas;Benoît Minisini;;;;;;
+1999;gamemakerlanguagegml;Game Maker;;Game Maker Language (GML);Mark Overmars;;;;;;
+1999;harbour;dBase, Clipper;;Harbour;Antonio Linares;;Harbour_(software);;;;
+1999;advpl;xBase, dBase;Advanced Protheus Language;AdvPL;;TOTVS S.A.;AdvPL;;;ERP;
+1999;autoit;;;AutoIt;Jonathan Bennett;AutoIt Team;AutoIt;procedural;dynamic;;www.autoitscript.com
+1999;beanshell;;;BeanShell;Pat Niemeyer;Open source;BeanShell;javalike;dynamic;;www.beanshell.org
+1999;cobolscript;;;CobolScript;Matthew Dean;Deskware;CobolScript;procedural;dynamic;Web apps (legacy);http://www.deskware.com
+1999;gamemakerlanguage;;;Game Maker Language;Mark Overmars;YoYo Games;Game_Maker_Language;scripting (event-driven);dynamic;Game development (GameMaker);https://gamemaker.io
+1999;netlogo;;;NetLogo;Uri Wilensky;Northwestern University;NetLogo;agent-based;dynamic;Social science simulations;ccl.northwestern.edu
+1999;nullsoft;;;Nullsoft Scriptable Install System;Justin Frankel;Nullsoft;Nullsoft_Scriptable_Install_System;scripting (installer);untyped;Windows installation scripts;https://nsis.sourceforge.io
+1999;pascalscript;;;Pascal Script;Carlo Kok;RemObjects;Pascal_Script;scripting (pascal);static;Inno Setup/Automation;https://www.remobjects.com
+1999;xotcl;;;XOTcl;Neumann,Zdun;Vienna University;XOTcl;object-oriented (tcl);dynamic;Tcl language extension;http://www.xotcl.org
+2000;csharp;C, C++, Java, Delphi, Modula-2;;C#;Anders Hejlsberg;Microsoft;C_Sharp_(programming_language);;;;
+2000;darkbasic;;;DarkBASIC;;The Game Creators;;;;;
+2000;joinjava;Java;;Join Java;G Stewart von Itzstein;;Join_Java;;;;
+2000;commonintermediatelanguage;;;Common Intermediate Language;;Microsoft;Common_Intermediate_Language;object-oriented;strong;Bytecode for .NET;https://learn.microsoft.com
+2000;highlevelassembly;;;High Level Assembly;Randall Hyde;Plantation Productions;High_Level_Assembly;assembly/oo;low-level;Assembly education/Systems;www.plantation-productions.com
+2001;aspectj;Java, Common Lisp;;AspectJ;Gregor Kiczales;Xerox PARC;;;;;
+2001;d;C, C++, C#, Java;;D;Walter Bright;Digital Mars;D_(programming_language);;;;
+2001;gdscriptgds;Godot;;GDScript (GDS);Juan Linietsky, Ariel Manzur;OKAM Studio;;;;;
+2001;joy;FP, Forth;;Joy;Manfred von Thun;;Joy_(programming_language);;;;
+2001;processing;Java, C, C++;;Processing;Casey Reasm Benjamin Fry;;Processing_(programming_language);;;;
+2001;shakespeareprogramminglanguage;;;Shakespeare Programming Language;Jon Åslund, Karl Hasselström;;;;;;
+2001;visualbasicnet;Visual Basic;;Visual Basic .NET;;Microsoft;;;;;
+2001;averest;;;Averest;Klaus Schneider;TU Kaiserslautern;Averest;reactive;static;;www.averest.org
+2001;executableuml;;;Executable UML;Mellor,Balcer;Obj. Prog. Systems;Executable_UML;modeling (uml);static;Model-driven code generation;www.uml.org
+2001;livecode;;;LiveCode;Kevin Miller;LiveCode Ltd.;LiveCode;natural-language;dynamic;Multi-platform app development;https://livecode.com
+2001;tom;;;Tom;INRIA;INRIA;Tom_(pattern_matching_language);matching/extension;static;Pattern matching for Java/C;http://tom.loria.fr
+2001;xbl;;;XBL;Mozilla;Mozilla;XBL;declarative (xml);untyped;Firefox UI components (legacy);en.wikipedia.org
+2002;gosu;GScript;;Gosu;;Guidewire Software;Gosu_(programming_language);;;;
+2002;io;Self, NewtonScript, Lua;;Io;Steve Dekorte;;Io_(programming_language);;;;
+2002;scratch;Logo, Smalltalk, Squeak, E-Toys, HyperCard, AgentSheets, StarLogo, Tweak;;Scratch;Mitchel Resnick, John Maloney, Natalie Rusk, Evelyn Eastmond, Tammy Stern, Amon Millner, Jay Silver, Brian Silverman;;Scratch_(programming_language);;;;
+2002;adenine;!!!;;Adenine (Haystack);;MIT;Adenine_(programming_language);;;RDF based;
+2002;cyclone;;;Cyclone;;Cornell,AT&T Labs;Cyclone_(programming_language);safe-c;static;Systems programming;http://cyclone.thelanguage.org
+2002;faust;;;FAUST;Yann Orlarey;GRAME;FAUST_(programming_language);functional/dsp;static;Real-time audio processing;https://faust.grame.fr
+2002;highlevelshaderlanguage;;;High Level Shader Language;Microsoft;Microsoft;High_Level_Shader_Language;shader/parallel;static;Graphics/Game shaders (DirectX);https://learn.microsoft.com
+2002;hollywood;;;Hollywood;Andreas Falkenhahn;Airsoft Softwair;Hollywood_(programming_language);scripting/multi;dynamic;Multimedia apps (Amiga/PC);https://www.hollywood-mal.com
+2002;jass;;;JASS;;Blizzard Entertainment;JASS_(scripting_language);scripting;static;Warcraft III game modding;https://www.hiveworkshop.com
+2002;jscriptnet;;;JScript .NET;;Microsoft;JScript_.NET;object-oriented;static;.NET scripting;https://learn.microsoft.com
+2002;jsharp;;;J#;;Microsoft;J_Sharp;object-oriented;static;J++ to .NET transition;https://learn.microsoft.com
+2002;nwscript;;;NWScript;BioWare;BioWare;NWScript;procedural (c-like);static;Neverwinter Nights scripting;http://nwn.bioware.com
+2003;boo;Python, C#;;Boo;Rodrigo B. de Oliveira;;Boo_(programming_language);;;;
+2003;c03;C++, Standard C, C;;C++03;;C++ ISO,IEC 14882:2003;;;;;
+2003;factor;Joy, Forth, Lisp;;Factor;Slava Pestov;;Factor_(programming_language);;;;
+2003;nemerle;C#, ML, Haskell;;Nemerle;;University of Wrocław;Nemerle;;;;
+2003;nix;Miranda/SASL, Haskell;;Nix;Eelco Dolstra;;Nix_(package_manager);;;;
+2003;scala;Smalltalk, Java, Haskell, Standard ML, OCaml;;Scala;Martin Odersky;;Scala_(programming_language);;;;
+2003;squirrel;Lua;;Squirrel;Alberto Demichelis;;Squirrel_(programming_language);;;;
+2003;angelscript;C++;;AngelScript;Andreas Jönsson;AngelCode;AngelScript;scripting, imperative, procedural, object-oriented;static, strong;;https://angelcode.com/angelscript/
+2003;autohotkey;;;AutoHotkey;Chris Mallett;Open source;AutoHotkey;scripting;dynamic;;www.autohotkey.com
+2003;cg;;;Cg;;nVidia, Microsoft;Cg_(programming_language);declarative, shader language;strong, static;;
+2003;chuck;;;ChucK;Ge Wang, Perry R. Cook;Princeton University, Stanford University;ChucK;;;;
+2003;gamemonkeyscript;;;GameMonkey Script;Greg Dumont, A. Smith;GameMonkey;GameMonkey_Script;scripting;dynamic;Embedded game scripting;github.com
+2003;lc3;;;LC-3;Patt,Patel;University of Texas;Little_Computer_3;assembly;low-level;Computer architecture education;en.wikipedia.org
+2003;lsl;;;LSL;Linden Lab;Linden Lab;Linden_Scripting_Language;event-driven;static;Second Life scripting;https://secondlife.com
+2003;qpl;;;QPL;Peter Selinger;Dalhousie University;Quantum_programming;quantum;strong;Quantum computing theory;en.wikipedia.org_(programming_language)
+2003;sawzall;;;Sawzall;Rob Pike;Google;Sawzall_(programming_language);parallel/scripting;static;Large log analysis;en.wikipedia.org_(programming_language)
+2003;xl;;;XL;Christophe de Dinechin;Christophe de Dinechin;XL_(programming_language);conceptual;static;Meta-programming research;http://xl-lang.org
+2004;alma0;;;Alma-0;Krzysztof Apt;Centrum Wiskunde & Informatica;Alma-0;;;;
+2004;freebasic;QBasic;;FreeBASIC;Andre Victor;;;;;;
+2004;groovy;Java;;Groovy;James Strachan;;Apache_Groovy;;;;
+2004;littleb;Lisp;;Little b;Aneil Mallavarapu;Harvard Medical School;Little_b_(programming_language);;;;
+2004;subtext;;;Subtext;Jonathan Edwards;;Subtext_(programming_language);;;;
+2004;asharp;;;A# .NET;AdaCore , USFA;AdaCore;A_Sharp_(.NET);generic;strong, static;;www.adacore.com
+2004;ats;;;ATS;Hongwei Xi;Boston University;ATS_(programming_language);imperative;dependent types;;www.ats-lang.org
+2004;epigram;;;Epigram;Conor McBride;University of Nottingham;Epigram_(programming_language);functional (dependent);very strong;Formal verification/Research;http://www.e-pig.org
+2004;hume;;;Hume;Hammond, Michaelson;St Andrews, Heriot-Watt;Hume_(programming_language);functional/real-time;strong;Embedded critical systems;http://www.hume-lang.org
+2004;opengl;;;OpenGL Shading Language;Khronos Group;Khronos Group;OpenGL_Shading_Language;shader;static;OpenGL graphics shaders;www.khronos.org
+2004;orc;;;Orc;Misra,Cook;University of Texas;Orc_(programming_language);orchestration;static;Coordinating web services;http://orc.csres.utexas.edu
+2004;x10;;;X10;IBM Research;IBM Research;X10_(programming_language);parallel;static;Supercomputer high-performance computing;http://x10-lang.org
+2005;fantom;C#, Scala, Ruby, Erlang;;Fantom;Brian Frank, Andy Frank;;Fantom_(programming_language);;;;
+2005;fish;;;fish;Thomas Mertes;;Friendly_interactive_shell;;;;
+2005;fsharp;OCaml, C#, Haskell;;F#;Don Syme;Microsoft;F_Sharp_(programming_language);;;;
+2005;haxe;ActionScript, OCaml, Java;;Haxe;Nicolas Cannasse;;Haxe;;;;
+2005;holyc;C, C++;;HolyC;Terry A. Davis;;TempleOS#HolyC;;;;
+2005;oxygene;Object Pascal, C#;;Oxygene;RemObjects Software;;Oxygene_(programming_language);;;;
+2005;pwct;;;PWCT;Mahmoud Samir Fayed;;PWCT;;;;
+2005;seed7;;;Seed7;Thomas Mertes;;Seed7;;;;
+2005;neko;;;Neko;Nicolas Cannasse;Motion Twin;Neko_(programming_language);intermediate (vm);dynamic;Runtime for Haxe;https://nekovm.org
+2005;plexil;;;PLEXIL;NASA;NASA;PLEXIL;planning;static;Autonomous robot control;http://plexil.sourceforge.net
+2005;ubercode;;;Ubercode;Ubercode Software;Ubercode Software;Ubercode;object-oriented/rad;static;Windows development;http://www.ubercode.com
+2005;zonnon;;;Zonnon;ETH Zurich;ETH Zurich;Zonnon;modular;static;Oberon successor for .NET;http://www.zonnon.ethz.ch
+2006;cobra;Python, C#, Eiffel, Objective-C;;Cobra;Chuck Esterbrook;;Cobra_(programming_language);;;;
+2006;fortress;Scala, ML, Haskell;;Fortress;Guy L. Steele Jr.;;Fortress_(programming_language);;;;
+2006;optimj;Java;;OptimJ;;Ateji;OptimJ;;;;
+2006;vala;C#;;Vala;;GNOME;Vala_(programming_language);;;;
+2006;windowspowershell;C#, ksh, Perl, CL, DCL, SQL;;Windows PowerShell;;Microsoft;;;;;
+2006;ambienttalk;Smalltalk, Self, Scheme, E, ABCL;;AmbientTalk;Tom Van Cutsem, Stijn Mostinckx, Jessie Dedecker, Wolfgang De Meuter;University of Brussels;AmbientTalk;object-oriented, prototypebased, concurrent, eventdriven, reflective;dynamic, strong;;https://soft.vub.ac.be/amop
+2006;hop;;;Hop;Manuel Serrano;INRIA;Hop_(software);multitier/functional;dynamic;Web programming (Scheme-based);http://hop.inria.fr
+2006;newspeak;;;Newspeak;Gilad Bracha;Newspeak Team;Newspeak_(programming_language);modular/object-oriented;dynamic;Modularity research;http://newspeaklanguage.org
+2006;notexactlyc;;;Not eXactly C;John Hansen;BricxCC;Not_eXactly_C;procedural (c-like);static;LEGO NXT robotics;bricxcc.sourceforge.net
+2006;nxtg;;;NXT-G;LEGO,NI;LEGO,National Instruments;NXT-G;visual;graphical;LEGO Mindstorms programming;www.lego.com
+2006;powershell;;;PowerShell;Jeffrey Snover;Microsoft;PowerShell;scripting/object-oriented;dynamic;System administration/Automation;learn.microsoft.com
+2007;ada2005;Ada 95;;Ada 2005;;Ada Rapporteur Group;;;;;
+2007;agda;Rocq, Epigram, Haskell;;Agda;Ulf Norell;;Agda_(programming_language);;;;
+2007;clojure;Lisp, ML, Haskell, Erlang;;Clojure;Rich Hickey;;Clojure;;;;
+2007;lolcode;;;LOLCODE;Adam Lindsay;;;;;;
+2007;oberon07;Oberon;;Oberon-07;Niklaus Wirth;;;;;;
+2007;qb64;QBasic;;QB64;Rob Galleon;QB64Team;;;;;
+2007;swiftparallelscriptinglanguage;;;Swift (parallel scripting language);;University of Chicago;;;;;
+2007;apex;;;Apex;Craig Weissman;Salesforce;Apex_(programming_language);imperative;strong, static;;developer.salesforce.com
+2007;cython;;;Cython;Robert Bradshaw;Enthought,SAGE;Cython;multi-paradigm;static/dynamic;Python optimization;https://cython.org
+2007;f;;;F*;Microsoft Research,INRIA;Microsoft Research,INRIA;F*_(programming_language);functional (dependent);very strong;Formal verification/Security;www.fstar.dev
+2007;grasshopper;;;Grasshopper;David Rutten;McNeel & Associates;Grasshopper_3D;visual;dynamic;Parametric design (Rhino);https://www.grasshopper3d.com
+2007;javafxscript;;;JavaFX Script;Chris Oliver;Sun Microsystems;JavaFX_Script;declarative/gui;static;Rich Internet Applications (deprecated);www.oracle.com
+2007;linq;;;LINQ;Microsoft;Microsoft;LINQ;declarative;strong;Data querying in .NET;https://learn.microsoft.com
+2007;nu;;;Nu;Tim Burks;Tim Burks;Nu_(programming_language);object-oriented (lisp-like);dynamic;macOS/iOS scripting;http://programming.nu
+2007;ql;;;.QL;Semmle;GitHub,Semmle;.QL;declarative;static;Code security analysis;https://codeql.github.com
+2007;qtscript;;;QtScript;Trolltech;Qt Group;QtScript;scripting;dynamic;Application scripting (Qt framework);https://doc.qt.io
+2007;simpol;;;SIMPOL;Simpol Ltd;Simpol Limited;Superbase_database#History;object-oriented/db;static;Database application development;http://www.simpol.com
+2007;xquery;;;XQuery;W3C;W3C;XQuery;functional;static;XML data querying;www.w3.org
+2008;genie;Python, Boo, D, Object Pascal;;Genie;Jamie McCracken;;;;;;
+2008;nim;Python, Lisp, Object Pascal;;Nim;Andreas Rumpf;;Nim_(programming_language);;;;
+2008;pure;Q;;Pure;Albert Gräf;;Pure_(programming_language);;;;
+2008;arc;;;Arc;Paul Graham;Y Combinator;Arc_(programming_language);;dynamic;;arclanguage.org
+2008;egl;;;EGL;;IBM;EGL_(programming_language);business-oriented/4gl;strong;Enterprise app modernization;https://www.ibm.com
+2008;mirah;;;Mirah;Charles Nutter;Community;Mirah_(programming_language);object-oriented;static;Ruby-like language for JVM;github.com
+2008;pharo;;;Pharo;Inria;Inria,Pharo Board;Pharo;pure object-oriented;dynamic;Modern Smalltalk development;https://pharo.org
+2008;portable;;;PortablE;Chris Handley;Chris Handley;Amiga_E#PortablE;multi-paradigm/amiga;static;Modern E language (Amiga);www.cshandley.co.uk
+2008;processingjs;;;Processing.js;John Resig;Mozilla,jQuery;Processing.js;visual/scripting;dynamic;Web-based visual sketches;http://processingjs.org
+2008;umple;;;Umple;Timothy Lethbridge;University of Ottawa;Umple;modeling/oo;strong;Model-driven development/UML;https://www.umple.org
+2008;xc;;;XC;XMOS;XMOS;XC_(programming_language);concurrent;static;Embedded multicore development;https://www.xmos.ai
+2008;yql;;;YQL;Yahoo!;Yahoo!;YQL_(programming_language);sql-like/api;dynamic;Web data aggregation;en.wikipedia.org
+2009;chapel;HPF, ZPL;;Chapel;Brad Chamberlain;Cray Inc.;Chapel_(programming_language);;;;
+2009;coffeescript;JavaScript, Ruby, Python, Haskell;;CoffeeScript;Jeremy Ashkenas;;CoffeeScript;;;;
+2009;dafny;Java, Spec#;;Dafny;K. Rustan M. Leino;;;;;;
+2009;go;C, Oberon, Limbo, Smalltalk;;Go;;Google;Go!_(programming_language);;;;
+2009;idris;Haskell, Agda, Rocq;;Idris;Edwin Brady;;Idris_(programming_language);;;;
+2009;parasail;Modula, Ada, Pascal, ML;;Parasail;S. Tucker Taft;AdaCore;ParaSail_(programming_language);;;;
+2009;whiley;Java, C, Python;;Whiley;David J. Pearce;;Whiley_(programming_language);;;;
+2009;axum;;;Axum;Microsoft;Microsoft;Axum_(programming_language);actor;static;;
+2009;dax;;;DAX;Marco Russo;Microsoft;Data_analysis_expressions;functional (tabular);strong;Business Intelligence (Power BI);learn.microsoft.com
+2009;googleappsscript;;;Google Apps Script;;Google;Google_Apps_Script;scripting (js);dynamic;Google Workspace automation;developers.google.com
+2009;kodu;;;Kodu;;Microsoft;Kodu_Game_Lab;visual/game-based;dynamic;Game creation for children;https://www.kodugamelab.com
+2009;kv;;;Kv;Kivy Team;Kivy Organization;Kivy_(framework)#Kv_language;declarative (gui);dynamic;UI design for Kivy/Python;kivy.org
+2009;opencl;;;OpenCL;Apple,Khronos Group;Khronos Group;OpenCL;parallel;static;GPGPU computing;www.khronos.org
+2009;scriptnet;;;Script.NET;Petr Onderka;Petr Onderka;Script.NET;scripting;dynamic;.NET application extensibility;github.com
+2010;rust;Alef, C++, Camlp4, Erlang, Hermes, Limbo, Napier, Napier88, Newsqueak, NIL, Sather, Standard ML;;Rust;Graydon Hoare;Mozilla;Rust_(programming_language);;;;
+2010;catrobat;;;Catrobat;Wolfgang Slany;Graz University of Technology;Catrobat;;;;
+2010;kojo;;;Kojo;Lalit Pant;Kogics;Kojo_(programming_language);educational/scala;static;Teaching math and programming;www.kogics.net
+2011;c11;C99;;C11;;C11 ISO,IEC 9899:2011;;;;;
+2011;ceylon;Java;;Ceylon;Gavin King;Red Hat;Ceylon_(programming_language);;;;
+2011;dart;Java, JavaScript, CoffeeScript, Go;;Dart;;Google;Dart_(programming_language);;;;
+2011;kotlin;Java, Scala, Groovy, C#, Gosu;;Kotlin;;JetBrains;Kotlin_(programming_language);;;;
+2011;opa;OCaml, Erlang, JavaScript;;Opa;;MLstate;Opa_(programming_language);;;;
+2011;red;Rebol, Scala, Lua;;Red;Nenad Rakočević;;Red_(programming_language);;;;
+2011;cypherquerylanguage;;;Cypher Query Language;;Neo4j;Cypher_Query_Language;declarative;graph-based;Graph database queries;https://opencypher.org
+2011;dog;;;Dog;;Morgan-Knapp LLC;Dog_(programming_language);object-oriented;dynamic;Education/IoT;http://dog-lang.org
+2011;snap;;;Snap!;Jens Monig;UC Berkeley;Snap!_(programming_language);visual/block-based;dynamic;Education (successor to BYOB);https://snap.berkeley.edu
+2011;xtend;;;Xtend;Eclipse Foundation;Eclipse Foundation;Xtend;object-oriented;static;Modern Java syntax extension;www.eclipse.org
+2012;ada2012;Ada 2005;;Ada 2012;;ARA, Ada Europe;;;;;
+2012;elixir;Erlang, Ruby, Clojure;;Elixir;José Valim;;Elixir_(programming_language);;;;
+2012;elm;Haskell, Standard ML, OCaml, F#;;Elm;Evan Czaplicki;;Elm_(programming_language);;;;
+2012;julia;MATLAB, Lisp, C, Fortran, Wolfram, Python, Perl, R, Ruby, Lua;;Julia;Jeff Bezanson, Stefan Karpinski, Viral Shah, Alan Edelman;MIT;Julia_(programming_language);;;;
+2012;p;;;P;Vivek Gupta, Ethan Jackson, Shaz Qadeer, Sriram Rajamani;Microsoft;P%E2%80%B2%E2%80%B2;;;;
+2012;p4;;;P4;;P4 Language Consortium;P4_(programming_language);;;;
+2012;typescript;JavaScript, CoffeeScript;;TypeScript;Anders Hejlsberg;Microsoft;TypeScript;;;;
+2012;blockly;;;Blockly;Neil Fraser, Quynh Neutron, Ellen Spertus, Mark Friedman;Google (now Raspberry Pi Foundation);Blockly;visual, block-based, event-driven;dynamic;;developers.google.com
+2012;cu;;;Céu;Francisco Sant'Anna;PUC-Rio;C%C3%A9u_(programming_language);reactive;static;Embedded systems;http://www.ceu-lang.org
+2012;ezhil;;;Ezhil;Muthiah Annamalai;Tamil Virtual Academy;Ezhil_(programming_language);procedural;dynamic;Education in Tamil language;ezhil.sourceforge.net
+2012;golo;;;Golo;Julien Ponge;INSA Lyon;Golo_(programming_language);functional/object-oriented;dynamic;Lightweight language for JVM;https://golo-lang.org
+2012;halide;;;Halide;;MIT, Adobe;Halide_(programming_language);domain-specific (dsp);static;Image processing/GPU;https://halide-lang.org
+2012;jq;;;jq;Stephen Dolan;Stephen Dolan;Jq_(programming_language);functional/domain-specific;dynamic;JSON data transformation;jqlang.github.io
+2012;qalb;;;Qalb;Ramsey Nasser;Ramsey Nasser;Qalb_(programming_language);functional;dynamic;Arabic calligraphy programming;nas.sr
+2012;tynker;;;Tynker;Krishna Vedati;Tynker;Tynker;visual/block-based;untyped;Education/Game logic;https://www.tynker.com
+2013;cuneiform;Swift (the parallel scripting language);;Cuneiform;Jörgen Brandt;;Cuneiform_(programming_language);;;;
+2013;hopscotch;Scratch;;Hopscotch;;Hopscotch Technologies;Hopscotch_(programming_language);;;;
+2013;hy;Python, Lisp, Clojure;;Hy;Paul Tagliamonte;;Hy_(programming_language);;;;
+2013;lean;ML, Rocq, Haskell, Agda;;Lean;;Microsoft;Lean_(proof_assistant);;;;
+2013;purescript;Haskell;;PureScript;Phil Freeman;;PureScript;;;;
+2013;futhark;;;Futhark;;DIKU, University of Copenhagen;Futhark_(programming_language);parallel/functional;static;GPGPU high-performance computing;https://futhark-lang.org
+2013;mutan;;;Mutan;Jeffrey Wilcke;Ethereum Foundation;Ethereum#Programming_languages;smart contract;static;Early Ethereum development;github.com
+2013;wyvern;;;Wyvern;Aldrich,Sunshine;Carnegie Mellon University;Wyvern_(programming_language);object-oriented/security;static;Security research;https://wyvern-lang.org
+2014;c14;C++11, Standard C, C;;C++14;;C++ ISO,IEC 14882:2014;;;;;
+2014;crystal;Ruby, C, Rust, Go, C#, Python;;Crystal;Ary Borenszweig;Manas Technology Solutions;Crystal_(programming_language);;;;
+2014;hack;PHP;;Hack;;Facebook;Hack_(programming_language);;;;
+2014;solidity;JavaScript, C++, Python;;Solidity;Gavin Wood;Ethereum;Solidity;;;;
+2014;swift;Objective-C, Rust, Haskell, Ruby, Python, C#, CLU;;Swift;;Apple Inc.;Swift_(programming_language);;;;
+2014;gdscript;;;GDScript;Juan Linietsky;Godot Engine;Godot_(game_engine);object-oriented/scripting;dynamic;Godot Engine game logic;https://godotengine.org
+2014;jai;;;Jai;Jonathan Blow;Thekla Inc.;Jai_(programming_language);imperative;static;High-performance game development;
+2014;pony;;;Pony;Sylvan Clebsch;Pony Language Group;Pony_(programming_language);actor-based/safe;static;High-performance systems;https://www.ponylang.io
+2014;scratchjr;;;ScratchJr;MIT,Tufts;MIT Media Lab;ScratchJr;visual;untyped;Education for young children (5-7);https://www.scratchjr.org
+2014;sycl;;;SYCL;Khronos Group;Khronos Group;SYCL;heterogeneous (c++);static;GPU acceleration for C++;www.khronos.org
+2015;raku;Perl, Haskell, Python, Ruby;;Raku;Larry Wall;The Rakudo Team;Raku_(programming_language);;;;
+2015;zig;C, C++, LLVM IR, Go, Rust;;Zig;Andrew Kelley;;Zig_(programming_language);;;;
+2015;mformulalanguage;;;M Formula language;Microsoft;Microsoft;M_Formula_language;functional;strong;Power Query data transformation;learn.microsoft.com
+2016;reason;JavaScript, OCaml;;Reason;Jordan Walke;;Reason_(programming_language);;;;
+2016;ring;Lua, Python, Ruby, C, C#, BASIC, QML, xBase, Supernova;;Ring;Mahmoud Samir Fayed;;Ring_(programming_language);;;;
+2016;flix;;;Flix;Ondrej Lhotak;Purdue University;Flix_(programming_language);functional/logic;static;Code analysis/Research;www.flix.dev
+2017;assemblyscript;JavaScript, TypeScript, WebAssembly;;AssemblyScript;;The AssemblyScript Project;AssemblyScript;;;;
+2017;ballerina;Java, JavaScript, Go, Rust, C#;;Ballerina;;WSO2, open source;Ballerina_(programming_language);;;;
+2017;qsharp;C#, F#, Python;;Q#;;Microsoft;Q_Sharp;;;;
+2017;openqasm;;;OpenQASM;IBM;IBM;OpenQASM;quantum;static;Quantum circuit representation;https://openqasm.com
+2017;source;;;Source;NUS;National University of Singapore;Source_(programming_language);educational/js;dynamic;Teaching programming (SICP);https://source-academy.github.io
+2017;vyper;;;Vyper;Vitalik Buterin;Vyper Team;Ethereum#Smart_contracts;smart contract;static;Ethereum smart contracts;https://www.vyperlang.org
+2017;webassembly;;;WebAssembly;W3C;W3C;WebAssembly;low-level/stack-based;static;High-performance web code;https://webassembly.org
+2017;xod;;;Xod;XOD Team;XOD Team;XOD_(programming_language);visual (node-based);static;Arduino visual programming;https://xod.io
+2018;c17;C11;;C17;;ISO,IEC 9899:2018;;;;;
+2018;fortran2018;Fortran 2008;;Fortran 2018;;ISO,IEC JTC1,SC22,WG5 N2150:2018;;;;;
+2019;bosque;JavaScript, TypeScript, ML;;Bosque;Mark Marron;Microsoft;Bosque_(programming_language);;;;
+2019;vvlang;C, Go, Kotlin, Oberon, Python, Rust, Swift;;V (Vlang);Alexander Medvednikov;;;;;;
+2019;projectverona;;;Project Verona;Microsoft Research;Microsoft Research;Project_Verona;linear/infrastructure;static;Safe low-level systems programming;github.com
+2019;v;;;V;Alexander Medvednikov;Vlang;V_(programming_language);imperative;static;Systems programming;https://vlang.io
+2021;microsoftpowerfx;Excel formulas;;Microsoft Power Fx;Vijay Mital, Robin Abraham, Shon Katzenberger, Darryl Rubin;Microsoft;Microsoft_Power_Fx;;;;
+2022;carbon;C++, Rust, Swift, Zig, Kotlin, Haskell;;Carbon;;Google;Carbon_(programming_language);;;;
+2022;arkts;;;ArkTS;Huawei;Huawei;ArkTS;oop;static;;gitee.com
+2022;verse;;;Verse;Epic Games;Epic Games;Verse_(programming_language);functional/game-specific;static;Metaverse/Fortnite development;https://dev.epicgames.com
+2023;mojo;Python, Rust, Cython, C, C++, CUDA, Swift, Zig;;Mojo;;Modular;Mojo_(programming_language);;;;
+2024;gleam;Erlang, Elixir, Elm, Rust, Go, OCaml, JavaScript;;Gleam;Louis Pilfold;Fly.io;Gleam_(programming_language);;;;
+1966-11-27;apl;“mathematical notation”;;APL;Kenneth E. Iverson;;APL_(programming_language);array, functional, structured, modular;;;
+1969-04-01;cesil;;;CESIL;John Hoskyns Group;ICL (International Computers Limited);CESIL;imperative (instructional language);untyped;;
+1983-11-04;action;;;Action!;Clinton Parker;Optimized Systems Software (OSS);Action!_(programming_language);;;Atari 8-bit computers;
+1991-03-09;agilentvee;!!!;;Agilent VEE (Keysight VEE);;Keysight Technologies;Agilent_VEE;;;;
+1993-09-29;amigae;C, DEX, Modula-2, Ada, C++, Lisp;;Amiga E;Wouter van Oortmerssen;;Amiga_E;functional, object-oriented, procedural;;AmigaOS;https://aminet.net/package/dev/e/amigae33a
+2000-06-16;aliceml;ML, Oz;;Alice ML;;Saarland University;Alice_(programming_language);imperative, functional, distributed, concurrent, constraint;;;http://www.ps.uni-saarland.de/alice
+2007-05-01;boomerang;;;Boomerang;James Cheney, Jeremy Gibbons, Sam Lindley, Edward Rice;University of Pennsylvania;Boomerang_(programming_language);bidirectional transformations (lenses), functional, data-synchronization;strong, static;;www.seas.upenn.edu
+2008-09-11;apachepiglatin;;;Apache Pig latin;Christopher Olston, Benjamin Reed;Apache Software Foundation, Yahoo Research;Apache_Pig;;;;https://pig.apache.org/
+2010-12-15;appinventor;;;App Inventor;Hal Abelson, Mark Friedman;Google , MIT;App_Inventor_for_Android_(programming_language);blockbased;dynamic;;appinventor.mit.edu
+1940s;machinecode;;;Machine code;Various;None;Machine_code;binary/instruction-set;low-level;Direct CPU execution;en.wikipedia.org
+1950s;gcode;;;G-code;;MIT;G-code;numerical/procedural;untyped;CNC machine tools/3D printing;https://www.nist.gov
+1960-04;cobol61;cobol;COmmon Business Oriented Language;COBOL 61;Howard Bromberg, Norman Discount, Vernon Reeves, Jean E. Sammet, William Selden, Gertrude Tierney;CODASYL, ANSI, ISO,IEC;COBOL;procedural, imperative, objectoriented, generic;weak, static;;
+1970s;chip8;;;CHIP-8;Joseph Weisbecker;RCA (for COSMAC VIP and Telmac 1800 microcomputers);CHIP-8;interpreted;untyped;;
+1970s;lll;;;LLL;Internal;Various;Ethereum#Contract_source_code;assembly;low-level;Low Level Languages (General term);en.wikipedia.org
+1970s;mary;;;Mary;Runit;University of Trondheim;Mary_(programming_language);systems;static;Machine-oriented Algol-like lang;en.wikipedia.org_(programming_language)
+1970s;miis;;;MIIS;Internal;Meditech;MIIS_(programming_language);procedural;dynamic;Healthcare systems (MUMPS variant);en.wikipedia.org
+1970s;newp;;;NEWP;Burroughs Corp;Burroughs Corporation;NEWP;systems;static;OS development (Burroughs MCP);en.wikipedia.org
+1970s;nord;;;Nord Programming Language;Norsk Data;Norsk Data;Nord_Programming_Language;systems;static;Nord-10/100 system programming;en.wikipedia.org
+1970s;plex;;;PLEX;Ericsson;Ericsson;PLEX_(programming_language);concurrent;static;Telephony switching (AXE);https://www.ericsson.com
+1970s;plp;;;PL/P;Prime Computer;Prime Computer;PL/P;systems;static;PRIMOS operating system;en.wikipedia.org
+1970s;simple;;;SiMPLE;Various;Various;SiMPLE;educational;dynamic;BASIC-like teaching language;en.wikipedia.org
+1970s;spl;;;SPL;HP;Hewlett-Packard;Systems_Programming_Language;systems;static;HP 3000 systems (MPE);en.wikipedia.org
+1970s;sympl;;;SYMPL;CDC;Control Data Corporation;SYMPL;systems;static;CDC Cyber system programming;en.wikipedia.org
+1970s;tal;;;TAL;Tandem;Tandem Computers;Transaction_Application_Language;systems;static;Tandem NonStop system language;en.wikipedia.organdem_Application_Language
+1980s;ceemac;;;CEEMAC;Brooke Boering;Vagabondo Enterprises;CEEMAC;visualcomposition;;Apple II;
+1980s;fjlnir;;;Fjölnir;Snorri Agnarsson;University of Iceland;Fj%C3%B6lnir_(programming_language);imperative/modular;static;University education (Iceland);http://www.fjolnir.org
+1980s;haggis;;;HAGGIS;University of Stirling;University of Stirling;HAGGIS;educational;strong;Algorithm teaching;
+1980s;kuka;;;KUKA Robot Language;KUKA;KUKA Roboter GmbH;KUKA_Robot_Language;domain-specific;static;Industrial robot control;https://www.kuka.com
+1980s;mystic;;;Mystic Programming Language;James R. Van Zandt;James R. Van Zandt;Mystic_BBS;procedural;static;Pascal alternative;en.wikipedia.org
+1980s;orcamodula2;;;ORCA/Modula-2;Byte Works;Byte Works;ORCA/Modula-2;procedural;static;Apple IIGS development;en.wikipedia.org
+1980s;pcastl;;;PCASTL;University of Manchester;University of Manchester;PCASTL;parallel;static;Dataflow research;en.wikipedia.org
+1980s;proc;;;Pro*C;Oracle;Oracle Corporation;Pro*C;embedded sql;static;SQL within C code;https://www.oracle.com
+1980s;sophaeros;;;SOPHAEROS;EDF;EDF France;SOPHAEROS;simulation;static;Nuclear accident simulation;https://www.irsn.fr
+1980s;tacl;;;TACL;Tandem;HPE (Tandem);TACL_(programming_language);scripting;dynamic;Command language (NonStop OS);https://www.hpe.com
+1990s;etoys;;;Etoys;Alan Kay, Dan Ingalls;Squeakland,Viewpoints;Etoys_(programming_language);visual/object-oriented;dynamic;Educational programming;https://www.squeakland.org
+1990s;peoplecode;;;PeopleCode;PeopleSoft;Oracle;PeopleCode;object-oriented/scripting;dynamic;PeopleSoft ERP systems;https://www.oracle.com
+1990s;roop;;;ROOP;University of Klagenfurt;University of Klagenfurt;ROOP_(programming_language);logic/object-oriented;dynamic;Logic integration research;en.wikipedia.org
+1990s;sbl;;;SBL;Various;Various;Superbase_database;scripting;dynamic;BASIC dialect (GIS/Legacy);en.wikipedia.org
+1990s;serpent;;;Serpent;CMU;Carnegie Mellon University;Ethereum#Programming_languages;scripting;dynamic;User interface development;en.wikipedia.org_(programming_language)
+1990s;tie;;;TIE;Various;Various;Tensilica_Instruction_Extension;interactive;dynamic;Computer-based training;en.wikipedia.orgIE_(programming_language)
+1990s;toi;;;Toi;Various;Various;Toi_(programming_language);educational;dynamic;Minimalist functional language;en.wikipedia.orgoi_(programming_language)
+2000s;oriel;;;Oriel;Microsoft;Microsoft;Oriel_(scripting_language);scripting (ui);dynamic;Windows UI automation;en.wikipedia.org

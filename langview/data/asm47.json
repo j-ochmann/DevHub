@@ -5,7 +5,7 @@
             "language": "assembly",
             "version": "asm47",
             "parent": "machine_code",  
-            "influenced_by_ids": [ "machine_code", "eniacsc" ]
+            "influenced_by": [ "machine_code", "eniacsc" ]
         },
         "date": { "year": 1947, "month": null, "day": null },
         "name": [ "Assembly ARC2", "Assembly language (ASM)" ],

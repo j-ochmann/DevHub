@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<title>Programovací jazyky</title>
+<style>
+body { font-family: sans-serif; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 6px; }
+th { background: #eee; cursor: pointer; }
+input { margin-bottom: 10px; padding: 5px; width: 300px; }
+</style>
+</head>
+<body>
+
+<h1>Přehled programovacích jazyků</h1>
+
+<input id="filter" placeholder="Filtr (název, paradigma, typování)…">
+
+<table id="tbl">
+<thead>
+<tr>
+    <th>#</th>
+    <th>Rok</th>
+    <th>Rodina</th>
+    <th>Jazyk</th>
+    <th>Verze</th>
+    <th>Dědí</th>
+    <th>Ovlivněn</th>
+    <th>Název</th>
+    <th>Název</th>
+    <th>Paradigma</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<script>
+let data = [];
+
+fetch("/api/languages")
+    .then(r => r.json())
+    .then(json => {
+        data = json;
+        render(json);
+    });
+
+function render(rows) {
+    const tbody = document.querySelector("tbody");
+    tbody.innerHTML = "";
+    rows.forEach((l, i) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+            <td>${i + 1}</td>        <!-- counter -->
+            <td>${l.date?.year || ""}</td>
+            <td>${l.id?.family || ""}</td>
+            <td>${l.id?.language || ""}</td>
+            <td>${l.id?.version || ""}</td>
+            <td>${l.id?.parent || ""}</td>
+            <td>${(l.id?.influenced_by || []).join(", ")}</td>
+            <td>${l.name?.[0] || ""}</td>
+            <td>${l.name?.[1] || ""}</td>
+            <td>${(l.paradigms || []).join(", ")}</td>
+        `;
+        tbody.appendChild(tr);
+    });
+}
+
+document.getElementById("filter").addEventListener("input", e => {
+    const q = e.target.value.toLowerCase();
+    render(data.filter(l =>
+        JSON.stringify(l).toLowerCase().includes(q)
+    ));
+});
+</script>
+
+</body>
+</html>
+

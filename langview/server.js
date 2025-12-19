@@ -10,15 +10,20 @@ const DATA_DIR = path.join(__dirname, "data");
 const PUBLIC_DIR = path.join(__dirname, "public");
 
 function loadLanguages() {
-    return fs.readdirSync(DATA_DIR)
-        .filter(f => f.endsWith(".json"))
-        .map(file => {
-            const raw = fs.readFileSync(path.join(DATA_DIR, file), "utf8");
-            const json = JSON.parse(raw);
+    const files = fs.readdirSync(DATA_DIR, { recursive: true })
+        .filter(f => f.endsWith(".json"));
 
-            // Vrátíme hodnotu prvního klíče (nezávisle na názvu)
-            return Object.values(json)[0];
-        });
+    const merged = {};
+
+    for (const file of files) {
+        const raw = fs.readFileSync(path.join(DATA_DIR, file), "utf8");
+        const json = JSON.parse(raw);
+
+        Object.assign(merged, json);
+    }
+
+    // ⬇️ frontend-friendly tvar
+    return Object.values(merged);
 }
 
 http.createServer((req, res) => {

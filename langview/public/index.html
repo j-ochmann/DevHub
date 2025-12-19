@@ -8,6 +8,12 @@ body { font-family: sans-serif; }
 table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid #ccc; padding: 6px; }
 th { background: #eee; cursor: pointer; }
+th {
+    user-select: none;
+}
+th:hover {
+    background: #ddd;
+}
 input { margin-bottom: 10px; padding: 5px; width: 300px; }
 </style>
 </head>
@@ -18,62 +24,158 @@ input { margin-bottom: 10px; padding: 5px; width: 300px; }
 <input id="filter" placeholder="Filtr (název, paradigma, typování)…">
 
 <table id="tbl">
-<thead>
-<tr>
-    <th>#</th>
-    <th>Rok</th>
-    <th>Rodina</th>
-    <th>Jazyk</th>
-    <th>Verze</th>
-    <th>Dědí</th>
-    <th>Ovlivněn</th>
-    <th>Název</th>
-    <th>Název</th>
-    <th>Paradigma</th>
-</tr>
-</thead>
+<thead></thead>
 <tbody></tbody>
 </table>
 
 <script>
 let data = [];
+let viewData = [];
 
-fetch("/api/languages")
-    .then(r => r.json())
-    .then(json => {
-        data = json;
-        render(json);
+// definice sloupců: header = název, key = klíč v objektu
+// subKey = vnořený klíč, subIndex = index pole
+const columns = [
+    { header: "#", counter: true },    
+    { header: "Datum", key: "date", sort: [
+        { key: "date", subKey: "year" },
+        { key: "date", subKey: "month" },
+        { key: "date", subKey: "day" }
+    ], render: d => renderDate(d) },
+    { header: "Rodina", key: "id", subKey: "family" },
+    { header: "Jazyk", key: "id", subKey: "language" },
+    { header: "Verze", key: "id", subKey: "version" },
+    { header: "Dědí", key: "id", subKey: "parent" },
+    { header: "Ovlivněn", key: "id", subKey: "influenced_by" },
+    { header: "Název", key: "name", subIndex: 0, 
+        sort: [
+            { key: "name", subIndex: 0 }
+        ]},
+    { header: "Název", key: "name", subIndex: 1 },
+    { header: "Paradigmata", key: "paradigms" },
+    { header: "Typování", key: "typings" },
+    { header: "Platforma", key: "platform" }
+];
+
+function renderDate(d) {
+    if (!d || !d.year) return "";
+
+    if (d.month == null)
+        return String(d.year);
+
+    if (d.day == null)
+        return `${d.year}-${String(d.month).padStart(2,"0")}`;
+
+    return `${d.year}-${String(d.month).padStart(2,"0")}-${String(d.day).padStart(2,"0")}`;
+}
+
+function getValue(obj, cfg) {
+    let v = obj[cfg.key];
+    if (v == null) return null;
+    if (cfg.subKey) v = v[cfg.subKey];
+    if (cfg.subIndex != null) v = v[cfg.subIndex];
+    return v;
+}
+
+let sortState = { index: null, dir: -1 }; // 1 = ASC, -1 = DESC
+
+function sortData(colIndex) {
+    const col = columns[colIndex];
+    if (!col.sort) return;
+
+    sortState.dir =
+        sortState.index === colIndex ? -sortState.dir : 1;
+    sortState.index = colIndex;
+
+    viewData.sort((a, b) => {
+        for (const s of col.sort) {
+            let va = getValue(a, s);
+            let vb = getValue(b, s);
+
+            if (va == null && vb == null) continue;
+            if (va == null) return 1;
+            if (vb == null) return -1;
+
+            if (typeof va === "string")
+                return va.localeCompare(vb) * sortState.dir;
+
+            if (va !== vb)
+                return (va - vb) * sortState.dir;
+        }
+        return 0;
     });
 
-function render(rows) {
+    renderTable(viewData);
+}
+
+function sortArrow(i) {
+    if (sortState.index !== i) return "";
+    return sortState.dir === 1 ? " ▲" : " ▼";
+}
+
+function renderTable(rows) {
+    const thead = document.querySelector("thead");
     const tbody = document.querySelector("tbody");
+
+    // generování hlavičky
+    thead.innerHTML =
+        "<tr>" +
+        columns.map((c, i) =>
+            `<th ${c.sort ? `onclick="sortData(${i})"` : ""}>
+                ${c.header}${c.sort ? sortArrow(i) : ""}
+            </th>`
+        ).join("") +
+        "</tr>";
+        
+    // generování řádků
     tbody.innerHTML = "";
     rows.forEach((l, i) => {
+        const tds = columns.map(c => {
+            if (c.counter) return i + 1;
+
+            let v = l[c.key];           // ← CHYBĚLO
+
+            if (c.render) return c.render(v);
+            if (v == null) return "";
+
+            if (c.subKey) v = v[c.subKey];
+            if (c.subIndex != null) v = v[c.subIndex];
+            if (Array.isArray(v)) v = v.join(", ");
+
+            return v ?? "";
+        });
         const tr = document.createElement("tr");
-        tr.innerHTML = `
-            <td>${i + 1}</td>        <!-- counter -->
-            <td>${l.date?.year || ""}</td>
-            <td>${l.id?.family || ""}</td>
-            <td>${l.id?.language || ""}</td>
-            <td>${l.id?.version || ""}</td>
-            <td>${l.id?.parent || ""}</td>
-            <td>${(l.id?.influenced_by || []).join(", ")}</td>
-            <td>${l.name?.[0] || ""}</td>
-            <td>${l.name?.[1] || ""}</td>
-            <td>${(l.paradigms || []).join(", ")}</td>
-        `;
+        tr.innerHTML = tds.map(d => `<td>${d}</td>`).join("");
         tbody.appendChild(tr);
     });
 }
 
+// načtení dat z Node serveru
+fetch("/api/languages")
+    .then(r => r.json())
+    .then(json => {
+        console.log("RAW json:", json);
+        console.log("isArray:", Array.isArray(json));
+        console.log("keys:", Object.keys(json));
+        console.log("values length:", Object.values(json).length);
+        //data = Object.values(json);
+        data = json;
+        viewData = [...data];
+
+        console.log("data length:", data.length);
+        console.log("first item:", data[0]);
+
+        renderTable(viewData);
+    });
+
+// filtr
 document.getElementById("filter").addEventListener("input", e => {
     const q = e.target.value.toLowerCase();
-    render(data.filter(l =>
+    viewData = data.filter(l =>
         JSON.stringify(l).toLowerCase().includes(q)
-    ));
+    );
+    renderTable(viewData);
 });
 </script>
 
 </body>
 </html>
-
